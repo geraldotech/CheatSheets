@@ -16,7 +16,9 @@
 
 ## Changes to be committed:
 
-    git statis
+    git status
+    
+  ![alt-text](https://raw.githubusercontent.com/geraldotech/Git-How-TO/main/img/gitstatus.jpg)
     
 ## Do commit / Fazendo commit:
     git init
@@ -36,6 +38,8 @@
 
 ## Create new Branch
     git checkout -b "novo-botao"
+    
+![alt-text](https://raw.githubusercontent.com/geraldotech/Git-How-TO/main/img/newbutton.jpg)
 
 
 ## geraldo@GERALDO-NOTE MINGW64 ~/Desktop/projetogit (novo-botao)
