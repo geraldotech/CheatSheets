@@ -8,7 +8,6 @@ Fazer a pasta do projeto em (https://github.com/new) e a mesma pasta no seu comp
 ## Iniciar repositório: (default is: master)
      git init
 
-
 ## Add single Files:
     git add filename.html
     
@@ -34,6 +33,9 @@ Fazer a pasta do projeto em (https://github.com/new) e a mesma pasta no seu comp
 
 ## Mudar de Master para main
     $ git branch -M main
+    
+## Adicionar remote
+    git remote add origin https://github.com/geraldotech/projeto.git
 
 ## Push origin main (finalmente o upload):
     git push -u origin main | git push
@@ -81,6 +83,16 @@ $ git push -u origin version2
     $ git rm sabado.html
     $ git commit -m "arquivo apagado"
     $ git push -u origin main
+    
+## restore a file before delete
+    $ git restore upload/1.txt
+    
+    
+ ## restore 2 when uses: 
+    $ git rm -r upload/1.txt
+    $ git restore --staged upload/1.txt
+
+
 
 #### Fazendo Merge e.g 1
 - main(atual) com version2 ou seja devo estar na Branch a ser modificada (version2)
@@ -111,8 +123,6 @@ $ git push origin main
    
 
 
-#### Remove add
-git remote add origin https://github.com/geraldotech/geraldo.dev.git
     
     
    ## Updating clone:
