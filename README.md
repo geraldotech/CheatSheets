@@ -5,23 +5,30 @@
 
 Fazer a pasta do projeto em (https://github.com/new) e a mesma pasta no seu computador e abrir com o GitBash here inside folder
     
+
+## Write a README.md
+
+```
+echo "# thisatest" >> README.md
+```
+
 ## Iniciar repositório: (default is: master)
      git init
 
 ## Add single Files:
     git add filename.html
-    
+
 ### Add all files:
 
      git add .
-     
+
 #### remove file from add
     git reset  | git reset <filename>
 
 ## Checkout changes to be committed:
 
     git status
-    
+
   ![alt-text](https://raw.githubusercontent.com/geraldotech/Git-How-TO/main/img/gitstatus.jpg)
     
 
@@ -33,7 +40,7 @@ Fazer a pasta do projeto em (https://github.com/new) e a mesma pasta no seu comp
 
 ## Mudar de Master para main
     $ git branch -M main
-    
+
 ## Adicionar remote
     git remote add origin https://github.com/geraldotech/projeto.git
 
@@ -53,13 +60,13 @@ Fazer a pasta do projeto em (https://github.com/new) e a mesma pasta no seu comp
 
 ## List all Branch Local
     $ git branch
-    
+
 ## List all Branch Remote
     $ git branch -r
-    
+
 ## List all Branch
     $ git branch -a
-    
+
 ## Switch to a Branch In Your Local Repo
     $ git checkout version2
 
@@ -78,16 +85,17 @@ $ git push -u origin version2
 
 #### locally
     $ git push origin --delete sabado
-    
+
 ## Delete a file (e.g sabado.html from repository)
     $ git rm sabado.html
     $ git commit -m "arquivo apagado"
     $ git push -u origin main
-    
+
 ## restore a file before delete
     $ git restore upload/1.txt
-    
-    
+
+
+​    
  ## restore 2 when uses: 
     $ git rm -r upload/1.txt
     $ git restore --staged upload/1.txt
@@ -114,17 +122,18 @@ $ git push origin main
 
 #### Update clone:
     cd /folder => $git pull
-    
-    
----  
-  
+
+
+​    
+---
+
 ### Other commands
     clear - limpar tela
-   
 
 
-    
-    
+
+
+​    
    ## Updating clone:
     cd /folder
     git pull
@@ -134,13 +143,13 @@ $ git push origin main
 #### Limpar tela:
     clear
 
-    
+
+​    
 Por **Geraldo Filho**
 
-    
-    
-    
 
+​    
+​    
 
 
 
