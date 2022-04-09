@@ -1,11 +1,9 @@
 # Desafio DIO Git How To
-### Conteúdo abordado nas aulas com Git e Git/Hub, comandos testados no Windows 10:
+**Conteúdo abordado nas aulas com Git e Git/Hub, comandos testados no Windows 10:**
 
 [Download: GitHub](https://git-scm.com/downloads)
 
-## Fazer a pasta do projeto em (https://github.com/new) e a mesma pasta no seu computador
-
-## Abrir com o GitBash here inside folder
+Fazer a pasta do projeto em (https://github.com/new) e a mesma pasta no seu computador e abrir com o GitBash here inside folder
     
 ## Iniciar repositório: (default is: master)
      git init
@@ -14,7 +12,7 @@
 ## Add single Files:
     git add filename.html
     
-#### Add all files:
+### Add all files:
 
      git add .
      
