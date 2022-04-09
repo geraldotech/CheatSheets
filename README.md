@@ -144,13 +144,16 @@ $ git push origin main
 ## Others commands:
 #### Limpar tela:
     clear
+#### Sair do remote 
+	git remote rm origin
+#### Check out version
+	git --version
 
 >
-> ​    
 > Por **Geraldo Filho**
+> 
 >
->
-> ​    
+>​    
 
 
 
