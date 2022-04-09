@@ -29,7 +29,7 @@ echo "# thisatest" >> README.md
 
     git status
 
-  ![alt-text](https://raw.githubusercontent.com/geraldotech/Git-How-TO/main/img/gitstatus.jpg)
+  <img src="https://raw.githubusercontent.com/geraldotech/Git-How-TO/main/img/changes-to-be-committed.jpg" alt="alt-text" style="zoom:80%;" />
     
 
 ## ***Please tell me who you are
@@ -49,6 +49,8 @@ echo "# thisatest" >> README.md
 
 ## Create new Branch (Faz um clone original subsidiária, ramal)
     $ git checkout -b version2
+
+<img src="https://raw.githubusercontent.com/geraldotech/Git-How-TO/main/img/new-branch.jpg" alt="new branche" style="zoom:60%;" />
 
 ### commit new Branch
 
@@ -143,13 +145,12 @@ $ git push origin main
 #### Limpar tela:
     clear
 
-
-​    
-Por **Geraldo Filho**
-
-
-​    
-​    
+>
+> ​    
+> Por **Geraldo Filho**
+>
+>
+> ​    
 
 
 
