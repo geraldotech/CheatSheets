@@ -1,62 +1,120 @@
 # Desafio DIO Git How To
-### Conteúdo abordado nas aulas com Git e Git/Hub, Comandos testados no Windows 10:
+### Conteúdo abordado nas aulas com Git e Git/Hub, comandos testados no Windows 10:
 
 [Download: GitHub](https://git-scm.com/downloads)
 
-## Check out version - verificar versão:
+## Fazer a pasta do projeto em (https://github.com/new) e a mesma pasta no seu computador
 
-    git --version
+## Abrir com o GitBash here inside folder
     
-## Iniciar repositório:
+## Iniciar repositório: (default is: master)
      git init
 
 
-## Adicionar a área de espera:
-    git add readme.md
+## Add single Files:
+    git add filename.html
+    
+#### Add all files:
 
-## Changes to be committed:
+     git add .
+     
+#### remove file from add
+    git reset  | git reset <filename>
+
+## Checkout changes to be committed:
 
     git status
     
   ![alt-text](https://raw.githubusercontent.com/geraldotech/Git-How-TO/main/img/gitstatus.jpg)
     
-## Do commit / Fazendo commit:
-    git init
-    git config user.name "someone"
-    git config user.email "someone@someplace.com"
-    git add *
-    git commit -m "some init msg"
-    
-    
+
+## ***Please tell me who you are
+
+    git config --global user.email "email@geraldo.com"
+    git config --global user.name "Your name"
+    git commit -m "first commit"
+
 ## Mudar de Master para main
-    git branch -m "main"
-## Remote add:
-    git remote add origin https://github.com/geraldotech/projetogit.git
+    $ git branch -M main
 
-## Push origin main:
-    git push -u origin main
+## Push origin main (finalmente o upload):
+    git push -u origin main | git push
 
-## Create new Branch
-    git checkout -b "novo-botao"
+## Create new Branch (Faz um clone original subsidiária, ramal)
+    $ git checkout -b version2
+
+### commit new Branch
+
+    $ git commit -m "versao ptbr"
+
+### push finally create a Branch
+    $ git push origin version2
+
+
+## List all Branch Local
+    $ git branch
     
-![alt-text](https://raw.githubusercontent.com/geraldotech/Git-How-TO/main/img/newbutton.jpg)
+## List all Branch Remote
+    $ git branch -r
+    
+## List all Branch
+    $ git branch -a
+    
+## Switch to a Branch In Your Local Repo
+    $ git checkout version2
+
+### add files
+    $ git add index.html
+### commit
+$ git commit -m "no zulu"
+
+### upload new version
+$ git push -u origin version2
+
+### Delete Branchs
+
+#### remotely
+    git push origin --delete my-branch-name
+
+#### locally
+    $ git push origin --delete sabado
+    
+## Delete a file (e.g sabado.html from repository)
+    $ git rm sabado.html
+    $ git commit -m "arquivo apagado"
+    $ git push -u origin main
+
+#### Fazendo Merge e.g 1
+- main(atual) com version2 ou seja devo estar na Branch a ser modificada (version2)
+    $ git checkout version2
+    $ git merge main
+    $ git push origin version2
+    
+#### Fazendo Merge e.g 2
+- (version2) atual with main
+$ git checkout main
+$ git merge version2
+$ git push origin main
 
 
-## geraldo@GERALDO-NOTE MINGW64 ~/Desktop/projetogit (novo-botao)
-    $ git commit -m "novo-botao"
-    
-## geraldo@GERALDO-NOTE MINGW64 ~/Desktop/projetogit (novo-botao)
-    $ git push origin novo-botao
-    
- ## Merge main com novo-botao:
-    git Checkout main 
-    git merge novo-botao
-    git push origin main
-    
-  ## How clonar GIT: => / Do a folder - Faça uma pasta e dentro:
-    git bash here
+### Clonando repositorio
 
-    git clone link.git
+#### Fazer uma pasta e:
+     $ git clone https://github.com/geraldotech/Login-Form-HTML-CSS
+
+#### Update clone:
+    cd /folder => $git pull
+    
+    
+---  
+  
+### Other commands
+    clear - limpar tela
+   
+
+
+#### Remove add
+git remote add origin https://github.com/geraldotech/geraldo.dev.git
     
     
    ## Updating clone:
@@ -67,18 +125,9 @@
 ## Others commands:
 #### Limpar tela:
     clear
-#### Todos os arquivos:
-     git add .
 
-#### Git checkout main:
-    switch branch para o main
     
-## // delete branch locally
-    git branch -d localBranchName
-## // delete branch remotely
-    git push origin --delete remoteBranchName
-
-
+Por **Geraldo Filho**
 
     
     
