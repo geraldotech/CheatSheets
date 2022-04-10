@@ -139,7 +139,7 @@ $ git push origin main
 #### Check out version
 	git --version
 
-#### Quando fazer alterações no direto no site e quiser atualizar o repo local
+#### Quando fazer alterações no direto no site e quiser atualizar o repositório  local:
 	git pull
 	git push
 ### Caso bugar tente apagar a pasta .git da pasta local
