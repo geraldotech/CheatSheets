@@ -128,10 +128,8 @@ $ git push origin main
 
 ​    
 ---
-
 ### Other commands
     clear - limpar tela
-
 
 ## Others commands:
 #### Limpar tela:
@@ -140,6 +138,11 @@ $ git push origin main
 	git remote rm origin
 #### Check out version
 	git --version
+
+#### Quando fazer alterações no direto no site e quiser atualizar o repo local
+	git pull
+	git push
+### Caso bugar tente apagar a pasta .git da pasta local
 
 >
 > Por **Geraldo Filho**
