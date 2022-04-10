@@ -133,14 +133,6 @@ $ git push origin main
     clear - limpar tela
 
 
-
-
-​    
-   ## Updating clone:
-    cd /folder
-    git pull
-
-
 ## Others commands:
 #### Limpar tela:
     clear
