@@ -29,7 +29,7 @@ echo "# thisatest" >> README.md
 
     git status
 
-  <img src="https://raw.githubusercontent.com/geraldotech/Git-How-TO/main/img/changes-to-be-committed.jpg" alt="alt-text" style="zoom:80%;" />
+  <img src="https://raw.githubusercontent.com/geraldotech/Git-How-TO/main/img/changes-to-be-committed.jpg" alt="alt-text" style="zoom:50%;" />
     
 
 ## ***Please tell me who you are
@@ -38,10 +38,10 @@ echo "# thisatest" >> README.md
     git config --global user.name "Your name"
     git commit -m "first commit"
 
-## Mudar de Master para main
+## Change  master para main
     $ git branch -M main
 
-## Adicionar remote
+## Add remote:
     git remote add origin https://github.com/geraldotech/projeto.git
 
 ## Push origin main (finalmente o upload):
@@ -56,7 +56,7 @@ echo "# thisatest" >> README.md
 
     $ git commit -m "versao ptbr"
 
-### push finally create a Branch
+### push  finally create a Branch
     $ git push origin version2
 
 
@@ -142,7 +142,7 @@ $ git push origin main
 #### Quando fazer alterações no direto no site e quiser atualizar o repositório  local:
 	git pull
 	git push
-### Caso bugar tente apagar a pasta .git da pasta local
+### Caso bugar  tente apagar a pasta .git da pasta local
 
 >
 > Por **Geraldo Filho**
