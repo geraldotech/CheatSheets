@@ -1,9 +1,7 @@
 # Git How To
-**Git e Git/Hub, comandos testados no Windows 10:**
+**Git e Git/Hub, comandos testados no Windows 10:** [Download: GitHub](https://git-scm.com/downloads)
 
-[Download: GitHub](https://git-scm.com/downloads)
-
-Fazer a pasta do projeto em (https://github.com/new) e a mesma pasta no seu computador e abrir com o GitBash here inside folder
+Fazer a pasta do projeto em (https://github.com/new) e a mesma pasta no seu computador e abrir com o *GitBash here inside* folder:
     
 
 ## Write a README.md
@@ -22,7 +20,7 @@ echo "# thisatest" >> README.md
 
      git add .
 
-#### remove file from add
+#### remove file from add:
     git reset  | git reset <filename>
 
 ## Checkout changes to be committed:
@@ -38,7 +36,7 @@ echo "# thisatest" >> README.md
     git config --global user.name "Your name"
     git commit -m "first commit"
 
-## Change  master para main
+## Change  master para main:
     $ git branch -M main
 
 ## Add remote:
@@ -72,20 +70,21 @@ echo "# thisatest" >> README.md
 ## Switch to a Branch In Your Local Repo
     $ git checkout version2
 
-### add files
+### add files:
     $ git add index.html
-### commit
-$ git commit -m "no zulu"
+### #commit message:
 
-### upload new version
-$ git push -u origin version2
+    $ git commit -m "update"
 
-### Delete Branchs
+### upload new version:
+    $ git push -u origin version2
 
-#### remotely
+### Delete Branchs:
+
+#### Remotely:
     git push origin --delete my-branch-name
 
-#### locally
+#### Locally:
     $ git push origin --delete sabado
 
 ## Delete a file (e.g sabado.html from repository)
@@ -96,13 +95,9 @@ $ git push -u origin version2
 ## restore a file before delete
     $ git restore upload/1.txt
 
-
-​    
  ## restore 2 when uses: 
     $ git rm -r upload/1.txt
     $ git restore --staged upload/1.txt
-
-
 
 #### Fazendo Merge e.g 1
 - main(atual) com version2 ou seja devo estar na Branch a ser modificada (version2)
@@ -125,24 +120,19 @@ $ git push origin main
 #### Update clone:
     cd /folder => $git pull
 
-
-​    
 ---
-### Other commands
-    clear - limpar tela
-
 ## Others commands:
 #### Limpar tela:
     clear
-#### Sair do remote 
+#### Sair do remote:
 	git remote rm origin
-#### Check out version
+#### Check out version:
 	git --version
 
 #### Quando fazer alterações no direto no site e quiser atualizar o repositório  local:
 	git pull
 	git push
-### Caso bugar  tente apagar a pasta .git da pasta local
+### Caso de bug , maybe delete  hidden folder  *.git* da pasta local
 
 >
 > Por **Geraldo Filho**
