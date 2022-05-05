@@ -1,5 +1,5 @@
-# Desafio DIO Git How To
-**Conteúdo abordado nas aulas com Git e Git/Hub, comandos testados no Windows 10:**
+# Git How To
+**Git e Git/Hub, comandos testados no Windows 10:**
 
 [Download: GitHub](https://git-scm.com/downloads)
 
@@ -50,7 +50,7 @@ echo "# thisatest" >> README.md
 ## Create new Branch (Faz um clone original subsidiária, ramal)
     $ git checkout -b version2
 
-<img src="https://raw.githubusercontent.com/geraldotech/Git-How-TO/main/img/new-branch.jpg" alt="new branche" style="zoom:60%;" />
+<img src="https://raw.githubusercontent.com/geraldotech/Git-How-TO/main/img/new-branch.jpg" alt="new branche" style="zoom:40%;" />
 
 ### commit new Branch
 
