@@ -90,7 +90,7 @@ echo "# thisatest" >> README.md
 ## Delete a file (e.g sabado.html from repository)
     $ git rm sabado.html
     $ git commit -m "arquivo apagado"
-    $ git push -u origin main
+    $ git push
 
 ## restore a file before delete
     $ git restore upload/1.txt
