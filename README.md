@@ -13,8 +13,10 @@ echo "# thisatest" >> README.md
      git init
 
 ## Add single Files:
-- single  
-        $ git add filename.html 
+- single 
+```
+     $ git add filename.html
+```
 - all files
         $ git add .
 
