@@ -45,10 +45,11 @@ echo "# thisatest" >> README.md
 ## Push origin main (finalmente o upload):
     git push -u origin main | git push
 
-## Create new Branch (Faz um clone original subsidiária, ramal)
-    $ git checkout -b version2
+## Create new Branch (Clone original main subsidiária, ramal: um dos comandos:
+    $ git checkout -b version2  
+    $ git branch super
 
-<img src="https://raw.githubusercontent.com/geraldotech/Git-How-TO/main/img/new-branch.jpg" alt="new branche" style="zoom:40%;" />
+<img src="https://raw.githubusercontent.com/geraldotech/Git-How-TO/main/img/new-branch.jpg" alt="new branche" style="zoom:30%;" />
 
 ### commit new Branch
 
@@ -85,7 +86,7 @@ echo "# thisatest" >> README.md
     git push origin --delete my-branch-name
 
 #### Locally:
-    $ git push origin --delete sabado
+    $ git branch --delete sabado
 
 ## Delete a file (e.g sabado.html from repository)
     $ git rm sabado.html
@@ -100,17 +101,19 @@ echo "# thisatest" >> README.md
     $ git restore --staged upload/1.txt
 
 #### Fazendo Merge e.g 1
-- main(atual) com version2 ou seja devo estar na Branch a ser modificada (version2)
-    $ git checkout version2
-    $ git merge main
-    $ git push origin version2
-    
+- main(atual) com version2 ou seja devo estar na Branch a ser modificada (version2)  
+    ```
+    $ git checkout version2  
+    $ git merge main  
+    $ git push origin version2  
+    ```
 #### Fazendo Merge e.g 2
-- (version2) atual with main
-$ git checkout main
-$ git merge version2
-$ git push origin main
-
+- (version2) atual with main  
+```
+    $ git checkout main
+    $ git merge version2
+    $ git push origin main
+```
 
 ### Clonando repositorio
 
@@ -122,6 +125,10 @@ $ git push origin main
 
 ---
 ## Others commands:
+
+#### Commint && push inline:
+    $ git commit -m "update" && git push -u origin main
+
 #### Limpar tela:
     clear
 #### Sair do remote:
@@ -129,9 +136,13 @@ $ git push origin main
 #### Check out version:
 	git --version
 
-#### Quando fazer alterações no direto no site e quiser atualizar o repositório  local:
-	git pull
+#### Update repositório  local:
+	git pull --rebase origin <branch>
 	git push
+
+
+
+
 ### Caso de bug , maybe delete  hidden folder  *.git* da pasta local
 
 >
