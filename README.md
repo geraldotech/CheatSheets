@@ -151,14 +151,34 @@ echo "# thisatest" >> README.md
 	git pull --rebase origin <branch>
 	git push
 
+### Rename a file
+    $ git mv Answers_ref_a_CSS.pdf Answers_CSS.pdf 
+    $ git commit -m "renamed" && git push origin main 
+
+### branch missing on local
+    $ git fetch 
+
+### Rename a repository
+
+1. Go to [Gitweb](https://github.com/) and rename Repository name 
+2. Rename folder in local location
+3. Now remove currently origin ``` 
+$ git remote rm origin``` 
+4. Add new origin 
+```
+$ git remote origin add https://github.com/geraldotech/server-guide.git 
+```
+5. Commit and push the changes!
+```
+$ git commit -m "renamed" && git push origin main
+```
+
 ### Bugs, maybe delete  *.git* from local    
     git rm -r .git
 
 >
-> Por: **Geraldo Dev** 2022
 > 
->
->​    
+> By: **GeraldoDev** 2022
 
 
 
