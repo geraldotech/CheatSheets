@@ -166,7 +166,7 @@ echo "# thisatest" >> README.md
 $ git remote rm origin``` 
 4. Add new origin 
 ```
-$ git remote origin add https://github.com/geraldotech/server-guide.git 
+$ git remote add origin https://github.com/geraldotech/server-guide.git 
 ```
 5. Commit and push the changes!
 ```
