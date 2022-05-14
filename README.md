@@ -14,9 +14,9 @@ echo "# thisatest" >> README.md
 
 ## Add single Files:
 - single  
-      git add filename.html 
-- all files  
-      git add .
+        $ git add filename.html 
+- all files
+        $ git add .
 
 
 ## Change branch master para main:
