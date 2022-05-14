@@ -18,8 +18,9 @@ echo "# thisatest" >> README.md
      $ git add filename.html
 ```
 - all files
-        $ git add .
-
+```
+    $ git add .
+```
 
 ## Change branch master para main:
     $ git branch -M main 
@@ -79,26 +80,33 @@ echo "# thisatest" >> README.md
     ```
 
  - Commit new Branch:  
+    ```
         $ git commit -m "versao ptbr" 
-
+    ```
  - Push Branch: 
+    ```
         $ git push origin version2  
-
- - Display all Branch Local 
+    ```
+ - Display all Branch Local
+    ```
         $ git branch
-
+    ```
  - Display all Branch Remote
+    ```
         $ git branch -r
-
+    ```
  - Display all Branch
+    ```
         $ git branch -a
-
+    ```
  - Switch to Branch in Your Local Repo
+    ```
         $ git checkout version2
-
+    ```
  - Deploy this branch:
+    ```
        $ git push -u origin version2
-
+    ```
     ### Delete Branchs:
 
     #### Remotely:  
