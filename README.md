@@ -168,7 +168,8 @@ $ git remote rm origin```
 ```
 $ git remote add origin https://github.com/geraldotech/server-guide.git 
 ```
-5. Commit and push the changes!
+5. Modify ou create a simple file to commit next step:
+6. Commit and push the changes!
 ```
 $ git commit -m "renamed" && git push origin main
 ```
