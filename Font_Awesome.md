@@ -5,3 +5,33 @@
 <a href="https://usbrandcolors.com/youtube-colors/">https://usbrandcolors.com/youtube-colors/</a>
 
 
+### CDN
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+### Exemplo color por padrão icons estão em preto e branco: 
+    <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+
+### e.g: 
+    <style>
+    .fa-arrow-circle-right{
+        color: green;
+    }
+    </style>
+
+### Icons size:
+<a href="https://fontawesome.com/docs/web/style/size">https://fontawesome.com/docs/web/style/size</a> 
+### ou adicionar fa-5x valor máximo é 5x.
+
+### Images: 
+    <img src="..." class="img-fluid" alt="...">
+
+### Loading: 
+<a href="https://www.w3schools.com/icons/fontawesome_icons_spinner.asp">https://www.w3schools.com/icons/fontawesome_icons_spinner.asp</a>
+
+     <script src="https://kit.fontawesome.com/905c4b1070.js" crossorigin="anonymous"></script>
+
+
+    <i class="fas fa-3x fa-spin fa-cog"></i>
+    <i class="fa fa-spinner  fa-spin"></i>
+    <i class="fa fa-spinner  fa-spin" style="font-size:24px"></i>
