@@ -1,10 +1,4 @@
-# Documentations for Developers!
-
-
-1. Git Hub
-2. Markdown Language
-
-#
+### This is a repository to store all the cheatsheets I've created!
 #
 #
 > By GeraldoDev 2022
