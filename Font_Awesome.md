@@ -8,6 +8,8 @@
 ### CDN
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+### more CDN in <a href="https://cdnjs.com/libraries/font-awesome/5.15.0">here</a>
+
 
 ### Exemplo color por padrão icons estão em preto e branco: 
     <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
