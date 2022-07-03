@@ -27,9 +27,10 @@ For browser preview install a extension [Chrome and EDGE](https://chrome.google.
 <a id="custom-id">Head custom by html</a>
 [ref](https://www.markdownguide.org/extended-syntax/#heading-ids) 
 
-html: &lt;h2 id="custom-id">Header custom id&lt;/h2>  <br>
- markdown: 
-My Great Heading{#custom-id}  
+HTML: `&lt;h2 id="custom-id">Header custom id&lt;/h2>`
+<br>
+<br>
+ markdown:`My Great Heading{#custom-id}`
 
 # Paragraph and break line
 no space in left, to break just add **two or more spaces**
