@@ -32,6 +32,8 @@ HTML: `&lt;h2 id="custom-id">Header custom id&lt;/h2>`
 <br>
  markdown:`My Great Heading{#custom-id}`
 
+HTML: `<a name="installing"></a>`
+
 # Paragraph and break line
 no space in left, to break just add **two or more spaces**
 
