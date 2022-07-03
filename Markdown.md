@@ -9,11 +9,11 @@ By: GeralDev
 # Menu e.g section Heading IDs 
 
 - <a href="#images">Images</a>
--[Head Id](#custom-id)
--[Font Styles and Lists](#styles)
--[Codes](#codes)
--[syntax-highlighting](#syntax-highlighting)
--[Make Links](#make-links)
+- [Head Id](#custom-id)
+- [Font Styles and Lists](#styles)
+- [Codes](#codes)
+- [syntax-highlighting](#syntax-highlighting)
+- [Make Links](#make-links)
 - <a href="https://www.markdownguide.org/extended-syntax/#:~:text=The%20basic%20Markdown%20syntax%20allows,and%20after%20the%20code%20block.">_Task Lists</a>
 
 
