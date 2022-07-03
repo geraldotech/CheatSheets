@@ -1,6 +1,8 @@
 <h1 align="center"> Markdown Guide</h1>
 By: GeralDev
 
+
+
 > A little guide to this text use a simple `>my text`
 
 [Recommened read Reference syntax](https://www.markdownguide.org/basic-syntax/)
@@ -13,7 +15,8 @@ By: GeralDev
 - [Font Styles and Lists](#styles)
 - [Codes](#codes)
 - [syntax-highlighting](#syntax-highlighting)
-- [Make Links](#make-links)
+- [Make Links](#make-links) (only local)
+- [mark](#mark_text)
 - <a href="https://www.markdownguide.org/extended-syntax/#:~:text=The%20basic%20Markdown%20syntax%20allows,and%20after%20the%20code%20block.">_Task Lists</a>
 
 
@@ -27,10 +30,10 @@ For browser preview install a extension [Chrome and EDGE](https://chrome.google.
 <a id="custom-id">Head custom by html</a>
 [ref](https://www.markdownguide.org/extended-syntax/#heading-ids) 
 
-HTML: `&lt;h2 id="custom-id">Header custom id&lt;/h2>`
+HTML: `<h2 id="custom-id">Header custom </h2>`
 <br>
 <br>
- markdown:`My Great Heading{#custom-id}`
+ markdown: `My Great Heading{#custom-id}`
 
 HTML: `<a name="installing"></a>`
 
@@ -45,6 +48,10 @@ no space in left, to break just add **two or more spaces**
 | ```[Heading IDs](#heading-ids)```  | ```<a href="#heading-ids">Heading IDs</a> ```  |
 
 
+# Mark Text
+<a name="mark_text"></a>
+`<mark style="background-color: lightblue">lolas</mark>`
+<mark>Hello</mark>
 
 
 # List
