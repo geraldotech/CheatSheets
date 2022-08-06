@@ -39,7 +39,7 @@ Adicionar a linha:
 
 vai em scss e criar style.scss
 
-<img src="img/sass(5).PNG" style="width:60%" />
+<img src="img/sass(5).PNG" style="width:50%" />
 
 abrir o style.scss e digitar algum style, todo código deve ser escrito no scss: 
 
