@@ -34,7 +34,7 @@ Adicionar a linha:
 ```
 
 ## Resolvido
-<img src="img/sass(4).PNG" style="zoom:50%" />
+<img src="img/sass(4).PNG" style="width:50%" />
 
 
 vai em scss e criar style.scss
@@ -51,17 +51,17 @@ Com o watch o arquivo .css é atualizado em real time.
 
 Instalar essa extenção, crie apenas o **style.scss** o **style.css** será gerado automaticamente na mesma pasta.
 
-<img src="img/sass(8).PNG" style="width:50%" />
+<img src="img/sass(8).PNG" style="width:40%" />
 
 Multiple style variables:
 
-<img src="img/sass(9).PNG" style="width:50%" />
+<img src="img/sass(9).PNG" style="width:40%" />
 
 ## Nesting in style.scss
 
 before
 
-<img src="img/sass(10).PNG" style="width:50%" />
+<img src="img/sass(10).PNG" style="width:40%" />
 
 after
 
