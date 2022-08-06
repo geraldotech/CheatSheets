@@ -21,7 +21,7 @@ Requisitos:
 [thanks for](https://stackoverflow.com/questions/56199111/visual-studio-code-cmd-error-cannot-be-loaded-because-running-scripts-is-disabl)
 
 <figure>
-<img src="img/sass(3).PNG" style="zoom:50%" />
+<img src="img/sass(3).PNG" style="width:80%" />
 <figcaption>Windows error</figcaption>
 </figure>
 
