@@ -21,7 +21,7 @@ Requisitos:
 [thanks for](https://stackoverflow.com/questions/56199111/visual-studio-code-cmd-error-cannot-be-loaded-because-running-scripts-is-disabl)
 
 <figure>
-<img src="img/sass(3).PNG" style="width:80%" />
+<img src="img/sass(3).PNG" style="width:60%" />
 <figcaption>Windows error</figcaption>
 </figure>
 
@@ -39,29 +39,29 @@ Adicionar a linha:
 
 vai em scss e criar style.scss
 
-<img src="img/sass(5).PNG" style="zoom:50%" />
+<img src="img/sass(5).PNG" style="width:60%" />
 
 abrir o style.scss e digitar algum style, todo código deve ser escrito no scss: 
 
-<img src="img/sass(6).PNG" style="zoom:50%" />
+<img src="img/sass(6).PNG" style="width:50%" />
 
 Com o watch o arquivo .css é atualizado em real time.
 
-<img src="img/sass(7).PNG" style="zoom:50%" />
+<img src="img/sass(7).PNG" style="width:50%" />
 
 Instalar essa extenção, crie apenas o **style.scss** o **style.css** será gerado automaticamente na mesma pasta.
 
-<img src="img/sass(8).PNG" style="zoom:50%" />
+<img src="img/sass(8).PNG" style="width:50%" />
 
 Multiple style variables:
 
-<img src="img/sass(9).PNG" style="zoom:50%" />
+<img src="img/sass(9).PNG" style="width:50%" />
 
 ## Nesting in style.scss
 
 before
 
-<img src="img/sass(10).PNG" style="zoom:80%" />
+<img src="img/sass(10).PNG" style="width:50%" />
 
 after
 
