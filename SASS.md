@@ -55,7 +55,7 @@ Instalar essa extenção, crie apenas o **style.scss** o **style.css** será ger
 
 Multiple style variables:
 
-<img src="img/sass(9).PNG" style="width:40%" />
+<img src="img/sass(9).PNG" style="width:30%" />
 
 ## Nesting in style.scss
 
