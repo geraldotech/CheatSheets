@@ -183,6 +183,13 @@ $ git commit -m "renamed" && git push origin main
 ### Semantic Commits + emoji
 
 [https://gist.github.com/parmentf/035de27d6ed1dce0b36a](https://gist.github.com/parmentf/035de27d6ed1dce0b36a)
+
+- FEAT - indica um novo recurso no código
+- FIX - indica que está solucionando um problema (bug fix)
+- DOCS - indicam que houveram mudanças na documentação
+- TEST - para testes
+- BUILD - arquivos de build e dependências
+- RERF - identificar quaisquer alterações no code que estejam relacionados a performance
 >
 > 
 > By: **GeraldoDev** 2022
