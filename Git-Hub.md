@@ -180,6 +180,9 @@ $ git commit -m "renamed" && git push origin main
 ### Bugs, maybe delete  *.git* from local    
     git rm -r .git
 
+### Semantic Commits + emoji
+
+[https://gist.github.com/parmentf/035de27d6ed1dce0b36a](https://gist.github.com/parmentf/035de27d6ed1dce0b36a)
 >
 > 
 > By: **GeraldoDev** 2022
