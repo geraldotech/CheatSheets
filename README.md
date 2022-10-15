@@ -1,6 +1,6 @@
 ### This is a repository to store all the cheatsheets I've created!
 
-- Imanges for codes  
+- Images for codes  
 [ray.so](https://ray.so/)
 - Typing test  
 [Typing test](https://10fastfingers.com/typing-test/portuguese)
