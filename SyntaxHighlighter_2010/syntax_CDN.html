@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script type="text/javascript"  src="https://gmapdev.s3.amazonaws.com/assets/shCore.js?ver=3.0.83c"
+    ></script>
+    <script type="text/javascript" src="https://gmapdev.s3.amazonaws.com/assets/shBrushPhp.js"></script>
+   <script src="https://gmapdev.s3.amazonaws.com/assets/main_cdn.js"></script>
+   
+  </head>
+  <body>
+    <pre class="brush: php; title: ; notranslate" title="">
+        &lt;html&gt;
+        &lt;head&gt;
+            &lt;title&gt;img.smartdicas.com&lt;/title&gt;
+        &lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;URL=http://127.0.0.1/Dev/smartdicas&quot;&gt;
+        
+        &lt;/head&gt;
+        &lt;body&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;</pre
+    >
+
+    <pre class="brush: php;">
+      //Exemplo de rotas com json() e NodeJS puro
+      const fs = require('fs');
+      const http = require('http'); 
+      
+      http.createServer((request, response) => {
+        response.writeHead(200, {"Content-Type": "application/json"}); 
+        
+        if (request.url === "/sobre") {
+          fs.appendFile('acesso.txt', '\n novo acesso from url',(err)=> {
+            if(err) throw err;
+            console.log("novo acesso");
+          })
+          return response.end(
+          JSON.stringify({
+          message: "sobres",
+          })
+          );
+        }
+      
+        if (request.url === "/me"){
+          return response.end(
+            JSON.stringify({
+            message: "geraldev.com",
+          })		
+          );
+        }
+      
+        if (request.url === "/"){
+          return response.end(
+            JSON.stringify({
+            message: "HOME PAGE!",
+          })		
+          );
+        };
+      
+      response.end("404");
+      
+        }).listen(5000, () => 
+          console.log(`Server running at port 5000`));
+        </pre>
+  </body>
+</html>
