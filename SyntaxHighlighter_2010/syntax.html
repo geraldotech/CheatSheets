@@ -10,12 +10,14 @@
       src="./assets/shCore.js?ver=3.0.83c"
     ></script>
     <script type="text/javascript" src="./assets/shBrushPhp.js"></script>
+    <script type="text/javascript" src="./assets/shBrushCss.js"></script>
+    <script type="text/javascript" src="./assets/shBrushJava.js"></script>    
+    <script type="text/javascript" src="./assets/shBrushSass.js"></script>
     <script type="text/javascript">
       (function () {
         var corecss = document.createElement("link");
         var themecss = document.createElement("link");
-        //var corecssurl = "./assets/shCore.css?ver=3.0.83c";
-        var corecssurl = "./assets/shCoreEclipse.css";
+        var corecssurl = "./styles/shCore.css?ver=3.0.83c";        
         if (corecss.setAttribute) {
           corecss.setAttribute("rel", "stylesheet");
           corecss.setAttribute("type", "text/css");
@@ -30,7 +32,8 @@
             corecss,
             document.getElementById("syntaxhighlighteranchor")
           );
-        var themecssurl = "./assets/shThemeDefault.css?ver=3.0.83c";
+          //change Theme here
+        var themecssurl = "./styles/shThemeMidnight.css?ver=3.0.83c";
         if (themecss.setAttribute) {
           themecss.setAttribute("rel", "stylesheet");
           themecss.setAttribute("type", "text/css");
@@ -58,7 +61,19 @@
     </script>
   </head>
   <body>
-    <pre class="brush: php; title: ; notranslate" title="">
+    <ul>
+      <li>Php</li>
+      <li>java</li>
+      <li>css</li>
+    </ul>
+
+    <pre class="brush: java">
+      body {
+      background: red;
+    }
+    </pre>
+
+    <pre class="brush: java;" title="fgfg">
         &lt;html&gt;
         &lt;head&gt;
             &lt;title&gt;img.smartdicas.com&lt;/title&gt;
@@ -83,7 +98,40 @@
 				}
 			  ]
 			}
-        </pre
-    >
+        </pre>
+      
+
+         <pre class="brush: sass">
+          <div id="app">     
+            <h1>Title: {{title}}</h1>
+            <h3>Author: {{author}}</h3>     
+         
+            <button @click="show()">Click</button>
+           <h2 id="views"></h2>
+          </div>
+         
+          <script>
+         
+        Vue.createApp({
+        data(){
+          return{
+           title: "technotesbr",
+           author: "Geraldo Dev",
+           topic: "VueJS"
+          }
+        },methods:{
+          show(){
+            //document.getElementById("views");
+           views.innerHTML = "Ola, Dev"; //chamando a ID diretamente no DOM
+         
+           //esconde o text depois de 2 seconds
+           setTimeout(() => {
+             views.innerHTML = ""
+           }, 2000);
+          }
+        }
+        }).mount(app);
+          </script>
+        </pre>
   </body>
 </html>
