@@ -1,13 +1,9 @@
 <h1 align="center"> Markdown Guide</h1>
-By: GeralDev
-
-
+By: gmapdev
 
 > A little guide to this text use a simple `>my text`
 
 [Recommened read Reference syntax](https://www.markdownguide.org/basic-syntax/)
-
-
 # Menu e.g section Heading IDs 
 
 - <a href="#images">Images</a>
@@ -84,7 +80,7 @@ no space in left, to break just add **two or more spaces**
 - ### how to
     ### block codes
     ```add triple backticks before and after code ``` ```
-    ### exemple CSS
+    ### example CSS
     ```css
     body {
             background: red;
