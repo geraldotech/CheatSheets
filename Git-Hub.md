@@ -1,17 +1,12 @@
-# Git How To
+# <div align="center">Git How To</div>
 **Git e Git/Hub, comandos testados no Windows 10:** [Download: GitHub](https://git-scm.com/downloads)
-
-
-
 
 Fazer a pasta do projeto em (https://github.com/new) e a mesma pasta no seu computador e abrir com o *GitBash here inside* folder:
     
-
 ## Write a README.md
 ```
 echo "# thisatest" >> README.md
 ```
-
 ## Iniciar repositório: (default is: master)
      git init
 
@@ -27,6 +22,7 @@ echo "# thisatest" >> README.md
 
 ## Change branch master para main:
     $ git branch -M main 
+    $ git checkout main 
 
 ## Add remote:
     git remote add origin https://github.com/geraldotech/projeto.git
@@ -35,7 +31,6 @@ echo "# thisatest" >> README.md
     git reset  | git reset <filename>
 
 ## Display changes to be committed:
-
     git status
 
   <img src="https://raw.githubusercontent.com/geraldotech/Git-How-TO/main/img/changes-to-be-committed.jpg" alt="alt-text" style="zoom:50%;" />
@@ -76,20 +71,26 @@ echo "# thisatest" >> README.md
 
 # Branch
 
-  - Create new Branch ***Clone original main subsidiária***  
-    ```$ git checkout -b <name>
-    $ git branch -m <name>
-    $ git branch <super>   !important create but do not change location
-    ```
+1 - Create new Branch ***Clone original main subsidiária***  
 
- - Commit new Branch:  
-    ```
-        $ git commit -m "versao ptbr" 
-    ```
- - Push Branch: 
-    ```
-        $ git push origin version2  
-    ```
+```s
+$ git checkout -b <name>
+$ git checkout -b <name>
+$ git branch -m <name> !important create but do not change location
+
+```
+
+2 - Fazer as edições  
+3 - Commit new Branch:  
+ 
+```s
+$ git commit -m "novo btn" 
+```
+4 - Push Branch: 
+```
+$ git push origin version2  
+```
+
  - Display all Branch Local
     ```
         $ git branch
@@ -118,20 +119,14 @@ echo "# thisatest" >> README.md
     #### Locally: 
         $ git branch --delete sabado
 
-    #### Merge e.g 1
-    - main(atual) com version2 ou seja devo estar na Branch a ser modificada (version2)  
-    ```
-    $ git checkout version2  
-    $ git merge main  
-    $ git push origin version2  
-    ```
-    #### Merge e.g 2
-    - (version2) atual with main  
-    ```
-    $ git checkout main
-    $ git merge version2
-    $ git push origin main
-    ```
+## Merge
+
+>> e.gbtn com main: 
+
+1 - checkout main  
+2 - git merge btn  
+3 - git push origin main  
+
 
 ### Clonando repo
 
