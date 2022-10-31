@@ -75,8 +75,8 @@ echo "# thisatest" >> README.md
 
 ```s
 $ git checkout -b <name>
-$ git checkout -b <name>
-$ git branch -m <name> !important create but do not change location
+$ git branch -m <name> 
+$ git branch <name> !important create but do not change location
 
 ```
 
