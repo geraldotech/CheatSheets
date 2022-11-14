@@ -7,12 +7,14 @@ By: gmapdev
 # Menu e.g section Heading IDs 
 
 - <a href="#images">Images</a>
-- [Head Id](#custom-id)
+- [Header-auto-id](#header-auto-id)
+- [Header custom Id](#custom-id)
 - [Font Styles and Lists](#styles)
 - [Codes](#codes)
 - [syntax-highlighting](#syntax-highlighting)
 - [Make Links](#make-links) (only local)
 - [mark](#mark_text)
+- [mark](#installing)
 - <a href="https://www.markdownguide.org/extended-syntax/#:~:text=The%20basic%20Markdown%20syntax%20allows,and%20after%20the%20code%20block.">_Task Lists</a>
 
 
@@ -21,17 +23,21 @@ By: gmapdev
 For browser preview install a extension [Chrome and EDGE](https://chrome.google.com/webstore/detail/markdown-viewer/ckkdlimhmcjmikdlpkmbgfkaikojcbjk)  
 
 
+# header-auto-id
+Todo header com # já se torna um id, dispensando o uso adicionais de names e ids.
 
 # Head Custom 
-<a id="custom-id">Head custom by html</a>
+<a name="installing">html by name</a>
+<a id="custom-id">html by id</a>
+
 [ref](https://www.markdownguide.org/extended-syntax/#heading-ids) 
 
-HTML: `<h2 id="custom-id">Header custom </h2>`
+HTML id: `<h2 id="custom-id">Header custom </h2>`
 <br>
 <br>
  markdown: `My Great Heading{#custom-id}`
 
-HTML: `<a name="installing"></a>`
+HTML name: `<a name="installing"></a>`
 
 # Paragraph and break line
 no space in left, to break just add **two or more spaces**
