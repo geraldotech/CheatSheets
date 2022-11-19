@@ -40,8 +40,11 @@
 - sugestions
 `CTRL + space`
 
-- Lorem ipsum shortcut
-`Lo` or `lorem`
+- Lorem ipsum shortcut | também funciona no CodePen
+`Lo` , `lorem` ou `lo` - cria um texto com 225 caracteres.
+    - Textos menos caracteres ou mais caracteres
+        `lorem3` - 3 caracteres
+        `lorem200` - 200 caracteres
 
 - Themes: 
 `CTRL + K + T`
@@ -94,11 +97,17 @@ só digitar os parametros
 
 
 ## create mult tags once
+#### também funciona no CodePen teclar TAB
 
 creates 6 divs 
 `div*6`
 
 creates 5 section with class
 `section.lead * 5`
+create 4 div class vazias
+`div.class*4`
+
+create 5 div com text de 1 a 5
+`div*5{$}`
 
 
