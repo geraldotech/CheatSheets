@@ -1,53 +1,55 @@
 # VScode
 
 - open terminal
-`CTRL + shit + '`
+  `CTRL + shit + '`
 
 - open folder:
-`CTRL + K CTRL + O` 
+  `CTRL + K CTRL + O`
 
 - move lines:
-`ALT + UP/Down` 
+  `ALT + UP/Down`
 
 - Clone lines
-`shift+ alt + arrow up or down`
+  `shift+ alt + arrow up or down`
 
 - open / closed explorer folder:
-`CTRL + B`
+  `CTRL + B`
 
-- comment multiple lines type => /* */
-`shitf + alt + A`
+- comment multiple lines type => /\* \*/
+  `shitf + alt + A`
 
 - (apenas add comment tipo => // )
-`CTRL + K, + C` 
+  `CTRL + K, + C`
 
-- Emmet: wrap - englobar elementos selecionados `CTRL + shift + p >` 
+- Emmet: wrap - englobar elementos selecionados `CTRL + shift + p >`
 
-- multiple cursos: `click + alt` 
+- multiple cursos: `click + alt`
 
 - delete lines:
-`CTRL + shit + k`
+  `CTRL + shit + k`
 
 - search:
-`F1 or CTRL + shift + P` 
+  `F1 or CTRL + shift + P`
 
 - Language Mode settings or click on bar
-`CTRL + K, M`
+  `CTRL + K, M`
 
-- change multiple same word 
-`CTRL + D`
+- change multiple same word
+  `CTRL + D`
 
 - sugestions
-`CTRL + space`
+  `CTRL + space`
 
 - Lorem ipsum shortcut | também funciona no CodePen
-`Lo` , `lorem` ou `lo` - cria um texto com 225 caracteres.
-    - Textos menos caracteres ou mais caracteres
-        `lorem3` - 3 caracteres
-        `lorem200` - 200 caracteres
+  `Lo` , `lorem` ou `lo` - cria um texto com 225 caracteres. - Textos menos caracteres ou mais caracteres
+  `lorem3` - 3 caracteres
+  `lorem200` - 200 caracteres
 
-- Themes: 
-`CTRL + K + T`
+- Themes:
+  `CTRL + K + T`
+
+- identar codigo [About](https://medium.com/code-write/atalho-para-identar-c%C3%B3digo-no-vs-code-dicarapida-1b85c9607b1b)
+  `Alt + shift + F`
 
 ### Best themes
 
@@ -58,6 +60,7 @@
 <img src="./img/vscode/vscode009.png" width="50%">
 
 ## Font:
+
 instalar a font `Dank Mono` e depois configurar o settings.json (pressionar F1)
 `add : "editor.fontFamily": "Dank Mono"`
 
@@ -72,7 +75,7 @@ instalar a font `Dank Mono` e depois configurar o settings.json (pressionar F1)
 ## Selecionar vários:
 
 selecione a parte do código depois aplique:
- `CTRL + D`  
+`CTRL + D`
 
 <div align="center">
 <img  src="./img/vscode/vscode013.png" width="50%">
@@ -86,8 +89,7 @@ vai selecionar até o próximo obstaculo.
 
 pronto só colar!
 
-
-Agora digitar em todas as linhas ao mesmo tempo:  `CTRL + Shift + alt + seta key down` 
+Agora digitar em todas as linhas ao mesmo tempo: `CTRL + Shift + alt + seta key down`
 
 <img  src="./img/vscode/vscode015.png" width="25%">
 
@@ -95,11 +97,11 @@ só digitar os parametros
 
 <img  src="./img/vscode/vscode016.png" width="20%">
 
-
 ## create mult tags once
+
 #### também funciona no CodePen teclar TAB
 
-creates 6 divs 
+creates 6 divs
 `div*6`
 
 creates 5 section with class
@@ -110,4 +112,19 @@ create 4 div class vazias
 create 5 div com text de 1 a 5
 `div*5{$}`
 
+## Extensions
 
+- prettier
+
+  - Abrir o command palette `CTRL + SHIT + P` digite `Open Settings JSON`e definir:
+  - para auto save adicionar a linha:
+    `"editor.formatOnSave": true,`
+
+## settings.json
+
+Arquivo para configurações gerais, como
+
+- `"editor.mouseWheelZoom": false,` - desativar zoom do mouse:
+- `"window.zoomLevel": 0.4,` - Default zoom
+
+[ref](https://www.youtube.com/watch?v=TBplwrsUj4s&t=1083s)
