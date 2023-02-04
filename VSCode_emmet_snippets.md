@@ -1,3 +1,5 @@
+# emmet
+
 - create a .json file
 
 ```json
@@ -19,3 +21,7 @@
 
 - https://github.com/emmetio/snippets/blob/master/html.json
 - https://www.smashingmagazine.com/2021/06/custom-emmet-snippets-vscode/
+
+# custom snipped
+
+- <a href="https://www.youtube.com/watch?v=TGh2NpCIDlc">Create Custom VSCode Snippets</a>
