@@ -24,4 +24,8 @@
 
 # custom snipped
 
+Default file:
+
+> > File > Preferences > User Snippets
+
 - <a href="https://www.youtube.com/watch?v=TGh2NpCIDlc">Create Custom VSCode Snippets</a>
