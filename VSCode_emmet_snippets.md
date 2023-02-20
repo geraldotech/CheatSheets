@@ -15,15 +15,13 @@
 }
 ```
 
-CTRL + , then Extensions Path adicionar a pasta que está localizando o json, por se tratar de um arquivo externo, pode adicionar o caminho para o arquivo via OneDrive, Dropbox...
+Open Settings or `CTRL + ,` then type `extensions path` and add Path to a folder containing Emmet profiles and snippets .json por se tratar de um arquivo externo, pode adicionar o caminho para o arquivo via OneDrive, Dropbox...
 
 # Custom Snipped
 
 You can create a WorkSpace or Global snippets `best`
 
-- <strong>Create new file:</strong>
-
-> > File > Preferences > User Snippets
+- <strong>Create new file:</strong> `File > Preferences > User Snippets`
 
 #### Backup Global snippets
 
