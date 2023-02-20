@@ -15,22 +15,19 @@
 }
 ```
 
-### CTRL + , then Extensions Path adicionar a pasta que está localizando o json
+CTRL + , then Extensions Path adicionar a pasta que está localizando o json, por se tratar de um arquivo externo, pode adicionar o caminho para o arquivo via OneDrive, Dropbox...
 
-## Links
+# Custom Snipped
 
-- https://github.com/emmetio/snippets/blob/master/html.json
-- https://www.smashingmagazine.com/2021/06/custom-emmet-snippets-vscode/
+You can create a WorkSpace or Global snippets `best`
 
-# custom snipped
-
-### Default file:
+- <strong>Create new file:</strong>
 
 > > File > Preferences > User Snippets
 
-### Global snippets?
+#### Backup Global snippets
 
-inside VS Code go to AppDAta > Roaming > Code > User > Snippets
+inside VS Code or Windows Explorer to `AppData > Roaming > Code > User > Snippets`
 
 ```js
 {
@@ -42,11 +39,52 @@ inside VS Code go to AppDAta > Roaming > Code > User > Snippets
 	"Print to console": {
 		"prefix": "cl",
 		"body": [
-			"console.log($1);"
+			"console.log($1);" //cl + tab next line
 		],
 		"description": "Log output to console"
 	}
 }
 ```
 
+```js
+👉tab stop empty
+"console.log($1)"
+
+👉default string
+"console.log(`${1:Here}`)"
+
+👉default variabels
+"console.log(${1:Here})"
+
+👉tab stop empty string
+"console.log(`$1`)"
+
+👉Edit string :tab to type a Variable :tab to go out
+"console.warn(${2:`${1:Here}`});"
+
+```
+
+# Create VS Code shortcuts
+
+- Criando um atalho para `console.log` escolhi CTRL + l
+- Abrir `CTRL + K + S`
+
+```json
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "ctrl+l",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "name": "console.log"
+    }
+  }
+]
+```
+
+## 🌐Links:
+
 - <a href="https://www.youtube.com/watch?v=TGh2NpCIDlc">Create Custom VSCode Snippets</a>
+- [https://github.com/emmetio/snippets/blob/master/html.json](https://github.com/emmetio/snippets/blob/master/html.json)
+- [https://www.smashingmagazine.com/2021/06/custom-emmet-snippets-vscode/](https://github.com/emmetio/snippets/blob/master/html.json)
