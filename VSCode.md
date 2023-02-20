@@ -1,6 +1,6 @@
 # VScode
 
-- open terminal
+- open terminal:
   `CTRL + shit + '`
 
 - open folder:
@@ -9,19 +9,19 @@
 - move lines:
   `ALT + UP/Down`
 
-- Clone lines
+- Clone lines:
   `shift+ alt + arrow up or down`
 
 - open / closed explorer folder:
   `CTRL + B`
 
-- comment multiple lines type => /\* \*/
+- comment multiple lines type 👉 `\* */`:
   `shitf + alt + A`
 
-- (apenas add comment tipo => // )
+- single comment 👉 `// or <!-- -->`:
   `CTRL + K, + C`
 
-- Emmet: wrap - englobar elementos selecionados `CTRL + shift + p >`
+- Emmet: wrap - englobar elementos selecionados `CTRL + shift + p` type a tag
 
 - multiple cursos: `click + alt`
 
@@ -31,16 +31,16 @@
 - search:
   `F1 or CTRL + shift + P`
 
-- Language Mode settings or click on bar
+- Language Mode settings or click on bar:
   `CTRL + K, M`
 
-- change multiple same word
+- change multiple same word:
   `CTRL + D`
 
-- sugestions
+- sugestions:
   `CTRL + space`
 
-- Lorem ipsum shortcut | também funciona no CodePen
+- Lorem ipsum shortcut | também funciona no CodePen:
   `Lo` , `lorem` ou `lo` - cria um texto com 225 caracteres. - Textos menos caracteres ou mais caracteres
   `lorem3` - 3 caracteres
   `lorem200` - 200 caracteres
@@ -101,15 +101,15 @@ só digitar os parametros
 
 #### também funciona no CodePen teclar TAB
 
-creates 6 divs
+creates 6 divs:
 `div*6`
 
-creates 5 section with class
+creates 5 section with class:
 `section.lead * 5`
-create 4 div class vazias
+create 4 div class vazias:
 `div.class*4`
 
-create 5 div com text de 1 a 5
+create 5 div com text de 1 a 5:
 `div*5{$}`
 
 ## Extensions
