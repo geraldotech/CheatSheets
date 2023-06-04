@@ -61,7 +61,7 @@
 
 ## Font:
 
-instalar a font `Dank Mono` e depois configurar o settings.json (pressionar F1)
+instalar a font `Dank Mono` [Link download](https://app.box.com/s/bv70o32xwpxnk36l1dth2cd5z7d9t0z6) e depois configurar o settings.json (pressionar F1 o CTRL + Shift + P) e type: `User Settings`
 `add : "editor.fontFamily": "Dank Mono"`
 
 <img src="./img/vscode/vscode010.png" width="50%">
