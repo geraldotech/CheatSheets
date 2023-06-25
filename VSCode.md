@@ -89,7 +89,7 @@ vai selecionar até o próximo obstaculo.
 
 pronto só colar!
 
-Agora digitar em todas as linhas ao mesmo tempo: `CTRL + Shift + alt + seta key down`
+Digitar em todas as linhas ao mesmo tempo: `CTRL + Shift + alt + seta key down`
 
 <img  src="./img/vscode/vscode015.png" width="25%">
 
@@ -101,16 +101,20 @@ só digitar os parametros
 
 #### também funciona no CodePen teclar TAB
 
-creates 6 divs:
+create 6 divs:
 `div*6`
 
-creates 5 section with class:
+create 5 section with class:
 `section.lead * 5`
+
 create 4 div class vazias:
 `div.class*4`
 
 create 5 div com text de 1 a 5:
 `div*5{$}`
+
+multiple values with class and txt:
+`div*10.myclass{$}`
 
 ## Extensions
 
@@ -127,4 +131,4 @@ Arquivo para configurações gerais, como
 - `"editor.mouseWheelZoom": false,` - desativar zoom do mouse:
 - `"window.zoomLevel": 0.4,` - Default zoom
 
-[ref](https://www.youtube.com/watch?v=TBplwrsUj4s&t=1083s)
+[REF](https://www.youtube.com/watch?v=TBplwrsUj4s&t=1083s)
