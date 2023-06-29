@@ -17,11 +17,12 @@
 
 Open Settings or `CTRL + ,` then type `extensions path` and add Path to a folder containing Emmet profiles and snippets .json por se tratar de um arquivo externo, pode adicionar o caminho para o arquivo via OneDrive, Dropbox...
 
-# Custom Snipped
+# Custom Snippets
 
 You can create a WorkSpace or Global snippets `best`
 
 - <strong>Create new file:</strong> `File > Preferences > User Snippets`
+  > e.g: javascript.json
 
 #### Backup Global snippets
 
@@ -65,7 +66,7 @@ inside VS Code or Windows Explorer to `AppData > Roaming > Code > User > Snippet
 # Create VS Code shortcuts
 
 - Criando um atalho para `console.log` escolhi CTRL + l
-- Abrir `CTRL + K + S`
+- Abrir `CTRL + K + S` e no top click em `Open Keyboard Shortcuts JSON`
 
 ```json
 // Place your key bindings in this file to override the defaults
