@@ -48,7 +48,7 @@
 - Themes:
   `CTRL + K + T`
 
-- identar codigo [About](https://medium.com/code-write/atalho-para-identar-c%C3%B3digo-no-vs-code-dicarapida-1b85c9607b1b)
+- identar code [About](https://medium.com/code-write/atalho-para-identar-c%C3%B3digo-no-vs-code-dicarapida-1b85c9607b1b)
   `Alt + shift + F`
 
 ### Best themes
@@ -61,9 +61,9 @@
 <img src="./img/vscode/over-night-owl.jpg" width="50%">
 <img src="./img/vscode/over-night-owl-preview.jpg" width="50%">
 
-## Font:
+## Fonts:
 
-instalar a font `Dank Mono` [Link download](https://app.box.com/s/bv70o32xwpxnk36l1dth2cd5z7d9t0z6) e depois configurar o settings.json (pressionar F1 o CTRL + Shift + P) e type: `User Settings`
+install a font `Dank Mono` [Link download](https://app.box.com/s/bv70o32xwpxnk36l1dth2cd5z7d9t0z6) e depois configurar o `settings.json` (pressionar F1 o CTRL + Shift + P) e type: `User Settings`
 `add : "editor.fontFamily": "Dank Mono"`
 
 <img src="./img/vscode/vscode010.png" width="50%">
