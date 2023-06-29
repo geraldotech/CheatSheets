@@ -54,7 +54,7 @@ echo "# thisatest" >> README.md
 ## Setup login
 
     git config --global user.email "email@geraldo.com"
-    git config --global user.name "Your name"
+    git config --global user.name "Your name" // same to change UserName GitLens
     git commit -m "first commit"
 
 ## Push **upload/deploy/sent to git**:
