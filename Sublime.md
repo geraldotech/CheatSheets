@@ -1,26 +1,31 @@
 # Sublime
 
 - auto complete basic html
-salve as .html type: `<html`
+  salve as .html type: `<html`
 
-- Clonando linhas: 
-`ctrl + shift + d`
- 
+- Clonando linhas:
+  `ctrl + shift + d`
+
 - Multiple files in a window:
 
 `CTRL + K` em seguida `CTRL + SHIT + UP`
- 
 
   <img  src="./img/sublime001.png" width="50%">
 
-
- Configurar tamanho de grupos 
+Configurar tamanho de grupos
 
   <img  src="./img/sublime003.png" width="50%">
 
+Para fechar tudo: `ALT + Shit + 1`
 
-Para fechar tudo: `ALT + Shit + 1` 
-
-Tabs: 
-
+Tabs:
 <img  src="./img/sublime004.png" width="50%">
+
+Block updates:
+
+```
+0.0.0.0 www.sublimetext.com
+0.0.0.0 sublimetext.com
+0.0.0.0 sublimehq.com
+0.0.0.0 license.sublimehq.com
+```
