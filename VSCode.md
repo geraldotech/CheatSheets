@@ -120,18 +120,24 @@ multiple values with class and txt:
 
 ## Best Extensions
 
-- prettier
+- Prettier - Code formatter
 
-  - Abrir o command palette `CTRL + SHIT + P` digite `Open Settings JSON`e definir:
+  - Abrir o command palette `CTRL + SHIT + P` digite `Open Settings JSON` e definir:
   - para auto save adicionar a linha:
     `"editor.formatOnSave": true,`
+  - default Formatter:
+    ` "editor.defaultFormatter": "esbenp.prettier-vscode"`
+  - Registrar os tipos:
+    - JavaScript: `"[javascript]": {      "editor.defaultFormatter": "esbenp.prettier-vscode" },`
+    - HTML: `"[html]": {      "editor.defaultFormatter": "esbenp.prettier-vscode" },`
+  - TabWidth:
+    `"prettier.tabWidth": 2`
 
 - GitLens
 - Quokka
 - Vetur
 - Live Sass Compiler
 - Live Server
-- Prettier - Code formatter
 - REST Client - Huachao Mao
 
 ## settings.json
