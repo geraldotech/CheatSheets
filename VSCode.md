@@ -153,10 +153,10 @@ install a font `Dank Mono` [Link download](https://app.box.com/s/bv70o32xwpxnk36
 
 ## settings.json
 
-Arquivo para configurações gerais, como
+Arquivo para configurações gerais:
 
 - `"editor.mouseWheelZoom": false,` - desativar zoom do mouse:
-- `"window.zoomLevel": 0.4,` - Default zoom
+- `"window.zoomLevel": 1,` - Default zoom
 - `"editor.wordWrap": "on" ` - Wrap Text
 
 [REF](https://www.youtube.com/watch?v=TBplwrsUj4s&t=1083s)
