@@ -1,5 +1,16 @@
 # VScode
 
+:books:
+
+- [:wrench: ShortCuts](#shortcuts)
+- [Best Extensions](#best-extensions)
+- [Fonts](#fonts)
+- [Setttings.json](#settingsjson)
+
+<div style="height: 50vh"></div>
+
+# ShortCuts
+
 - open terminal:
   `CTRL + shit + '`
 
@@ -51,29 +62,6 @@
 - identar code [About](https://medium.com/code-write/atalho-para-identar-c%C3%B3digo-no-vs-code-dicarapida-1b85c9607b1b)
   `Alt + shift + F`
 
-### Best themes
-
-<img src="./img/vscode/vscode005.png" width="50%">
-<img src="./img/vscode/vscode006.png" width="50%">
-<img src="./img/vscode/vscode007.png" width="50%">
-<img src="./img/vscode/vscode008.png" width="50%">
-<img src="./img/vscode/vscode009.png" width="50%">
-<img src="./img/vscode/over-night-owl.jpg" width="50%">
-<img src="./img/vscode/over-night-owl-preview.jpg" width="50%">
-
-## Fonts:
-
-install a font `Dank Mono` [Link download](https://app.box.com/s/bv70o32xwpxnk36l1dth2cd5z7d9t0z6) e depois configurar o `settings.json` (pressionar F1 o CTRL + Shift + P) e type: `User Settings`
-`add : "editor.fontFamily": "Dank Mono"`
-
-<img src="./img/vscode/vscode010.png" width="50%">
-
-**Sem Dank Mono**  
-<img src="./img/vscode/vscode011.png" width="50%">
-
-**Com Dank Mono**  
-<img src="./img/vscode/vscode012.png" width="50%">
-
 ## Selecionar vários:
 
 selecione a parte do código depois aplique:
@@ -99,7 +87,7 @@ só digitar os parametros
 
 <img  src="./img/vscode/vscode016.png" width="20%">
 
-## create mult tags once
+## create mult tags once:
 
 #### também funciona no CodePen teclar TAB
 
@@ -117,6 +105,29 @@ create 5 div com text de 1 a 5:
 
 multiple values with class and txt:
 `div*10.myclass{$}`
+
+### Best themes
+
+<img src="./img/vscode/vscode005.png" width="50%">
+<img src="./img/vscode/vscode006.png" width="50%">
+<img src="./img/vscode/vscode007.png" width="50%">
+<img src="./img/vscode/vscode008.png" width="50%">
+<img src="./img/vscode/vscode009.png" width="50%">
+<img src="./img/vscode/over-night-owl.jpg" width="50%">
+<img src="./img/vscode/over-night-owl-preview.jpg" width="50%">
+
+## Fonts:
+
+install a font `Dank Mono` [Link download](https://app.box.com/s/bv70o32xwpxnk36l1dth2cd5z7d9t0z6) e depois configurar o `settings.json` (pressionar F1 o CTRL + Shift + P) e type: `User Settings`
+`add : "editor.fontFamily": "Dank Mono"`
+
+<img src="./img/vscode/vscode010.png" width="50%">
+
+**Sem Dank Mono**  
+<img src="./img/vscode/vscode011.png" width="50%">
+
+**Com Dank Mono**  
+<img src="./img/vscode/vscode012.png" width="50%">
 
 ## Best Extensions
 
