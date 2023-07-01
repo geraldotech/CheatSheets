@@ -80,14 +80,14 @@ selecione a parte do código depois aplique:
 `CTRL + D`
 
 <div align="center">
-<img  src="./img/vscode/vscode013.png" width="50%">
+<img  src="./img/vscode/vscode013.png" width="30%">
 </div>
 
 use as setas para mover o cursor:
 vai selecionar até o próximo obstaculo.
 
 `Shift + alt + seta teclado >`  
-<img  src="./img/vscode/vscode014.png" width="50%">
+<img  src="./img/vscode/vscode014.png" width="30%">
 
 pronto só colar!
 
@@ -118,7 +118,7 @@ create 5 div com text de 1 a 5:
 multiple values with class and txt:
 `div*10.myclass{$}`
 
-## Extensions
+## Best Extensions
 
 - prettier
 
@@ -126,11 +126,20 @@ multiple values with class and txt:
   - para auto save adicionar a linha:
     `"editor.formatOnSave": true,`
 
+- GitLens
+- Quokka
+- Vetur
+- Live Sass Compiler
+- Live Server
+- Prettier - Code formatter
+- REST Client - Huachao Mao
+
 ## settings.json
 
 Arquivo para configurações gerais, como
 
 - `"editor.mouseWheelZoom": false,` - desativar zoom do mouse:
 - `"window.zoomLevel": 0.4,` - Default zoom
+- `"editor.wordWrap": "on" ` - Wrap Text
 
 [REF](https://www.youtube.com/watch?v=TBplwrsUj4s&t=1083s)
