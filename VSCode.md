@@ -2,10 +2,10 @@
 
 :books:
 
-- [:wrench: ShortCuts](#shortcuts)
-- [Best Extensions](#best-extensions)
-- [Fonts](#fonts)
-- [Setttings.json](#settingsjson)
+- [:bookmark: ShortCuts](#shortcuts)
+- [:sparkles: Best Extensions](#best-extensions)
+- [:pencil: Fonts](#fonts)
+- [:wrench: Setttings.json](#settingsjson)
 
 <div style="height: 50vh"></div>
 
