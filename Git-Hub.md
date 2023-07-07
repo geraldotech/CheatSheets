@@ -175,6 +175,15 @@ $ git push origin version2
     git pull --rebase origin <branch>
     git push
 
+#### Update repo local:
+
+```bash
+
+git fecth origin
+fetch diff origin/main
+only: git pull
+```
+
 ### Rename a file
 
     $ git mv Answers_ref_a_CSS.pdf Answers_CSS.pdf
