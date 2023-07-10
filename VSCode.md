@@ -12,6 +12,9 @@
 
 # ShortCuts
 
+- open Settings:
+  `CTRL + ,`
+
 - open terminal:
   `CTRL + shit + '`
 
