@@ -55,7 +55,7 @@ via: https://www.youtube.com/watch?v=yKyREJ4UEN4
 
 # ROMS:
 
-> 😀Patch system image uncondicionally...
+> 😀Patch system image unconditionally...
 
 - [Havoc-OS-v4.2-20210225-starqltechn-Unofficial.zip](https://www.youtube.com/watch?v=p2VHuLiwox0)
 - [LineageOS 18.1](https://github.com/matebuteler/galaxy845-LOS-releases/releases/tag/01-23-22)
