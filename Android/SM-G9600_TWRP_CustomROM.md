@@ -31,7 +31,7 @@ via: https://www.youtube.com/watch?v=yKyREJ4UEN4
 
 - Wipe > Dalvik / Cache / System / Data
 
-- Install > ROM > GAAPS > Magisk
+- Install > ROM > GAPPS > Magisk
 
 - Reboot System
 
