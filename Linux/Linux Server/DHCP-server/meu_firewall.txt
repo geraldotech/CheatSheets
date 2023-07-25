@@ -1,0 +1,34 @@
+#!/bin/sh
+
+echo "ativando o firewall e compartilhamento da internet"
+
+#carregar os modulos
+  modproble iptables
+ 
+#compartilhar a internet cuidado a interface ethx pode mudar no seu pc para eth0
+  modprobe iptable_nat
+  iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+  echo 1 > /proc/sys/net/ipv4/ip_forward
+
+#protege contra pacotes danificados
+  iptables -A FORWARD -m unclean -j DROP
+
+# Abre algumas portas (opcional)
+
+iptables -A INPUT -p tcp --destination-port 22 -j ACCEPT
+iptables -A INPUT -p tcp --destination-port 1021 -j ACCEPT
+iptables -A INPUT -p tcp --destination-port 1080 -j ACCEPT
+iptables -A INPUT -p tcp --destination-port 10000 -j ACCEPT
+
+# abrir a rede local para acessar a rede externa
+ iptables -A INPUT -p tcp --sys -s 192.168.0.0/255.255.255.0 -j ACCEPT 
+
+
+/////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\ Resumido encontra-se no arquivo tutorial
+#Abrir portas comando 2:
+
+iptables -A INPUT -i ethx -p tcp --dport 22 -j ACCEPT
+
+
+
+
