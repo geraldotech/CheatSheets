@@ -66,6 +66,9 @@
 - identar code [About](https://medium.com/code-write/atalho-para-identar-c%C3%B3digo-no-vs-code-dicarapida-1b85c9607b1b)
   `Alt + shift + F`
 
+- zen mode:
+  `CTLR + K Z`
+
 ## Selecionar vários:
 
 selecione a parte do código depois aplique:
@@ -121,6 +124,7 @@ multiple values with class and txt:
 <img src="./img/vscode/over-night-owl-preview.jpg" width="50%">
 
 - [Origamid](https://github.com/origamid/origamid-vscode)
+- Andromeda
 
 ## Fonts:
 
