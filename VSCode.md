@@ -8,21 +8,6 @@
 - [:pencil: Fonts](#fonts)
 - [:wrench: Setttings.json](#settingsjson)
 
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-
-<pre>
-hello, this is
-   just an     example
-....
-</pre>
-
 # ShortCuts
 
 - open Settings:
