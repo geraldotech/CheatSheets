@@ -8,7 +8,7 @@
 - [:pencil: Fonts](#fonts)
 - [:wrench: Setttings.json](#settingsjson)
 
-<div style="height: 50vh"></div>
+<div style="min-height: 50vh"></div>
 
 # ShortCuts
 
@@ -78,10 +78,9 @@ selecione a parte do código depois aplique:
 <img  src="./img/vscode/vscode013.png" width="30%">
 </div>
 
-use as setas para mover o cursor:
-vai selecionar até o próximo obstaculo.
+use as setas para mover o cursor vai selecionar até o próximo obstaculo:
+`Shift + alt + seta teclado >`
 
-`Shift + alt + seta teclado >`  
 <img  src="./img/vscode/vscode014.png" width="30%">
 
 pronto só colar!
@@ -160,6 +159,8 @@ install a font `Dank Mono` [Link download](https://app.box.com/s/bv70o32xwpxnk36
 - Live Sass Compiler
 - Live Server
 - REST Client - Huachao Mao
+- live preview - no precisa sem salvar
+- codesnap - beautiful prints
 
 ## settings.json
 
