@@ -53,8 +53,8 @@
 - shutdown -h +5 : desligará o sistema em 5 minutos!
 - reboot: reinicia o sistema imediatamente
 - mkdir: cria um diretório
-- sudo rm -rf: remove um diretório
-- sudo rm – remove arquivos
+- rm -rf: remove um diretório
+- rm – remove arquivos
 - mv- mover arquivos
 - uname: mostra informações do sistema operacional e do computador
 - dmesg: Mostra as mensagens de inicialização do Kernel. São mostradas as mensagens da última inicialização do sistema
