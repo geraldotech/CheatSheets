@@ -4,7 +4,7 @@
 - Last update: 17/10/2021
 - By: Geraldo Filho
 
-### Usuários
+### Usuários:
 
 - sudo: permite executar ações como usuário root
 - sudo su: Altera para o usuário root
@@ -19,21 +19,21 @@
 - who - Mostra-nos quem está logado no sistema
 - whoami - Diz-nos quem é o dono da shell
 
-### Rede
+### Rede:
 
 - Mostrar informações IP: `ifconfig`
 - Adicionar uma placa virtual: `sudo ifconfig eth0:1 <ip>`
-- Alterar Servidores DNS: /etc/resolv.conf
+- Alterar Servidores DNS: `/etc/resolv.conf`
 - Alterar configurações das interfaces: `/etc/network/interfaces`
 - Reinciar interfaces após alterações: `/etc/init.d/networking/restart`
 - Verificar status ports +detalhado com:
   - `netstat -tulpn | grep :80`
 - Verificar status ports -detalhado com:
   - `netstat -tln | grep 80`
-- whois - Serviço de diretório de domínios da Internet, permite-nos saber informações sobre determinados domínios na - Internet, quando um domínio foi registado, quando expira, etc
-- wget: Permite-nos fazer o download completo de páginas web, com todos os ficheiros, de forma fácil e não interativa
+- `whois mydomain.com` - permite-nos saber informações sobre determinados domínios na - Internet, quando um domínio foi registado, quando expira, etc
+- Permite-nos fazer o download completo de páginas web, com todos os ficheiros, de forma fácil e não interativa: `wget`
 
-### Sistema
+### Sistema:
 
 - which google-chrome - mostrar localização de um software instalado
 - cd - navega entre os diretórios do sistema
@@ -71,7 +71,7 @@
 - du -hs - mostra o tamanho geral
 
 
-### HD e mídias virtuais
+### HD e mídias virtuais:
 
 - df: Exibi um resumo de espaços HD e pen-drivers se conectados
 
@@ -84,67 +84,67 @@
 use o cd para navegar até o local do arquivo.deb
 Instalar:
 
-- sudo dpkg -i pack.deb
+- `dpkg -i pack.deb`
 
 Remover:
 
-  - sudo dpkg -r pack
+  - `dpkg -r pack`
 
 Repack arquivos:
 
-  - sudo dpkg-repack Gimp
+  - `dpkg-repack Gimp`
 
 Para repack é necessário instalar:
 
-  - sudo apt-get install dpkg-repack
+  - `apt-get install dpkg-repack`
 
 
-### Avançados
+### Avançados:
 
 - Proteger arquivo contra modificação:
 
-  `sudo chattr +i /etc`
+  - `sudo chattr +i /etc`
 
 - Desproteger arquivo:
 
-  `sudo chattr -i /etc`
+  - `sudo chattr -i /etc`
 
 - Acessar últimos comando a partir de um editor de texto:
 
   geraldo@geraldo-dell-inspiron:
-  `~$ sudo gedit ~/.bash_history`
+  - `~$ sudo gedit ~/.bash_history`
 
 - Nota: Após editar o arquivo histórico de comandos é importante também limpar o histórico da memória RAM, caso
   ntrário os comandos guardados na memória RAM serão transferidos novamente para o arquivo original localizado no sistema:
-  `$ history -c`
+  - `$ history -c`
 
 - Alterar permissões de um arquivo ou pasta (pasta com cadeado):
 
-  `$ sudo chown -R usuario:usuario pasta`
+  - `$ sudo chown -R usuario:usuario pasta`
 
 - Como extrair tar.gz
-
-  `$ sudo tar xvfz filename.tar.gz`
+  - `$ sudo tar xvfz filename.tar.gz`
 
 - Como extrair gz
 
-  `$ sudo gunzip file.gz`
+  - `$ sudo gunzip file.gz`
 
 - Como extrair .tar
 
-  `$ sudo tar xvf filename.tar`
+  - `$ sudo tar xvf filename.tar`
 
 - Como extrair para uma pasta de destino:
 
-  `$ sudo unzip apps.zip -d /home/geraldo/pasta`
+  - `$ sudo unzip apps.zip -d /home/geraldo/pasta`
 
 - Command to zip a directory using a specific directory:
-  `# apt-get install zip`
+  `apt-get install zip`
+  `zip -r wordpress.zip /var/www/wordpress`
 
-$ sudo zip -r wordpress.zip /var/www/wordpress
+- Criar arquivos vazios:
+  - `touch`
 
-- Criar arquivos vazios: `touch`
-
-- Criar arquivos content: `# echo “hello” > index.html`
+- Criar arquivos content:
+  - `echo “hello” > index.html`
 
 [command-to-zip-a-directory-using-a-specific-directory-as-the-root](http://stackoverflow.com/questions/2473115/command-to-zip-a-directory-using-a-specific-directory-as-the-root)
