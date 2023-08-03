@@ -17,7 +17,6 @@
 - id <user> – mostra informações do ID só usuário
 - w - Mostra-nos quem está no sistema ou que comando cada job está a executar
 - who - Mostra-nos quem está logado no sistema
-- whois- Serviço de diretório de domínios da Internet, permite-nos saber informações sobre determinados domínios na - Internet, quando um domínio foi registado, quando expira, etc
 - whoami - Diz-nos quem é o dono da shell
 
 ### Rede
@@ -31,6 +30,8 @@
 - netstat -tulpn | grep :80
 - Verificar status ports -detalhado com:
 - netstat -tln | grep 80
+- whois- Serviço de diretório de domínios da Internet, permite-nos saber informações sobre determinados domínios na - Internet, quando um domínio foi registado, quando expira, etc
+- wget: Permite-nos fazer o download completo de páginas web, com todos os ficheiros, de forma fácil e não interativa
 
 ### Sistema
 
@@ -58,9 +59,6 @@
 - uname: mostra informações do sistema operacional e do computador
 - dmesg: Mostra as mensagens de inicialização do Kernel. São mostradas as mensagens da última inicialização do sistema
 - ls -la – mostra as permissões dos arquivos.
-
-### Mais Comuns
-
 - cp: copia ficheiros
 - ls: mostra o conteúdo do diretório
 - pwd: exibe o caminho do diretório atual
@@ -71,6 +69,7 @@
 - du – mostra o tamanho de cada arquivo dentro do diretório.
 - du -ha – mostra o tamanho geral de todos os arquivos de um diretório.
 - du -hs - mostra o tamanho geral
+
 
 ### HD e mídias virtuais
 
@@ -99,10 +98,6 @@ Para repack é necessário instalar:
 
 - sudo apt-get install dpkg-repack
 
-### Internet
-
-wget: Permite-nos fazer o download completo de páginas web, com todos os ficheiros, de forma fácil e não interativa, sem exigir por isso presença do utilizador, respeitando também o ficheiro robots.txt
-Para saber todos os parâmetros do wget acesse:
 
 ### Avançados
 
