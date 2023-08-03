@@ -21,32 +21,32 @@
 
 ### Rede
 
-- Mostrar informações IP: ifconfig
-- Adicionar uma placa virtual: sudo ifconfig eth0:1 <ip>
+- Mostrar informações IP: `ifconfig`
+- Adicionar uma placa virtual: `sudo ifconfig eth0:1 <ip>`
 - Alterar Servidores DNS: /etc/resolv.conf
-- Alterar configurações das interfaces: /etc/network/interfaces
-- Reinciar interfaces após alterações: /etc/init.d/networking/restart
+- Alterar configurações das interfaces: `/etc/network/interfaces`
+- Reinciar interfaces após alterações: `/etc/init.d/networking/restart`
 - Verificar status ports +detalhado com:
-- netstat -tulpn | grep :80
+  - `netstat -tulpn | grep :80`
 - Verificar status ports -detalhado com:
-- netstat -tln | grep 80
-- whois- Serviço de diretório de domínios da Internet, permite-nos saber informações sobre determinados domínios na - Internet, quando um domínio foi registado, quando expira, etc
+  - `netstat -tln | grep 80`
+- whois - Serviço de diretório de domínios da Internet, permite-nos saber informações sobre determinados domínios na - Internet, quando um domínio foi registado, quando expira, etc
 - wget: Permite-nos fazer o download completo de páginas web, com todos os ficheiros, de forma fácil e não interativa
 
 ### Sistema
 
 - which google-chrome - mostrar localização de um software instalado
 - cd - navega entre os diretórios do sistema
-- Diretório media – Onde estão localizados os CD/DVD/Pen-drivers
+- media Diretórioonde estão localizados os CD/DVD/Pen-drivers
 - top: Visualiza processos correntes
 - ps -aux : Similtar ao TOP e até melhor.
 - kill: mata “fecha” um processo
 - uptime: Mostra o tempo em que o sistema está em execução.
-- $ sudo update-rc.d -f bind9 remove: Remove o bind da inicialização no boot
+- update-rc.d -f bind9 remove: Remove o bind da inicialização no boot
 - #Substitua bind pelo programa que quiser remover da inicialização.
-- $ sudo update-rc.d bind9 defaults: O bind volta a iniciar no boot
+- update-rc.d bind9 defaults: O bind volta a iniciar no boot
 - free: mostra a quantidade de memória RAM disponível
-- locate `arquivo` – procura por arquivos especificado no sistema.
+- `locate <arquivo>` – procura por arquivos especificado no sistema.
 - lsmod - Lista drivers em execução.
 - halt: desliga o sistema imediatamente
 - shutdown -h now: desliga o sistema
@@ -88,15 +88,15 @@ Instalar:
 
 Remover:
 
-- sudo dpkg -r pack
+  - sudo dpkg -r pack
 
 Repack arquivos:
 
-- sudo dpkg-repack Gimp
+  - sudo dpkg-repack Gimp
 
 Para repack é necessário instalar:
 
-- sudo apt-get install dpkg-repack
+  - sudo apt-get install dpkg-repack
 
 
 ### Avançados
