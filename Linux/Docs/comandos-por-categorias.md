@@ -4,6 +4,8 @@
 - Last update:03/08/2023
 - By: Geraldo Filho
 
+<hr>
+
 ### Usuários:
 
 - sudo: permite executar ações como usuário root
