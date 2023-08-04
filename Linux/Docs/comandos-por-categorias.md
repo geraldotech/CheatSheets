@@ -39,7 +39,7 @@
 
 - which google-chrome - mostrar localização de um software instalado
 - cd - navega entre os diretórios do sistema
-- media Diretórioonde estão localizados os CD/DVD/Pen-drivers
+- media Diretório onde estão localizados os CD/DVD/Pen-drivers
 - top: Visualiza processos correntes
 - ps -aux : Similtar ao TOP e até melhor.
 - kill: mata “fecha” um processo
