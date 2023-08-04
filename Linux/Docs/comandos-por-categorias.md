@@ -61,7 +61,8 @@
 - uname: mostra informações do sistema operacional e do computador
 - dmesg: Mostra as mensagens de inicialização do Kernel. São mostradas as mensagens da última inicialização do sistema
 - ls -la – mostra as permissões dos arquivos.
-- cp: copia ficheiros
+- `cp`: copia ficheiros
+  - `cp -a one/. /home/gmap/Downloads/two/` using a dot at the end of our source directory to indicate that everything within the directory should be copied
 - ls: mostra o conteúdo do diretório
 - pwd: exibe o caminho do diretório atual
 - ssh usuario@IP : Se logar remotamente com o protocolo ssh
@@ -148,5 +149,8 @@ Para repack é necessário instalar:
 
 - Criar arquivos content:
   - `echo “hello” > index.html`
+  - `echo Amazon >> file.txt`
+  - write one on a.txt inside one directory:
+    - `echo one > one/a.txt`
 
 [command-to-zip-a-directory-using-a-specific-directory-as-the-root](http://stackoverflow.com/questions/2473115/command-to-zip-a-directory-using-a-specific-directory-as-the-root)
