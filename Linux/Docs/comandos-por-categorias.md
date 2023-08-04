@@ -1,4 +1,4 @@
-<h1 align="center">Linux Ubuntu - Resumo de comandos por categorias</h1>
+<h1 align="center">Linux Ubuntu - Resumo de comandos</h1>
 
 - Inicial version: 18/5/2012
 - Last update:03/08/2023
