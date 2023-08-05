@@ -81,6 +81,8 @@
 
 - close all methods:
   `CTRL + K + CTRL + 0`
+- open all methods:
+  `CTRL + K + CTRL + J`
 
 ## Selecionar vários:
 
