@@ -79,6 +79,9 @@
 - zen mode:
   `CTLR + K Z`
 
+- close all methods:
+  `CTRL + K + CTRL + 0`
+
 ## Selecionar vários:
 
 selecione a parte do código depois aplique:
