@@ -18,6 +18,27 @@
 - FrontEnd online Editor  
 [https://www.fronteditor.dev/](https://www.fronteditor.dev/)
 
+## shields
+
+```html
+<p align="center">
+      <a href="https://travis-ci.org/lusaxweb/vuesax">
+        <img
+          src="https://img.shields.io/badge/any_text-you_like-blue"
+          alt="travis ci badge"
+        />
+      </a>
+      <a href="https://travis-ci.org/lusaxweb/vuesax">
+        <img
+          src="https://img.shields.io/badge/just%20the%20message-8A2BE2"
+          alt="travis ci badge"
+        />
+      </a>
+</p>
+
+```
+
+
 > By GeraldoDev 2022
 
 
