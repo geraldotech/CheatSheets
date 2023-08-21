@@ -1,6 +1,6 @@
-# emmet
+# emmet:
 
-- create a .json file
+- create a custom Emmet snippets need to be defined in a json file named snippets.json  [...visualstudio.com/docs/editor/emmet](https://code.visualstudio.com/docs/editor/emmet)
 
 ```json
 {
@@ -17,7 +17,7 @@
 
 Open Settings or `CTRL + ,` then type `extensions path` and add Path to a folder containing Emmet profiles and snippets .json por se tratar de um arquivo externo, pode adicionar o caminho para o arquivo via OneDrive, Dropbox...
 
-# Snippets
+# User Snippets:
 
 You can create a WorkSpace or Global snippets `best`
 
@@ -26,7 +26,7 @@ You can create a WorkSpace or Global snippets `best`
 
 #### Backup Global snippets
 
-inside VS Code or Windows Explorer to `AppData > Roaming > Code > User > Snippets`
+inside VS Code or Windows Explorer to `AppData > Roaming > Code > User > Snippets` | `%AppData%\Code\User\snippets`
 
 ```js
 {
