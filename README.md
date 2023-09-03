@@ -20,6 +20,7 @@
 
 ## shields
 
+[List](https://dev.to/envoy_/150-badges-for-github-pnk#workspace-specs)
 ```html
 <p align="center">
       <a href="https://travis-ci.org/lusaxweb/vuesax">
