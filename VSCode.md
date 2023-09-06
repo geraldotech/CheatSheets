@@ -46,7 +46,7 @@
 - single comment 👉 `// or <!-- -->`:
   `CTRL + K, + C`
 
-- Emmet: wrap - englobar elementos selecionados `CTRL + shift + p` type a tag
+- Emmet: wrap - englobar elementos selecionados `CTRL + shift + p` type `wrap or emmet` and type a `tag`
 
 - multiple cursos: `click + alt`
 
