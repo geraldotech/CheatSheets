@@ -84,6 +84,10 @@
 - open all methods:
   `CTRL + K + CTRL + J`
 
+- open User/ `settings.json`:
+  -   `CTRL + P type:settings.json`
+  -   `CTRL + , > click Open Settings(JSON) next run code`
+
 ## Selecionar vários:
 
 selecione a parte do código depois aplique:
