@@ -84,10 +84,6 @@
 - open all methods:
   `CTRL + K + CTRL + J`
 
-- open User/ `settings.json`:
-  -   `CTRL + P type:settings.json`
-  -   `CTRL + , > click Open Settings(JSON) next run code`
-
 ## Selecionar vários:
 
 selecione a parte do código depois aplique:
@@ -146,7 +142,7 @@ multiple values with class and txt:
 
 ## Fonts:
 
-install a font `Dank Mono` [Link download](https://app.box.com/s/bv70o32xwpxnk36l1dth2cd5z7d9t0z6) e depois configurar o `settings.json` (pressionar F1 o CTRL + Shift + P) e type: `User Settings`
+install a font `Dank Mono` [Link download](https://app.box.com/s/bv70o32xwpxnk36l1dth2cd5z7d9t0z6) e depois configurar o `settings.json`
 `add : "editor.fontFamily": "Dank Mono"`
 
 <img src="./img/vscode/vscode010.png" width="50%">
@@ -184,6 +180,10 @@ install a font `Dank Mono` [Link download](https://app.box.com/s/bv70o32xwpxnk36
 ## settings.json
 
 Arquivo para configurações gerais:
+
+- open User `settings.json`:
+  -   `CTRL + P type:settings.json`
+  -   `CTRL + , > click Open Settings(JSON) next run code`
 
 - `"editor.mouseWheelZoom": false,` - desativar zoom do mouse:
 - `"window.zoomLevel": 1,` - Default zoom
