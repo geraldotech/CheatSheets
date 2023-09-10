@@ -169,6 +169,7 @@ install a font `Dank Mono` [Link download](https://app.box.com/s/bv70o32xwpxnk36
   - TabWidth: `"prettier.tabWidth": 2`
   - Remove semicolons: `"prettier.semi": false,`
   - Set single quotes: `"prettier.singleQuote": true,`
+  - remove trailing commas: `"prettier.trailingComma": "none",`
     
 
 - GitLens
