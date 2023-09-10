@@ -160,13 +160,16 @@ install a font `Dank Mono` [Link download](https://app.box.com/s/bv70o32xwpxnk36
   - Abrir o command palette `CTRL + SHIT + P` digite `Open Settings JSON` e definir:
   - para auto save adicionar a linha:
     `"editor.formatOnSave": true,`
-  - default Formatter:
+  - Set as default Formatter:
     ` "editor.defaultFormatter": "esbenp.prettier-vscode"`
   - Registrar os tipos:
     - JavaScript: `"[javascript]": {      "editor.defaultFormatter": "esbenp.prettier-vscode" },`
     - HTML: `"[html]": {      "editor.defaultFormatter": "esbenp.prettier-vscode" },`
-  - TabWidth:
-    `"prettier.tabWidth": 2`
+    - 
+  - TabWidth: `"prettier.tabWidth": 2`
+  - Remove semicolons: `"prettier.semi": false,`
+  - Set single quotes: `"prettier.singleQuote": true,`
+    
 
 - GitLens
 - Quokka
