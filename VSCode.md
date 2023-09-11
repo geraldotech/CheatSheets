@@ -43,6 +43,9 @@
 - comment multiple lines type 👉 `\* */`:
   `shitf + alt + A`
 
+- comment multiple
+  `CTRL + /` 
+
 - single comment 👉 `// or <!-- -->`:
   `CTRL + K, + C`
 
