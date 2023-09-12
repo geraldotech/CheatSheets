@@ -15,8 +15,13 @@
 - APIS  
 [https://dog.ceo/api/breeds/image/random](https://dog.ceo/api/breeds/image/random)
 
-- FrontEnd online Editor  
-[https://www.fronteditor.dev/](https://www.fronteditor.dev/)
+### FrontEnd online Editor  
+- [https://www.fronteditor.dev](https://www.fronteditor.dev/) 
+- [https://flems.io](https://flems.io) 
+- [https://webcode.programadorbr.com](https://webcode.programadorbr.com) 
+- [https://developer.mozilla.org/en-US/play](https://developer.mozilla.org/en-US/play) 
+- [https://jsfiddle.net](https://jsfiddle.net) 
+- [https://spck.io](https://spck.io) 
 
 ## shields
 
@@ -40,7 +45,11 @@
 ```
 
 
-> By GeraldoDev 2022
+&nbsp;
+&nbsp;
+&nbsp;
+
+<p align="center"> > By GeraldoDev 2022</p>
 
 
 
