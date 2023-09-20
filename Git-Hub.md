@@ -2,7 +2,7 @@
 
 **Git e Git/Hub, comandos testados no Windows 10:** 
 
-[Download: Git scm](https://git-scm.com/downloads)
+- [x] [Download: Git scm](https://git-scm.com/downloads)
 
 Fazer a pasta do projeto em (https://github.com/new) e a mesma pasta no seu computador e abrir com o _GitBash here inside_ folder:
 
@@ -237,3 +237,5 @@ $ git commit -m "renamed" && git push origin main
 - [https://github.com/ikatyang/emoji-cheat-sheet](https://github.com/ikatyang/emoji-cheat-sheet)
 
 > By: **geraldoX** 2022
+
+
