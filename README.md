@@ -59,7 +59,7 @@
 &nbsp;
 &nbsp;
 
-<p align="center"> > By GeraldoDev 2022</p>
+<p align="center">gmapdev</p>
 
 
 
