@@ -24,7 +24,14 @@
 - [https://webcode.programadorbr.com](https://webcode.programadorbr.com) 
 - [https://developer.mozilla.org/en-US/play](https://developer.mozilla.org/en-US/play) 
 - [https://jsfiddle.net](https://jsfiddle.net) 
-- [https://spck.io](https://spck.io) 
+- [https://spck.io](https://spck.io)
+
+### Colors palett
+- [https://coolors.co/](https://coolors.co/)
+- [https://color.adobe.com/create/color-wheel](https://color.adobe.com/create/color-wheel)
+
+### Img AI
+- [https://lexica.art/](https://lexica.art)
 
 ## shields
 
