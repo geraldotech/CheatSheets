@@ -13,6 +13,7 @@
 - The Free Image Placeholder Service
   - [https://placeholder.com/](https://placeholder.com/)
   - [https://placehold.jp](https://placehold.jp)
+  - [https://picsum.photos](https://picsum.photos)
 
 - APIS  
 [https://dog.ceo/api/breeds/image/random](https://dog.ceo/api/breeds/image/random)
