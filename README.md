@@ -11,7 +11,7 @@
 [https://api.ipify.org](https://api.ipify.org/?format=json)
 
 - The Free Image Placeholder Service
-  - [https://placeholder.com/](https://placeholder.com/)
+  - [https://placehold.co](https://placehold.co)
   - [https://placehold.jp](https://placehold.jp)
   - [https://picsum.photos](https://picsum.photos)
 
