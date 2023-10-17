@@ -142,6 +142,7 @@ multiple values with class and txt:
 
 - [Origamid](https://github.com/origamid/origamid-vscode)
 - Andromeda
+- [Omni Owl](https://marketplace.visualstudio.com/items?itemName=guilhermerodz.omni-owl) + Dank Mono
 
 ## Fonts:
 
