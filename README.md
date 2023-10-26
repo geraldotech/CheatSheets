@@ -33,6 +33,13 @@
 ### Img AI
 - [https://lexica.art/](https://lexica.art)
 
+### Icons:
+
+- [https://github.com/feathericons/feather#feather](https://github.com/feathericons/feather#feather)
+- [https://phosphoricons.com/](https://phosphoricons.com)
+- [https://www.vectorlogo.zone](https://www.vectorlogo.zone)
+- [https://www.vectorlogo.zone/](https://www.vectorlogo.zone)
+
 ## shields
 
 [List](https://dev.to/envoy_/150-badges-for-github-pnk#workspace-specs)
