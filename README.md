@@ -38,7 +38,6 @@
 - [https://github.com/feathericons/feather#feather](https://github.com/feathericons/feather#feather)
 - [https://phosphoricons.com/](https://phosphoricons.com)
 - [https://www.vectorlogo.zone](https://www.vectorlogo.zone)
-- [https://www.vectorlogo.zone/](https://www.vectorlogo.zone)
 
 ## shields
 
