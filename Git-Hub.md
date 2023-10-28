@@ -223,6 +223,12 @@ $ git commit -m "renamed" && git push origin main
 
 ### Semantic Commits + emoji
 
+
+### Undo all changes (including all changes that have not been committed!) with:
+     git checkout .
+###  specify a specific file using:
+     git checkout filename.js
+
 [https://gist.github.com/parmentf/035de27d6ed1dce0b36a](https://gist.github.com/parmentf/035de27d6ed1dce0b36a)
 
 - FEAT - indica um novo recurso no código
