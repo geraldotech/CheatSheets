@@ -39,6 +39,7 @@
 - [https://phosphoricons.com/](https://phosphoricons.com)
 - [https://www.vectorlogo.zone](https://www.vectorlogo.zone)
 - [https://vecta.io/symbols/25/web-technologies](https://vecta.io/symbols/25/web-technologies)
+- [https://devicon.dev/](https://devicon.dev)
 
 ## shields
 
