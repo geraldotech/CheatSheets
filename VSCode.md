@@ -57,7 +57,7 @@
   `CTRL + shit + k`
 
 - search:
-  `F1 or CTRL + shift + P`
+  `F1 or CTRL + shift + P` to search files by name delete `>` in input
 
 - Language Mode settings or click on bar:
   `CTRL + K, M`
