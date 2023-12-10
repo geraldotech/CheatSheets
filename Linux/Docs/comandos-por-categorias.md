@@ -63,6 +63,7 @@
 - ls -la – mostra as permissões dos arquivos.
 - `cp`: copia ficheiros
   - `cp -a one/. /home/gmap/Downloads/two/` using a dot at the end of our source directory to indicate that everything within the directory should be copied
+  - `cp -a /folder/ /newfolderpath` - copiar pasta recursive 
 - ls: mostra o conteúdo do diretório
 - pwd: exibe o caminho do diretório atual
 - ssh usuario@IP : Se logar remotamente com o protocolo ssh
