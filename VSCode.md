@@ -188,7 +188,8 @@ install a font `Dank Mono` [Link download](https://app.box.com/s/bv70o32xwpxnk36
 
 # NextJS
 - [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
-- Tailwind CSS IntelliSense
+- [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
+- [JavaScript and TypeScript Nightly](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-next)
 
 ## settings.json
 
