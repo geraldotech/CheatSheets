@@ -1,8 +1,13 @@
-# VScode
+![image](https://github.com/geraldotech/CheatSheets/assets/92253544/6de82eb6-77f3-40d0-b950-b80656259348)
+
+
+<img src="https://github.com/geraldotech/CheatSheets/assets/92253544/3ae4d376-9ece-41e0-af95-3a696aaa3348" style="width: 50%" />
+
 
 :books:
 
 - [:bookmark: ShortCuts](#shortcuts)
+- [:bookmark: ShortCuts CLI](#ShortcutsGitBashCmd)
 - [:sparkles: Best Extensions](#best-extensions)
 - [:art: Best Themes](#best-themes)
 - [:pencil: Fonts](#fonts)
@@ -129,6 +134,14 @@ create 5 div com text de 1 a 5:
 
 multiple values with class and txt:
 `div*10.myclass{$}`
+
+
+# ShortcutsGitBashCmd:
+
+- open current path in VSCode `code .`
+- open Folder:
+  - `explorer .`
+  -  `open .`
 
 ## Best themes
 
