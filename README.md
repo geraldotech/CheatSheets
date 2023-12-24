@@ -68,8 +68,18 @@
 ```
 
 # Terminais:
-![image](https://github.com/geraldotech/CheatSheets/assets/92253544/8f6b30af-c63b-4654-a361-1b42af92e836)
-![image](https://github.com/geraldotech/CheatSheets/assets/92253544/f53a98d6-ace9-41fe-9691-05108b706ac4)
+<img src="https://github.com/geraldotech/CheatSheets/assets/92253544/8f6b30af-c63b-4654-a361-1b42af92e836" style="width:50%" />
+<img src="https://github.com/geraldotech/CheatSheets/assets/92253544/f53a98d6-ace9-41fe-9691-05108b706ac4" style="width:50%" />
+
+
+
+## Add GitBash to Windows Terminal
+![image](https://github.com/geraldotech/CheatSheets/assets/92253544/3d211fc7-3799-4273-bf24-d89c5c1ec232 =500x200)
+
+para finalizar definir o Git Bash Default Profile
+![image](https://github.com/geraldotech/CheatSheets/assets/92253544/952df641-7b90-4534-8f81-f357f04efb18)
+
+
 
 Comandos úteis para produtividade:
 
