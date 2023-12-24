@@ -143,7 +143,10 @@ multiple values with class and txt:
 - open specific file in VSCode `code README.MD`
 - open Folder:
   - `explorer .`
-  -  `open .`
+      - `explorer file.html`
+  -  `start .`
+      - `start file.html` open browser
+      - `start a.txt` open Notepad
 
 ## Best themes
 
