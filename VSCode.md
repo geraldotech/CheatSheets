@@ -140,6 +140,7 @@ multiple values with class and txt:
 # ShortcutsGitBashCmd:
 
 - open current path in VSCode `code .`
+- open specific file in VSCode `code README.MD`
 - open Folder:
   - `explorer .`
   -  `open .`
