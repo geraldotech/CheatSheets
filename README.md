@@ -65,8 +65,25 @@
         />
       </a>
 </p>
-
 ```
+
+# Terminais:
+![image](https://github.com/geraldotech/CheatSheets/assets/92253544/8f6b30af-c63b-4654-a361-1b42af92e836)
+![image](https://github.com/geraldotech/CheatSheets/assets/92253544/f53a98d6-ace9-41fe-9691-05108b706ac4)
+
+Comandos úteis para produtividade:
+
+```shell
+mkdir | create folders
+touch | create files
+rm -rd | delete folders
+rm | delete files
+echo "# oi" >> style.css | create file and write
+cat | read file content
+```
+
+
+
 
 
 &nbsp;
