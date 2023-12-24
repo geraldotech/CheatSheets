@@ -47,6 +47,11 @@
 - [https://vecta.io/symbols/25/web-technologies](https://vecta.io/symbols/25/web-technologies)
 - [https://devicon.dev/](https://devicon.dev)
 
+# Disabled JS in browser like a Pro
+
+- open console: **CTRL + shift + J**
+- CTRL + shift + P: **type: Javascript**
+
 ## shields
 
 [List](https://dev.to/envoy_/150-badges-for-github-pnk#workspace-specs)
