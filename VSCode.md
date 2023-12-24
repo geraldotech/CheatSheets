@@ -1,7 +1,8 @@
-![image](https://github.com/geraldotech/CheatSheets/assets/92253544/6de82eb6-77f3-40d0-b950-b80656259348)
+<div align="center">
+<img src="https://github.com/geraldotech/CheatSheets/assets/92253544/3ae4d376-9ece-41e0-af95-3a696aaa3348" style="width: 10%;" />
+<img src="https://github.com/geraldotech/CheatSheets/assets/92253544/6de82eb6-77f3-40d0-b950-b80656259348" style="width: 80%" height="300em" />
+</div>
 
-
-<img src="https://github.com/geraldotech/CheatSheets/assets/92253544/3ae4d376-9ece-41e0-af95-3a696aaa3348" style="width: 50%" />
 
 
 :books:
