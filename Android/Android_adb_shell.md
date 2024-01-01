@@ -55,7 +55,7 @@ Filters:
 - global
   - adb shell pm list packages 'face'
 - enabled
-  `adb shell pm list packages -e 'face'` - get all packages that includes (face)
+    - `adb shell pm list packages -e 'face'` - get all packages that includes (face)
 
 - disabled:
   - adb shell pm list packages -d 'bixby'
