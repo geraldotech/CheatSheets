@@ -11,7 +11,9 @@ Adb Shell no Windows (Android Debug Bridge) (O intuito não é explicar o que é
 ## No Device:
 
 - Ativar modo de depuração USB
-- App para get package info: https://play.google.com/store/apps/details?id=com.ubqsoft.sec01
+- App para get package info:
+  - [https://play.google.com/store/apps/details?id=com.ubqsoft.sec01](https://play.google.com/store/apps/details?id=com.ubqsoft.sec01)
+  - [https://play.google.com/store/apps/details?id=com.csdroid.pkg](https://play.google.com/store/apps/details?id=com.csdroid.pkg)
 
 ## No Windows: (Linux ou MacOS procure a versão adequada)
 
