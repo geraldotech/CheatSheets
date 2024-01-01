@@ -11,7 +11,7 @@ Adb Shell no Windows (Android Debug Bridge) (O intuito não é explicar o que é
 ## No Device:
 
 - Ativar modo de depuração USB
-- App para get package info:
+- App para get package info ou use o filter do proprio adb.
   - [https://play.google.com/store/apps/details?id=com.ubqsoft.sec01](https://play.google.com/store/apps/details?id=com.ubqsoft.sec01)
   - [https://play.google.com/store/apps/details?id=com.csdroid.pkg](https://play.google.com/store/apps/details?id=com.csdroid.pkg)
 
@@ -91,6 +91,10 @@ com.samsung.android.visionintelligence
 com.sec.spp.push - samsung push
 com.samsung.android.bixby.agent
 com.samsung.android.app.spage - samsung free
-`com.sec.android.soagent` && `com.wssyncmldm` Software update: 
-`com.samsung.android.app.aodservice` Always On Display: 
+com.sec.android.soagent && com.wssyncmldm - Software update
+com.samsung.android.app.aodservice - Always On Display
+com.samsung.android.mapsagent - application recommendations
+com.google.android.projection.gearhead - Android Auto
+com.samsung.android.app.updatecenter - App update
+adb shell pm disable-user --user 0 com.facebook.services && adb shell pm disable-user --user 0 com.facebook.system - multiple packages - Facebook Services
 ```
