@@ -79,7 +79,7 @@ samsung espaço infantil:`com.samsung.android.kidsinstaller`
 
 
 
-### Desabilitados Galaxy S20 FE 5G (Android 12)
+### Desabilitados testados no Galaxy S20 FE 5G (Android 12)
 
 ```css
 com.samsung.android.bixby.wakeup
