@@ -44,8 +44,11 @@ Print Only enabled:
 Print all Disables:
 `adb shell pm list packages -d`
 
-Desabilitar um package:
+Disable package:
 `adb shell pm disable-user --user 0 com.samsung.voiceserviceplatform`
+
+Enable package:
+`adb shell pm enable <app>`
 
 Habilitar um package:
 `adb shell pm enable com.samsung.voiceserviceplatform`
