@@ -50,16 +50,19 @@ Desabilitar um package:
 Habilitar um package:
 `adb shell pm enable com.samsung.voiceserviceplatform`
 
-List all enabled apps, filter by "calculator":
+Filters:
 
-`root@hammerhead:/ # pm list packages -e | grep 'calculator'`
-`package:com.android.calculator2`
+- global
+  - adb shell pm list packages 'face'
+- enabled
+  `adb shell pm list packages -e 'face'` - get all packages that includes (face)
+
+- disabled:
+  - adb shell pm list packages -d 'bixby'
 
 # Some packages for disables
 
 ### Bixby packages (Thanks Galaxy Note 9 on Pie)
-
-Seguindo o comando `pm disable-user --user 0 <nome-pacote>`
 
 ```css
 com.samsung.android.app.spage
@@ -72,15 +75,11 @@ com.samsung.android.bixby.wakeup
 com.samsung.android.bixby.agent.dummy;
 ```
 
-samsung espaço infantil: `com.samsung.android.kidsinstaller`
+samsung espaço infantil:`com.samsung.android.kidsinstaller`
 
-Atualização software:
-`com.sec.android.soagent` &&
-`com.wssyncmldm`
 
-Always On Display: `com.samsung.android.app.aodservice`
 
-### Desabilitados Galaxy S20 FE 5G
+### Desabilitados Galaxy S20 FE 5G (Android 12)
 
 ```css
 com.samsung.android.bixby.wakeup
@@ -92,5 +91,6 @@ com.samsung.android.visionintelligence
 com.sec.spp.push - samsung push
 com.samsung.android.bixby.agent
 com.samsung.android.app.spage - samsung free
-com.wssyncmldm - Software update
+`com.sec.android.soagent` && `com.wssyncmldm` Software update: 
+`com.samsung.android.app.aodservice` Always On Display: 
 ```
