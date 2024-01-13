@@ -79,10 +79,10 @@
 
 
 ## Add GitBash to Windows Terminal
-![image](https://github.com/geraldotech/CheatSheets/assets/92253544/3d211fc7-3799-4273-bf24-d89c5c1ec232 =500x200)
+![image](https://github.com/geraldotech/CheatSheets/assets/92253544/3d211fc7-3799-4273-bf24-d89c5c1ec232=500x200)
 
 para finalizar definir o Git Bash Default Profile
-![image](https://github.com/geraldotech/CheatSheets/assets/92253544/952df641-7b90-4534-8f81-f357f04efb18)
+[image](https://github.com/geraldotech/CheatSheets/assets/92253544/952df641-7b90-4534-8f81-f357f04efb18)
 
 
 
