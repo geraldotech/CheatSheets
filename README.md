@@ -14,6 +14,7 @@
   - [https://placehold.co](https://placehold.co)
   - [https://placehold.jp](https://placehold.jp)
   - [https://picsum.photos](https://picsum.photos)
+  - [https://placekitten.com/](https://placekitten.com/)
 
 ### APIS  
 [https://dog.ceo/api/breeds/image/random](https://dog.ceo/api/breeds/image/random)
