@@ -93,6 +93,9 @@
 - open all methods:
   `CTRL + K + CTRL + J`
 
+- reload 
+  `ctrl + shift + p` type: reload 'Developer reload window'
+
 ## Selecionar vários:
 
 selecione a parte do código depois aplique:
