@@ -6,7 +6,7 @@ By: gmapdev
 
 
 
-[Recommened read Reference syntax](https://www.markdownguide.org/basic-syntax/)
+ :white_check_mark: [Recommened read Reference syntax](https://www.markdownguide.org/basic-syntax/) ✅ 
 
 # :heavy_check_mark: Menu e.g section Heading IDs  
 
