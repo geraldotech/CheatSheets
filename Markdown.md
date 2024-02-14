@@ -3,6 +3,9 @@ By: gmapdev
 
 > A little guide to this text use a simple `>my text`
 
+
+
+
 [Recommened read Reference syntax](https://www.markdownguide.org/basic-syntax/)
 
 # Menu e.g section Heading IDs
@@ -41,6 +44,10 @@ HTML id: `<h2 id="custom-id">Header custom </h2>`
 markdown: `My Great Heading{#custom-id}`
 
 HTML name: `<a name="installing"></a>`
+
+# Checkbox 
+- [x] Earth (Orbit/Moon)
+- [ ] -Earth (Orbit/Moon)
 
 # Paragraph and break line
 
