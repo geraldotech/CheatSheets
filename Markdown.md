@@ -8,7 +8,7 @@ By: gmapdev
 
 [Recommened read Reference syntax](https://www.markdownguide.org/basic-syntax/)
 
-# Menu e.g section Heading IDs
+# :heavy_check_mark: Menu e.g section Heading IDs  
 
 - <a href="#images">Images</a>
 - [Header-auto-id](#header-auto-id)
