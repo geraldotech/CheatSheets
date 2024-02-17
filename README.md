@@ -32,6 +32,14 @@
 - [https://codesandbox.io/](https://codesandbox.io/)
 - [https://stackblitz.com/sign_in](https://stackblitz.com/sign_in)
 
+### Free Static Hosting - Deploy
+
+- GitHub Pages
+- Netlify
+- Vercel
+- [CloudFlare](https://pages.cloudflare.com)
+- Amazon S3
+
 
 ### Colors palett
 - [Clique aqui](https://git.geraldox.com/CSS/pages/curso_em_video/Representando_cores-com-CSS3.html#sites)
