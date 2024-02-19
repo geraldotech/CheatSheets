@@ -60,6 +60,7 @@
 - [https://www.vectorlogo.zone](https://www.vectorlogo.zone)
 - [https://vecta.io/symbols/25/web-technologies](https://vecta.io/symbols/25/web-technologies)
 - [https://devicon.dev/](https://devicon.dev)
+- [https://boxicons.com/](https://boxicons.com/)
 
 ### Disabled JS in browser like a Pro
 
