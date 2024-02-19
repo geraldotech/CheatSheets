@@ -54,6 +54,7 @@
 ### Fonts and Icons:
 
 - [Font Awesome](https://github.com/geraldotech/CheatSheets/blob/main/Font_Awesome.md)
+  - 
 - [https://github.com/feathericons/feather#feather](https://github.com/feathericons/feather#feather)
 - [https://phosphoricons.com/](https://phosphoricons.com)
 - [https://www.vectorlogo.zone](https://www.vectorlogo.zone)
