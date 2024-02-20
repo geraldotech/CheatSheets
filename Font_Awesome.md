@@ -1,8 +1,8 @@
 <h1 align="center"> Font Awesome </h1>
 
-
-<a href="https://fontawesome.com/">website</a> <br>
-<a href="https://usbrandcolors.com/youtube-colors/">https://usbrandcolors.com/youtube-colors/</a>
+- [https://github.com/feathericons/feather#feather](https://github.com/feathericons/feather#feather)
+- <a href="https://fontawesome.com/">website</a> <br>
+- <a href="https://usbrandcolors.com/youtube-colors/">https://usbrandcolors.com/youtube-colors/</a>
 
 
 ### CDN
