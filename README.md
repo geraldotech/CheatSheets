@@ -60,6 +60,18 @@
 - [https://devicon.dev/](https://devicon.dev)
 - [https://boxicons.com/](https://boxicons.com/)
 
+
+### UI
+- https://headlessui.com/
+- https://www.radix-ui.com/primitives/docs/components/dialog
+- https://chakra-ui.com/docs/components/box/usage
+
+# IA
+
+- https://chat.openai.com/
+- https://www.blackbox.ai/chat/expert-react
+- https://gemini.google.com/
+
 ### Disabled JS in browser like a Pro
 
 - open console: **CTRL + shift + J**
