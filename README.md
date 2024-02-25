@@ -62,6 +62,12 @@
 - [https://devicon.dev/](https://devicon.dev)
 - [https://boxicons.com/](https://boxicons.com/)
 
+# Featured Fonts
+
+JetBrains Mono  
+Inter  
+Lato  
+
 
 ### UI
 - https://headlessui.com/
