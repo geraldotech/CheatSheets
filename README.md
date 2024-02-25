@@ -16,8 +16,10 @@
   - [https://picsum.photos](https://picsum.photos)
   - [https://placekitten.com/](https://placekitten.com/)
 
-### APIS  
-[https://dog.ceo/api/breeds/image/random](https://dog.ceo/api/breeds/image/random)
+### APIs
+- [https://dog.ceo/api/breeds/image/random](https://dog.ceo/api/breeds/image/random)
+- https://apigetcep.cloud/25041000 - https://github.com/ccqueiroz/buscacepbrasil
+- https://viacep.com.br/ws/66020710/json/
 
 ### FrontEnd online Editor  
 - [https://www.fronteditor.dev](https://www.fronteditor.dev/) 
