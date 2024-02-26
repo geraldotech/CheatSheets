@@ -168,6 +168,7 @@ multiple values with class and txt:
 
 ## Fonts:
 
+### Dank Mono
 install a font `Dank Mono` [Link download](https://app.box.com/s/bv70o32xwpxnk36l1dth2cd5z7d9t0z6) e depois configurar o `settings.json`
 `add : "editor.fontFamily": "Dank Mono"`
 
@@ -178,6 +179,10 @@ install a font `Dank Mono` [Link download](https://app.box.com/s/bv70o32xwpxnk36
 
 **Com Dank Mono**  
 <img src="./img/vscode/vscode012.png" width="50%">
+
+### JetBrains Mono  https://vueschool.io/articles/vuejs-tutorials/how-to-install-jetbrains-mono-font-in-visual-studio-code/
+
+
 
 ## Best Extensions
 
