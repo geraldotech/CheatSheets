@@ -64,7 +64,6 @@
 
 # Featured Fonts
 
-JetBrains Mono  
 Inter  
 Lato  
 
