@@ -62,7 +62,7 @@
 - [https://devicon.dev/](https://devicon.dev)
 - [https://boxicons.com/](https://boxicons.com/)
 
-# Featured Fonts
+### Featured Fonts
 
 Inter  
 Lato  
@@ -73,7 +73,7 @@ Lato
 - https://www.radix-ui.com/primitives/docs/components/dialog
 - https://chakra-ui.com/docs/components/box/usage
 
-# IA
+### IA
 
 - https://chat.openai.com/
 - https://www.blackbox.ai/chat/expert-react
