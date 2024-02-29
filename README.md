@@ -31,7 +31,7 @@
 
 ### Dev Online Environments
 
-- [https://codesandbox.io/](https://codesandbox.io/)
+- [https://codesandbox.io/](https://codesandbox.io/) `<link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">`
 - [https://stackblitz.com/sign_in](https://stackblitz.com/sign_in)
 
 ### Free Static Hosting - Deploy
