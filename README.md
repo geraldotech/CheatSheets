@@ -45,6 +45,7 @@
 
 ### Colors palett
 - [Clique aqui](https://git.geraldox.com/CSS/pages/curso_em_video/Representando_cores-com-CSS3.html#sites)
+- https://usbrandcolors.com/youtube-colors/
 
 ### Img AI
 - [https://lexica.art/](https://lexica.art)
@@ -56,6 +57,7 @@
 ### Fonts and Icons:
 
 - [Font Awesome](https://github.com/geraldotech/CheatSheets/blob/main/Font_Awesome.md)
+- [https://github.com/feathericons/feather#feather](https://github.com/feathericons/feather#feather)
 - [https://phosphoricons.com/](https://phosphoricons.com)
 - [https://www.vectorlogo.zone](https://www.vectorlogo.zone)
 - [https://vecta.io/symbols/25/web-technologies](https://vecta.io/symbols/25/web-technologies)
