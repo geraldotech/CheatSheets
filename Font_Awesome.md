@@ -1,9 +1,6 @@
 <h1 align="center"> Font Awesome </h1>
 
-- [https://github.com/feathericons/feather#feather](https://github.com/feathericons/feather#feather)
 - <a href="https://fontawesome.com/">website</a> <br>
-- <a href="https://usbrandcolors.com/youtube-colors/">https://usbrandcolors.com/youtube-colors/</a>
-
 
 ### CDN
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
