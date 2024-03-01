@@ -69,8 +69,12 @@
 
 ### Featured Fonts
 
-Inter  
+Inter  - readers
 Lato  
+Roboto - readers
+Poppins
+Anta - good for titles
+
 
 
 ### UI
