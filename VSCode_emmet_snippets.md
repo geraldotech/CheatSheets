@@ -17,6 +17,11 @@
 
 Open Settings or `CTRL + ,` then type `extensions path` and add Path to a folder containing Emmet profiles and snippets .json por se tratar de um arquivo externo, pode adicionar o caminho para o arquivo via OneDrive, Dropbox...
 
+![image](https://github.com/geraldotech/CheatSheets/assets/92253544/e7548951-1bd1-44ae-aea0-557ba77333ad)
+
+
+<hr>
+
 # User Snippets:
 
 You can create a WorkSpace or Global snippets `best`
