@@ -74,7 +74,7 @@
 - du – mostra o tamanho de cada arquivo dentro do diretório.
 - du -ha – mostra o tamanho geral de todos os arquivos de um diretório.
 - du -hs - mostra o tamanho geral
-- netfetch - displays information about your operating system, software and hardware
+- neofetch - displays information about your operating system, software and hardware
   
 
 
