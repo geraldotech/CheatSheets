@@ -93,6 +93,9 @@ Anta - good for titles
 - open console: **CTRL + shift + J**
 - CTRL + shift + P: **type: Javascript**
 
+### emmet Cheat Sheet
+- https://docs.emmet.io/cheat-sheet/
+
 ### shields
 
 [List](https://dev.to/envoy_/150-badges-for-github-pnk#workspace-specs)
