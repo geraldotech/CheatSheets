@@ -55,6 +55,7 @@
 - [https://www.behance.net](https://www.behance.net/)
 - https://storyset.com/
 - https://www.pngegg.com/
+- https://worldvectorlogo.com/
 
   
 ### Fonts and Icons:
