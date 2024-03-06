@@ -4,6 +4,7 @@
 
 - [x] [Download: Git scm](https://git-scm.com/downloads)
 
+
 Fazer a pasta do projeto em (https://github.com/new) e a mesma pasta no seu computador e abrir com o _GitBash here inside_ folder:
 
 ## Write a README.md
@@ -229,7 +230,7 @@ $ git commit -m "renamed" && git push origin main
 ###  specify a specific file using:
      git checkout filename.js
 
-[https://gist.github.com/parmentf/035de27d6ed1dce0b36a](https://gist.github.com/parmentf/035de27d6ed1dce0b36a)
+### Commits Pattern
 
 - FEAT - indica um novo recurso no código
 - FIX - indica que está solucionando um problema (bug fix)
@@ -238,10 +239,14 @@ $ git commit -m "renamed" && git push origin main
 - BUILD - arquivos de build e dependências
 - RERF - identificar quaisquer alterações no code que estejam relacionados a performance
 
-## More Git commits Emojis
+## Git commits Emojis
 
-- [https://github.com/ikatyang/emoji-cheat-sheet](https://github.com/ikatyang/emoji-cheat-sheet)
+- [x] [Commit messages](https://www.linkedin.com/feed/update/urn:li:activity:6941814951699206144/)
+- [ ] [https://github.com/ikatyang/emoji-cheat-sheet](https://github.com/ikatyang/emoji-cheat-sheet)
+- [ ] [https://gist.github.com/parmentf/035de27d6ed1dce0b36a](https://gist.github.com/parmentf/035de27d6ed1dce0b36a)
 
-> By: **geraldoX** 2022
+
+<hr>
+>>  By:  **geraldoX** 2022
 
 
