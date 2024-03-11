@@ -41,6 +41,7 @@
 - Vercel
 - [CloudFlare](https://pages.cloudflare.com)
 - Amazon S3
+- DigitalOcean Apps
 
 
 ### Colors palett
