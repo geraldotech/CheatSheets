@@ -128,16 +128,30 @@ create 6 divs:
 `div*6`
 
 create 5 section with class:
-`section.lead * 5`
+`section.lead*5`
 
 create 4 div class vazias:
-`div.class*4`
+`div*4.`
+
+create 6 div with className
+
+`div.className*6`
 
 create 5 div com text de 1 a 5:
 `div*5{$}`
 
-multiple values with class and txt:
+create 10 div + 10 className and txt in order:
 `div*10.myclass{$}`
+
+create this: `div*5.className${$}`
+
+```html
+<div class="className1">1</div>
+<div class="className2">2</div>
+<div class="className3">3</div>
+<div class="className4">4</div>
+<div class="className5">5</div>
+```
 
 
 # ShortcutsGitBashCmd:
