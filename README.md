@@ -20,6 +20,7 @@
 - [https://dog.ceo/api/breeds/image/random](https://dog.ceo/api/breeds/image/random)
 - https://apigetcep.cloud/25041000 - https://github.com/ccqueiroz/buscacepbrasil
 - https://viacep.com.br/ws/66020710/json/
+- https://jsonplaceholder.typicode.com/todos?_limit=5
 
 ### FrontEnd online Editor  
 - [https://www.fronteditor.dev](https://www.fronteditor.dev/) 
