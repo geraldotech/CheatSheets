@@ -85,6 +85,10 @@ Anta - good for titles
 - https://www.radix-ui.com/primitives/docs/components/dialog
 - https://chakra-ui.com/docs/components/box/usage
 
+### Web Performance
+- https://pagespeed.web.dev/
+
+
 ### IA
 
 - https://chat.openai.com/
