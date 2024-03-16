@@ -49,8 +49,6 @@
 - [Clique aqui](https://git.geraldox.com/CSS/pages/curso_em_video/Representando_cores-com-CSS3.html#sites)
 - https://usbrandcolors.com/youtube-colors/
 
-### Img AI
-- [https://lexica.art/](https://lexica.art)
 
 ### Images
 - [https://dribbble.com/](https://dribbble.com/)
@@ -94,6 +92,8 @@ Anta - good for titles
 - https://chat.openai.com/
 - https://www.blackbox.ai/chat/expert-react
 - https://gemini.google.com/
+  - ### Img AI
+  - [https://lexica.art/](https://lexica.art)
 
 ### Disabled JS in browser like a Pro
 
