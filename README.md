@@ -32,7 +32,7 @@
 
 ### Dev Online Environments
 
-- [https://codesandbox.io/](https://codesandbox.io/) `<link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">`
+- [https://codesandbox.io/](https://codesandbox.io/) 
 - [https://stackblitz.com/sign_in](https://stackblitz.com/sign_in)
 
 ### Free Static Hosting - Deploy
@@ -66,7 +66,7 @@
 - [https://www.vectorlogo.zone](https://www.vectorlogo.zone)
 - [https://vecta.io/symbols/25/web-technologies](https://vecta.io/symbols/25/web-technologies)
 - [https://devicon.dev/](https://devicon.dev)
-- [https://boxicons.com/](https://boxicons.com/)
+- [https://boxicons.com/](https://boxicons.com/) - `<link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">`
 
 ### Featured Fonts
 
