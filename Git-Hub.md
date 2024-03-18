@@ -7,17 +7,17 @@
 
 Fazer a pasta do projeto em (https://github.com/new) e a mesma pasta no seu computador e abrir com o _GitBash here inside_ folder:
 
-## Write a README.md
+### Write a README.md
 
 ```
 echo "# thisatest" >> README.md
 ```
 
-## Iniciar repositório: (default is: master)
+### Iniciar repositório: (default is: master)
 
      git init
 
-## Add single Files:
+### Add single Files:
 
 - single
 
@@ -31,64 +31,64 @@ echo "# thisatest" >> README.md
     $ git add .
 ```
 
-##  list all the branches in your repository and see which one you're currently on:
+###  list all the branches in your repository and see which one you're currently on:
      $ git branch
 
-##  create and switch to a new branch in a single command:
+###  create and switch to a new branch in a single command:
      $ git switch -c feature/new-feature
 
-## Change branch master para main:
+### Change branch master para main:
 
     $ git branch -M main
     $ git checkout main
 
-## Add remote:
+### Add remote:
 
     git remote add origin https://github.com/geraldotech/projeto.git
 
-## remove file from add:
+### remove file from add:
 
     git reset  | git reset <filename>
 
-## Display changes to be committed:
+### Display changes to be committed:
 
     git status
 
   <img src="https://raw.githubusercontent.com/geraldotech/Git-How-TO/main/img/changes-to-be-committed.jpg" alt="alt-text" style="zoom:50%;" />
     
-### Commit:
+#### Commit:
 
     $ git commit -m "msg here"
 
-## Setup login
+### Setup login
 
     git config --global user.email "email@geraldo.com"
     git config --global user.name "Your name" // same to change UserName GitLens
     git commit -m "first commit"
 
-## Push **upload/deploy/sent to git**:
+### Push **upload/deploy/sent to git**:
 
     git push -u origin main | git push
 
-## Commint && push inline:
+### Commint && push inline:
 
     $ git commit -m "update" && git push -u origin main
 
-## clear screen:
+### clear screen:
 
     clear
 
-## Delete a file from loca repository and commit it.
+### Delete a file from loca repository and commit it.
 
     $ git rm sabado.html
     $ git commit -m "arquivo apagado"
     $ git push
 
-## restore a file before delete
+### restore a file before delete
 
     $ git restore upload/1.txt
 
-## restore 2 when uses:
+### restore 2 when uses:
 
     $ git rm -r upload/1.txt
     $ git restore --staged upload/1.txt
@@ -117,40 +117,45 @@ $ git commit -m "novo btn"
 $ git push origin version2
 ```
 
+- create empty Branch:
+  ```
+  git switch --orphan <new branch>
+  ```
+
 - Display all Branch Local
-  ```
-      $ git branch
-  ```
+```
+$ git branch
+```
 - Display all Branch Remote
-  ```
-      $ git branch -r
-  ```
+```
+$ git branch -r
+```
 - Display all Branch
-  ```
-      $ git branch -a
-  ```
+```
+$ git branch -a
+```
 - Switch to Branch in Your Local Repo
-  ```
-      $ git checkout version2
-  ```
+```
+ $ git checkout version2
+```
 - Deploy this branch:
 
   ```
      $ git push -u origin version2
   ```
 
-  ### Delete Branchs:
+  #### Delete Branchs:
 
-  #### Remotely:
+  ###### Remotely:
 
        $ git push origin --delete my-branch-name
 
-  #### Locally:
+  ###### Locally:
 
        $ git branch -d main3
        $ git branch --delete sabado
 
-## Merge
+### Merge
 
 > > e.gbtn com main:
 
@@ -158,34 +163,34 @@ $ git push origin version2
 2 - git merge btn  
 3 - git push origin main
 
-### Clonando repo
+#### Clonando repo
 
-#### Make a folder and:
+###### Make a folder and:
 
      $ git clone https://github.com/geraldotech/Login-Form-HTML-CSS
 
-#### Update clone:
+###### Update clone:
 
     cd /folder => $git pull
 
 ---
 
-## Others commands:
+### Others commands:
 
-#### Remove remote:
+###### Remove remote:
 
     git remote rm origin
 
-#### Check out git version:
+###### Check out git version:
 
     git --version
 
-#### Update repo local:
+###### Update repo local:
 
     git pull --rebase origin <branch>
     git push
 
-#### Update repo local:
+###### Update repo local:
 
 ```bash
 
@@ -194,16 +199,16 @@ fetch diff origin/main
 only: git pull
 ```
 
-### Rename a file
+#### Rename a file
 
     $ git mv Answers_ref_a_CSS.pdf Answers_CSS.pdf
     $ git commit -m "renamed" && git push origin main
 
-### branch missing on local
+#### branch missing on local
 
     $ git fetch
 
-### Rename a repository
+#### Rename a repository
 
 1. Go to [Gitweb](https://github.com/) and rename Repository name
 2. Rename folder in local location
@@ -221,27 +226,27 @@ $ git remote add origin https://github.com/geraldotech/server-guide.git
 $ git commit -m "renamed" && git push origin main
 ```
 
-### Bugs, maybe delete _.git_ from local
+#### Bugs, maybe delete _.git_ from local
 
     git rm -r .git
 
-### Rewriting the most recent commit message
+#### Rewriting the most recent commit message
 
     git commit --amend
 
-### Semantic Commits + emoji
+#### Semantic Commits + emoji
 
 
-### Undo all changes (including all changes that have not been committed!) with:
+#### Undo all changes (including all changes that have not been committed!) with:
      git checkout .
-###  specify a specific file using:
+####  specify a specific file using:
      git checkout filename.js
 
-###  you will not loose your local changes after a  git reset --hard HEAD^
+####  you will not loose your local changes after a  git reset --hard HEAD^
 ![image](https://github.com/geraldotech/CheatSheets/assets/92253544/84ef2a98-ce49-4629-88b2-eadae0bb8d6d)
 
 
-### Commits Pattern
+#### Commits Pattern
 
 - FEAT - indica um novo recurso no código
 - FIX - indica que está solucionando um problema (bug fix)
@@ -250,7 +255,7 @@ $ git commit -m "renamed" && git push origin main
 - BUILD - arquivos de build e dependências
 - RERF - identificar quaisquer alterações no code que estejam relacionados a performance
 
-## Git commits Emojis
+### Git commits Emojis
 
 - [x] [Commit messages](https://www.linkedin.com/feed/update/urn:li:activity:6941814951699206144/)
 - [ ] [https://github.com/ikatyang/emoji-cheat-sheet](https://github.com/ikatyang/emoji-cheat-sheet)
