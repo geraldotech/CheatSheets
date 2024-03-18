@@ -246,6 +246,16 @@ $ git commit -m "renamed" && git push origin main
 ![image](https://github.com/geraldotech/CheatSheets/assets/92253544/84ef2a98-ce49-4629-88b2-eadae0bb8d6d)
 
 
+
+## Erros:
+
+
+After Try merge files into main `User fatal: refusing to merge unrelated histories`
+The error message "fatal: refusing to merge unrelated histories" occurs when Git encounters two divergent branches with no common ancestry. This typically happens when you're trying to merge branches that have no common history.
+To resolve this issue, you can add the --allow-unrelated-histories flag to the git merge command:
+
+- `git merge --allow-unrelated-histories files`
+
 #### Commits Pattern
 
 - FEAT - indica um novo recurso no código
