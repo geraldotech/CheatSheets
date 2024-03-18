@@ -31,6 +31,12 @@ echo "# thisatest" >> README.md
     $ git add .
 ```
 
+##  list all the branches in your repository and see which one you're currently on:
+     $ git branch
+
+##  create and switch to a new branch in a single command:
+     $ git switch -c feature/new-feature
+
 ## Change branch master para main:
 
     $ git branch -M main
@@ -141,6 +147,7 @@ $ git push origin version2
 
   #### Locally:
 
+       $ git branch -d main3
        $ git branch --delete sabado
 
 ## Merge
