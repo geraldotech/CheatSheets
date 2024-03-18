@@ -230,6 +230,10 @@ $ git commit -m "renamed" && git push origin main
 ###  specify a specific file using:
      git checkout filename.js
 
+###  you will not loose your local changes after a  git reset --hard HEAD^
+![image](https://github.com/geraldotech/CheatSheets/assets/92253544/84ef2a98-ce49-4629-88b2-eadae0bb8d6d)
+
+
 ### Commits Pattern
 
 - FEAT - indica um novo recurso no código
