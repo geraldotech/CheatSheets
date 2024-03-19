@@ -92,7 +92,9 @@ inside VS Code or Windows Explorer to `AppData > Roaming > Code > User > Snippet
 
 Full export
 ![image](https://github.com/geraldotech/CheatSheets/assets/92253544/c971cd76-785c-4b2a-8f28-10182187de76)
+
 or can chooce only Settings, keyboard shortcuts and Snippets
+
 ![image](https://github.com/geraldotech/CheatSheets/assets/92253544/62182df0-0522-49fc-9ee4-a744401f7174)
 
 Download my profiles in: https://1drv.ms/f/s!Aol5qLKOISMz4hMS39bBOqHNcLrR?e=V3tfln
