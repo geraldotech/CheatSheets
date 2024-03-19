@@ -14,6 +14,8 @@
 - Zoom:
   Hold z + click in area
 
+- Show grid: `shift + G`
+
 # Intragram Post
 
 - Criar frame `F` `1080x1080`
