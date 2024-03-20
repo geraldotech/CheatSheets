@@ -1,4 +1,4 @@
-# Criando um ambiente Dev Produvito com WSL no Windows
+# Ambiente Dev com WSL no Windows | Set up your development environment
 
 
 - Como instalar o wsl no Windows 10/11 [LINK](https://github.com/geraldotech/CheatSheets/blob/main/Linux/Docs/WSL-Windows_Subsystem_for_Linux.md)
@@ -17,13 +17,14 @@ WSL funciona de forma inteligente com para virtualização só consome o que é 
 
 # Backups:
 > open power shell or dos
-> 
+
 - `wsl --export Ubuntuhostname C:/users/gmap/Documents/back.tar`
 - `wsl --import Ubuntuhostname C:/users/gmap/Documents/back.tar`
 
 
 
 - # Access Windows directory:
+- 
 - `gmapdev@gmapnitro:~$ cd /mnt/`
 - `gmapdev@gmapnitro:/mnt$ cd c/`
 
@@ -35,9 +36,9 @@ gmapdev@gmapnitro:~$ pwd
 gmapdev@gmapnitro:~$ explorer.exe
 ```
 
-## VSCode
+# VSCode
 
-### [WSL shared network] location (\wsl$\Ubuntu\home) modo rede
+## [WSL shared network] location (\wsl$\Ubuntu\home) modo rede
 > before WSL extesion
 
 wsl open folder in VsCODE [Win]: `~ ❯ code project`
