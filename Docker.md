@@ -52,6 +52,45 @@ Container sempre vem de uma imagem, então todo processo será foi perdido, ent�
 - test it, you are sharing a linux wsl folder with Docker and access it from VSCODE [Windows]
 
 
+# Creating a custom image with your project
+
+1 - create a Dockerfile
+2 - `docker build -t geraldocosta/nginx-test:latest .`
+3 - now run your own image: `docker run -p 8080:80 geraldocosta/nginx-test:latest`
+
+![image](https://github.com/geraldotech/CheatSheets/assets/92253544/9a64a500-3d5d-4a87-999b-d31a02e5b58c)
+
+
+# docker-compose.yaml
+
+ferramente que ajuda a orquestar os containers que estão dentro de um manifesto
+
+```yaml
+version: '3'
+
+services:
+  mysql:
+    image: mysql:8
+    container_name: mysql
+    restart: always
+    environment: 
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: gmapdev
+    ports: 
+      - 3306:3306
+```
+
+- `docker compose up`
+- `docker compose up -d` - run in background
+- `docker compose down` kill container but volumes is not deleted
+- ` docker compose ps` list all docker compose running in background
+
+![image](https://github.com/geraldotech/CheatSheets/assets/92253544/fabe5e20-4041-45c9-b131-e2fa0700d382)
+
+
+
+
+
 ## install https://ohmyz.sh/#install
 
 ```shell
