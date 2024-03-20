@@ -32,25 +32,6 @@ Change names:
 Stop all instances of WSL, go to `Computer\HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Lxss\`
 
 
-## Access Windows directory:
-- `gmapdev@gmapnitro:~$ cd /mnt/`
-- `gmapdev@gmapnitro:/mnt$ cd c/`
-
-## explorer.exe 
-
-```shell
-gmapdev@gmapnitro:~$ pwd
-/home/gmapdev
-gmapdev@gmapnitro:~$ explorer.exe
-~ ❯ explorer.exe project01
-```
-
-## shutdown
-- `wsl --shutdown`
-
-## wslconfig
-
-set a config create a  `gmapdev@gmapnitro:~$ vim /mnt/c/Users/gmap/.wslconfig` file: [REF](https://youtu.be/vkJr0mK_u6s?t=5263)
 
 
 
