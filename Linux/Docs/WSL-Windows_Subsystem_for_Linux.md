@@ -26,3 +26,7 @@ Change Default:
 run a specific wsl distribution:
 
 ![image](https://github.com/geraldotech/CheatSheets/assets/92253544/2380e2c1-d3db-4782-b346-8ee7ba2b6394)
+
+Change names:
+
+Stop all instances of WSL, go to `Computer\HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Lxss\`
