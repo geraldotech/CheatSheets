@@ -1,5 +1,11 @@
 # Docker é similar ao virtualbox ?
 
+
+- WSL usando o tutorial de instalação: https://github.com/codeedu/wsl2-docker-quickstart.  
+- https://github.com/argentinaluiz/ambiente-dev-produtivo?tab=readme-ov-file
+- https://github.com/codeedu/wsl2-docker-quickstart?tab=readme-ov-file#erro-ao-iniciar-o-docker-no-ubuntu-2204
+ 
+
 Sim, Docker e VirtualBox são ferramentas que têm alguns propósitos semelhantes, mas funcionam de maneiras um pouco diferentes.
 
 O VirtualBox é uma tecnologia de virtualização que permite criar máquinas virtuais completas em um sistema host. Isso significa que você pode executar sistemas operacionais inteiros dentro dessas máquinas virtuais, como se fossem computadores separados dentro do seu computador real. Cada máquina virtual no VirtualBox possui seu próprio sistema operacional e recursos isolados, como memória e espaço em disco.
@@ -26,3 +32,17 @@ Por exemplo, se você estiver desenvolvendo um aplicativo da web que requer um c
 
 ## Docker e Docker Compose - Instalação no Windows [Sem Docker Desktop] e no Ubuntu
 - https://www.youtube.com/watch?v=NMsQ6V97YaQ
+
+
+
+## install https://ohmyz.sh/#install
+
+```shell
+sudo apt update
+sudo apt install git zsh -y
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+# Themes
+  -  powerlevel10k https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#manual
+
