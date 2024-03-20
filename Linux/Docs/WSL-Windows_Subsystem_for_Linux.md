@@ -8,18 +8,15 @@ Open CDM as Admin and run: `wsl --install`
 Check version: `wsl -v`
 
 
-![image](https://github.com/geraldotech/CheatSheets/assets/92253544/740f7172-4d96-42b4-8041-1cbcc59141cd)
+Check distros: `wsl -l`
 
-
-Check distros: 
-
-![image](https://github.com/geraldotech/CheatSheets/assets/92253544/c4a2cfa1-868c-431d-87b5-4dad8a5db7b4)
 
 list of valid distributions:
 
 ![image](https://github.com/geraldotech/CheatSheets/assets/92253544/905662f8-2fe8-4006-b394-0c3e235c5940)
 
 Add distro:
+
 ![image](https://github.com/geraldotech/CheatSheets/assets/92253544/87212799-5417-42ae-8bd5-aa05b4752be9)
 
 Change Default:
@@ -35,9 +32,25 @@ Change names:
 Stop all instances of WSL, go to `Computer\HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Lxss\`
 
 
-# Access Windows:
+## Access Windows directory:
 - `gmapdev@gmapnitro:~$ cd /mnt/`
 - `gmapdev@gmapnitro:/mnt$ cd c/`
+
+## explorer.exe 
+
+```shell
+gmapdev@gmapnitro:~$ pwd
+/home/gmapdev
+gmapdev@gmapnitro:~$ explorer.exe
+```
+
+## shutdown
+- `wsl --shutdown`
+
+## wslconfig
+
+set a config create a  `gmapdev@gmapnitro:~$ vim /mnt/c/Users/gmap/.wslconfig` file: [REF](https://youtu.be/vkJr0mK_u6s?t=5263)
+
 
 
 
