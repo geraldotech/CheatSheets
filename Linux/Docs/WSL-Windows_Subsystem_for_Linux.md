@@ -42,6 +42,7 @@ Stop all instances of WSL, go to `Computer\HKEY_CURRENT_USER\Software\Microsoft\
 gmapdev@gmapnitro:~$ pwd
 /home/gmapdev
 gmapdev@gmapnitro:~$ explorer.exe
+~ ❯ explorer.exe project01
 ```
 
 ## shutdown
