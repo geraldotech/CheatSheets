@@ -1,4 +1,4 @@
-# Docker é simular ao virtualbox ?
+# Docker é similar ao virtualbox ?
 
 Sim, Docker e VirtualBox são ferramentas que têm alguns propósitos semelhantes, mas funcionam de maneiras um pouco diferentes.
 
