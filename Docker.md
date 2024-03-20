@@ -23,3 +23,6 @@ Por exemplo, se você estiver desenvolvendo um aplicativo da web que requer um c
 
 - mínimo de Docker comandos... https://www.youtube.com/watch?v=ntbpIfS44Gw
 - Uma dica rápida: Não precisa copiar o ID todo do container na hora de manipular ele, já cheguei fazer com apenas os dois primeiros carácteres do ID. Nesse caso eu não tinha IDs com iniciais parecidas.
+
+## Docker e Docker Compose - Instalação no Windows [Sem Docker Desktop] e no Ubuntu
+- https://www.youtube.com/watch?v=NMsQ6V97YaQ
