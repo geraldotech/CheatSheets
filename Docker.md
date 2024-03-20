@@ -2,7 +2,6 @@
 
 
 - WSL usando o tutorial de instalação: https://github.com/codeedu/wsl2-docker-quickstart.  
-- https://github.com/argentinaluiz/ambiente-dev-produtivo?tab=readme-ov-file
 - https://github.com/codeedu/wsl2-docker-quickstart?tab=readme-ov-file#erro-ao-iniciar-o-docker-no-ubuntu-2204
  
 
