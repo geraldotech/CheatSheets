@@ -10,6 +10,8 @@ Check version: `wsl -v`
 
 Check distros: `wsl -l`
 
+shutdown:  `wsl --shutdown`
+
 
 list of valid distributions:
 
