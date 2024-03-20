@@ -106,7 +106,20 @@ Para repack é necessário instalar:
   - `apt-get install dpkg-repack`
 
 
-### Avançados:
+
+### Utils:
+
+check content install: `apt install bat`
+
+- Criar arquivos vazios:
+  - `touch`
+
+- Criar arquivos content:
+  - `echo “hello” > index.html`
+  - `echo Amazon >> file.txt`
+  - write one on a.txt inside one directory:
+    - `echo one > one/a.txt`
+
 
 - Proteger arquivo contra modificação:
 
@@ -117,16 +130,13 @@ Para repack é necessário instalar:
   - `sudo chattr -i /etc`
 
 - Acessar últimos comando a partir de um editor de texto:
-
-  geraldo@geraldo-dell-inspiron:
   - `~$ sudo gedit ~/.bash_history`
 
 - Nota: Após editar o arquivo histórico de comandos é importante também limpar o histórico da memória RAM, caso
-  ntrário os comandos guardados na memória RAM serão transferidos novamente para o arquivo original localizado no sistema:
+  contrário os comandos guardados na memória RAM serão transferidos novamente para o arquivo original localizado no sistema:
   - `$ history -c`
 
 - Alterar permissões de um arquivo ou pasta (pasta com cadeado):
-
   - `$ sudo chown -R usuario:usuario pasta`
 
 - Como extrair tar.gz
@@ -137,7 +147,6 @@ Para repack é necessário instalar:
   - `$ sudo gunzip file.gz`
 
 - Como extrair .tar
-
   - `$ sudo tar xvf filename.tar`
 
 - Como extrair para uma pasta de destino:
@@ -148,13 +157,7 @@ Para repack é necessário instalar:
   `apt-get install zip`
   `zip -r wordpress.zip /var/www/wordpress`
 
-- Criar arquivos vazios:
-  - `touch`
+  
 
-- Criar arquivos content:
-  - `echo “hello” > index.html`
-  - `echo Amazon >> file.txt`
-  - write one on a.txt inside one directory:
-    - `echo one > one/a.txt`
 
 [command-to-zip-a-directory-using-a-specific-directory-as-the-root](http://stackoverflow.com/questions/2473115/command-to-zip-a-directory-using-a-specific-directory-as-the-root)
