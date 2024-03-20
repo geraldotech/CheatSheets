@@ -4,18 +4,19 @@
 - Como instalar o wsl no Windows 10/11 [LINK](https://github.com/geraldotech/CheatSheets/blob/main/Linux/Docs/WSL-Windows_Subsystem_for_Linux.md)
 - Após dominar o uso de wsl aprenda Docker [LINK](https://github.com/geraldotech/CheatSheets/blob/main/Docker.md)
 
-A Microsoft criou o wsl pensando nos desenvolvedores que não querem abrir mão do Windows, contudo requer o uso do ambiente Linux, tem  Kernel completo do Linux embarcado, no Link abaixo você pode conferir um guide com slides de como funciona o wsl e também o link da Microsoft
+A Microsoft criou o wsl pensando nos desenvolvedores que não querem abrir mão do Windows, contudo requer o uso do ambiente Linux, tem Kernel completo do Linux embarcado, no link abaixo você pode conferir um guide com slides de como funciona o wsl e também o link da Microsoft de como configurar um setup de development 
 se você ainda não usa esse recurso começe agora.
 
 - https://github.com/argentinaluiz/ambiente-dev-produtivo?tab=readme-ov-file
 - https://learn.microsoft.com/en-us/windows/wsl/setup/environment
 
-WSL funciona de forma inteligente com para virtualização só consome o que é necessário, antigamente lá em 2012 eu tinha meu ambiente de Dev, era um virtualbox rodando um Ubuntu Server, hoje temos WSL e ainda pode ficar melhor com Docker.
+WSL funciona de forma inteligente com para virtualização só consome o que é necessário, antigamente lá em 2012 eu tinha meu ambiente de Dev um Ubuntu Server running on Virtualbox e as vezes um dual bookt, hoje temos WSL e ainda pode ficar melhor com Docker.
 
-- [ ] linux to windows - works but bad perfomance: `php index.php` operação de rede
+- [ ] linux to windows - works but bad perfomance: **e.g:** `php index.php` operação de rede
 - [x] run linux in linux - faster
 
 # Backups:
+
 > open power shell or dos
 
 - `wsl --export Ubuntuhostname C:/users/gmap/Documents/back.tar`
@@ -24,7 +25,7 @@ WSL funciona de forma inteligente com para virtualização só consome o que é 
 
 
 - # Access Windows directory:
-- 
+
 - `gmapdev@gmapnitro:~$ cd /mnt/`
 - `gmapdev@gmapnitro:/mnt$ cd c/`
 
@@ -36,9 +37,9 @@ gmapdev@gmapnitro:~$ pwd
 gmapdev@gmapnitro:~$ explorer.exe
 ```
 
-# VSCode
+- # VSCode
 
-## [WSL shared network] location (\wsl$\Ubuntu\home) modo rede
+- ## [WSL shared network] location (\wsl$\Ubuntu\home) modo rede
 > before WSL extesion
 
 wsl open folder in VsCODE [Win]: `~ ❯ code project`
@@ -49,9 +50,11 @@ wsl open folder in VsCODE [Win]: `~ ❯ code project`
 
 wsl você pode naturalmente fazer um `~ ❯ explorer.exe project01` que vai abrir a pasta que está no Windows
 
-### VSCode [WSL Mode]
+- ## VSCode [WSL Mode]
 
 - Download and why you need it: https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl
+- [READ MORE](https://code.visualstudio.com/docs/remote/wsl)
+
 
 >> after extension
 
