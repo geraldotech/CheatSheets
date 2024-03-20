@@ -1,9 +1,11 @@
+# Windows_Subsystem_for_Linux
 
 
-Open CDM as Admin and run: `wsl --install`
 
 - https://learn.microsoft.com/en-us/windows/wsl/install
+- More commands: https://learn.microsoft.com/en-us/windows/wsl/basic-commands
 
+Open CDM as Admin and run: `wsl --install`
 
 Check version: `wsl -v`
 
