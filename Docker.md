@@ -32,6 +32,24 @@ Por exemplo, se você estiver desenvolvendo um aplicativo da web que requer um c
 ## Docker e Docker Compose - Instalação no Windows [Sem Docker Desktop] e no Ubuntu
 - https://www.youtube.com/watch?v=NMsQ6V97YaQ
 
+- `docker ps` - show containers running
+- `docker ps -a` - show all
+
+
+### To run [nginx](https://hub.docker.com/_/nginx): 
+
+- `docker run nginx` works but us running only on docker port 80
+-  `docker run -p 8080:80 nginx` p = published,  to run in http://localhost:8080 from Computer, rodar portas baixas precisa ser admin. now run `docker ps` to see this redirect
+   - `~ ❯ netstat -tln` to checkout as portas em LISTEN
+-  `~ ❯ docker exec friendly_noether ls` - executar comando em container em execução, open a in a new tab | friendly_noether is a random name, but works with docker id too
+-  `docker run -it nginx bash`  - run nginx go to bash, -i interative mode, now you can change `root@19966f3508c8:/# cat /usr/share/nginx/html/index.html`
+-  `docker container rm <id>` - delte container
+
+Container sempre vem de uma imagem, então todo processo será foi perdido, então vamos especificar um volume para este container
+
+- Open VSCode on terminal run `docker run -p 8080:80 -v $(pwd)/html:/usr/share/nginx/html nginx` -v nginx - -v de volume
+- create a html folder and index.html
+- test it, you are sharing a linux wsl folder with Docker and access it from VSCODE [Windows]
 
 
 ## install https://ohmyz.sh/#install
