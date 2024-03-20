@@ -23,3 +23,6 @@ Change Default:
 
 ![image](https://github.com/geraldotech/CheatSheets/assets/92253544/8a82790c-2e0e-4582-9b7c-ad8a285b7d39)
 
+run a specific wsl distribution:
+
+![image](https://github.com/geraldotech/CheatSheets/assets/92253544/2380e2c1-d3db-4782-b346-8ee7ba2b6394)
