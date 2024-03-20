@@ -109,7 +109,7 @@ Para repack é necessário instalar:
 
 ### Utils:
 
-check content install: `apt install bat`
+check content install: `apt install bat` and run `batcat file.html`
 
 - Criar arquivos vazios:
   - `touch`
