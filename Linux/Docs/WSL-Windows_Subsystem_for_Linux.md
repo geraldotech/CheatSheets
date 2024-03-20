@@ -33,3 +33,12 @@ run a specific wsl distribution:
 Change names:
 
 Stop all instances of WSL, go to `Computer\HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Lxss\`
+
+
+# Access Windows:
+- `gmapdev@gmapnitro:~$ cd /mnt/`
+- `gmapdev@gmapnitro:/mnt$ cd c/`
+
+
+
+
