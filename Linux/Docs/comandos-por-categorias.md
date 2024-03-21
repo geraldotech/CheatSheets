@@ -62,7 +62,7 @@
 - uname - nome do sistemas
   - unamed -a - nome do sistemas com detalhes
 - dmesg: Mostra as mensagens de inicialização do Kernel. São mostradas as mensagens da última inicialização do sistema
-- ls -la – mostra as permissões dos arquivos.
+- `ls -la` ou apenas `ls -l` – mostra as permissões dos arquivos.
 - `cp`: copia ficheiros
   - `cp -a one/. /home/gmap/Downloads/two/` using a dot at the end of our source directory to indicate that everything within the directory should be copied
   - `cp -a /folder/ /newfolderpath` - copiar pasta recursive 
