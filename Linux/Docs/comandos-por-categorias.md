@@ -59,7 +59,8 @@
 - rm -rf: remove um diretório
 - rm – remove arquivos
 - mv- mover arquivos
-- uname: mostra informações do sistema operacional e do computador
+- uname - nome do sistemas
+  - unamed -a - nome do sistemas com detalhes
 - dmesg: Mostra as mensagens de inicialização do Kernel. São mostradas as mensagens da última inicialização do sistema
 - ls -la – mostra as permissões dos arquivos.
 - `cp`: copia ficheiros
