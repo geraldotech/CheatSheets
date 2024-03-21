@@ -1,7 +1,7 @@
 <h1 align="center">Linux Ubuntu - Comandos</h1>
 
 - Inicial version: 18/5/2012
-- Last update: 04/02/2024
+- Last update: 21/03/2024
 - By: Geraldo Filho
 
 <hr>
@@ -75,7 +75,7 @@
 - du – mostra o tamanho de cada arquivo dentro do diretório.
 - du -ha – mostra o tamanho geral de todos os arquivos de um diretório.
 - du -hs - mostra o tamanho geral
-- neofetch - displays information about your operating system, software and hardware
+- [neofetch](https://github.com/dylanaraps/neofetch/wiki/Installation#debian) - displays information about your operating system, software and hardware
   
 
 
@@ -110,7 +110,8 @@ Para repack é necessário instalar:
 
 ### Utils:
 
-check content install: `apt install bat` and run `batcat file.html`
+- check content install: 
+  - `apt install bat` and run `batcat file.html`
 
 - Criar arquivos vazios:
   - `touch`
@@ -123,11 +124,9 @@ check content install: `apt install bat` and run `batcat file.html`
 
 
 - Proteger arquivo contra modificação:
-
   - `sudo chattr +i /etc`
 
 - Desproteger arquivo:
-
   - `sudo chattr -i /etc`
 
 - Acessar últimos comando a partir de um editor de texto:
@@ -144,7 +143,6 @@ check content install: `apt install bat` and run `batcat file.html`
   - `$ sudo tar xvfz filename.tar.gz`
 
 - Como extrair gz
-
   - `$ sudo gunzip file.gz`
 
 - Como extrair .tar
