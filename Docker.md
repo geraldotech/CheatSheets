@@ -1,9 +1,13 @@
-# Docker é similar ao virtualbox ?
+# Docker
 
 
 - WSL usando o tutorial de instalação: https://github.com/codeedu/wsl2-docker-quickstart.  
 - https://github.com/codeedu/wsl2-docker-quickstart?tab=readme-ov-file#erro-ao-iniciar-o-docker-no-ubuntu-2204
+- Docker e Docker Compose - Instalação no Windows [Sem Docker Desktop] e no Ubuntu https://www.youtube.com/watch?v=NMsQ6V97YaQ
  
+<details>
+<summary>é similar ao virtualbox?</summary>
+
 
 Sim, Docker e VirtualBox são ferramentas que têm alguns propósitos semelhantes, mas funcionam de maneiras um pouco diferentes.
 
@@ -14,36 +18,50 @@ Por outro lado, o Docker utiliza uma tecnologia chamada de contêineres. Os cont
 Então, enquanto o VirtualBox cria máquinas virtuais completas, o Docker cria contêineres que contêm apenas as partes necessárias do software, o que os torna mais leves e mais rápidos de serem iniciados e executados. Em resumo, enquanto ambos permitem isolar e executar aplicativos, o Docker é mais leve e voltado para a execução de aplicativos isolados, enquanto o VirtualBox é mais adequado para criar ambientes completos de sistemas operacionais virtuais.
 
 ![image](https://github.com/geraldotech/CheatSheets/assets/92253544/cea0dc67-f61a-4f19-b602-cacd672f090d)
+ 
+</details>
 
 
+### Quick start Docker:
 
-## docker-compose 
+- ## Utils
+ - get images in docker hub and create containers from images
 
-O docker-compose é uma ferramenta que facilita a definição e execução de aplicativos Docker com vários contêineres. Em vez de criar e gerenciar manualmente vários contêineres individuais usando comandos Docker separados, o docker-compose permite definir toda a configuração do aplicativo em um arquivo YAML chamado docker-compose.yml.
-
-Dentro do arquivo docker-compose.yml, você pode especificar os serviços que compõem seu aplicativo, como contêineres Docker, redes, volumes, variáveis de ambiente e outros detalhes de configuração. Depois de definir esse arquivo, você pode usar o comando docker-compose para iniciar, parar e gerenciar todo o aplicativo com apenas um comando.
-
-Por exemplo, se você estiver desenvolvendo um aplicativo da web que requer um contêiner para o servidor da web (como o Apache ou o Nginx) e outro para o banco de dados (como o MySQL ou o PostgreSQL), você pode definir esses serviços no arquivo docker-compose.yml. Em seguida, você pode usar o docker-compose para iniciar e parar todos esses contêineres juntos, simplificando bastante o processo de desenvolvimento e implantação de aplicativos baseados em Docker.
-
-
-- mínimo de Docker comandos... https://www.youtube.com/watch?v=ntbpIfS44Gw
-- Uma dica rápida: Não precisa copiar o ID todo do container na hora de manipular ele, já cheguei fazer com apenas os dois primeiros carácteres do ID. Nesse caso eu não tinha IDs com iniciais parecidas.
-
-## Docker e Docker Compose - Instalação no Windows [Sem Docker Desktop] e no Ubuntu
-- https://www.youtube.com/watch?v=NMsQ6V97YaQ
-
+- `docker run --name mysqlContainer -e MYSQL_ROOT_PASSWORD=root mysql` eg creating a mysql docker from image after https://hub.docker.com/_/mysql
+- **if docker run again will create multiple containers, if created just run it by id or custom name**
 - `docker ps` - show containers running
-- `docker ps -a` - show all
+- `docker ps -a` list all
+- `docker ps -q -a` list all only ids
+- `docker start <id>` start again
+- `docker stop <id> or <name>` stop
+
+Fazer o bind das portas do container para conexão da porta do container e não da máquina
+Remover o container e lets create a new one:
+
+- `docker run --name MysqlContainer2 -e MYSQL_ROOT_PASSWORD=root -p 3306:3306 -d mysql`
+- `-e`: variavelAmbiente  `--name`: nomeContainer `-p`: portaMaquina:portaContainer  `-d`: runBackground `-q` flag is short for --quiet. When used, it instructs Docker to only print the container IDs, without any additional information
+
+Now teste mysql connection:
+
+![image](https://github.com/geraldotech/CheatSheets/assets/92253544/84869adf-9d23-41be-a3b2-d416d005fb13)
+
+
+
+- ## Filter
+- remove by names: - `docker rm $(docker ps -a -q --filter "name=geraldoreact/node")`
+
+![image](https://github.com/geraldotech/CheatSheets/assets/92253544/f7966b6f-3e62-4c6f-9331-da3f30de2edc)
+
 
 
 ### To run [nginx](https://hub.docker.com/_/nginx): 
 
-- `docker run nginx` works but us running only on docker port 80
--  `docker run -p 8080:80 nginx` p = published,  to run in http://localhost:8080 from Computer, rodar portas baixas precisa ser admin. now run `docker ps` to see this redirect
-   - `~ ❯ netstat -tln` to checkout as portas em LISTEN
--  `~ ❯ docker exec friendly_noether ls` - executar comando em container em execução, open a in a new tab | friendly_noether is a random name, but works with docker id too
--  `docker run -it nginx bash`  - run nginx go to bash, -i interative mode, now you can change `root@19966f3508c8:/# cat /usr/share/nginx/html/index.html`
--  `docker container rm <id>` - delte container
+- `docker run nginx` works but running only on docker port 80
+- `docker run -p 8080:80 nginx` p = published,  to run in **http://localhost:8080** from Computer, rodar portas baixas precisa ser admin. now run `docker ps` to see this redirect
+- `netstat -tln` to checkout portas em LISTEN
+- `docker exec friendly_noether ls` - executar comando em container em execução, open a in a new tab | friendly_noether is a random name, but works with docker id too
+- `docker run -it nginx bash`  - run nginx go to bash, -i interative mode, now you can change `root@19966f3508c8:/# cat /usr/share/nginx/html/index.html`
+- `docker container rm <id>` - delete container
 
 Container sempre vem de uma imagem, então todo processo será foi perdido, então vamos especificar um volume para este container
 
@@ -54,11 +72,81 @@ Container sempre vem de uma imagem, então todo processo será foi perdido, ent�
 
 # Creating a custom image with your project
 
-1 - create a Dockerfile
-2 - `docker build -t geraldocosta/nginx-test:latest .`
-3 - now run your own image: `docker run -p 8080:80 geraldocosta/nginx-test:latest`
+1 - create a Dockerfile  
+2 - `docker build -t geraldocosta/nginx-test:latest .`  
+3 - now run your own image: `docker run -p 8080:80 geraldocosta/nginx-test:latest`  
 
 ![image](https://github.com/geraldotech/CheatSheets/assets/92253544/9a64a500-3d5d-4a87-999b-d31a02e5b58c)
+
+
+- ## **Create custom image** React
+[REF](https://www.digitalocean.com/community/tutorials/how-to-build-a-node-js-application-with-docker#step-1-installing-your-application-dependencies) and [REF vite conf](https://thedkpatel.medium.com/dockerizing-react-application-built-with-vite-a-simple-guide-4c41eb09defa)
+
+  - create your app in wsl directory
+  - create your app and create Dockerfile checkout DigitalOcean tutorial
+  - Build:  `docker build -t geraldoreact/node .`
+
+
+Dockerfile 1 same WORKDIR
+```
+FROM node:18-alpine
+
+# como n tenho node_modules will comment it
+#RUN mkdir -p /home/gmapdev/gpx/react-docker/node_modules && chown -R node:node /home/gmapdev/app
+
+RUN mkdir -p /home/gmapdev/gpx/react-docker/node_modules  && chown -R node:node /home/gmapdev/gpx/react-docker
+
+## create this dir andset permission
+WORKDIR /home/gmapdev/gpx/react-docker
+
+# copy all packge and .json
+COPY package*.json ./
+
+
+USER node
+
+RUN npm install
+
+COPY --chown=node:node . .
+
+EXPOSE 4000
+
+CMD [ "npm", "run", "dev" ]
+```
+ 
+- **Create a container** from your custom image: 
+  - RUN is like create a container from a image: `docker run --name MyReact -p 4000:4000 ggreact`
+  - create a container from a image -d in background `docker run --name 'reactapp' -d -p 4000:4000 ggreact`
+  - start in container `docker start MyReact` or `docker start <containerID>`
+  -  ls a container `docker exec reactapp ls`
+  -  `bash a container` docker exec -it reactapp sh
+ 
+How open current container in vscode ?
+Create interative and bash version?
+  
+**Tem que passar -d no run, n pode adicionar no docker start ??**
+
+<hr>
+
+# Docker compose 
+
+<details>
+<summary> é uma ferramenta que facilita...</summary>
+
+a definição e execução de aplicativos Docker com vários contêineres. Em vez de criar e gerenciar manualmente vários contêineres individuais usando comandos Docker separados, o docker-compose permite definir toda a configuração do aplicativo em um arquivo YAML chamado docker-compose.yml.
+
+Dentro do arquivo docker-compose.yml, você pode especificar os serviços que compõem seu aplicativo, como contêineres Docker, redes, volumes, variáveis de ambiente e outros detalhes de configuração. Depois de definir esse arquivo, você pode usar o comando docker-compose para iniciar, parar e gerenciar todo o aplicativo com apenas um comando.
+
+Por exemplo, se você estiver desenvolvendo um aplicativo da web que requer um contêiner para o servidor da web (como o Apache ou o Nginx) e outro para o banco de dados (como o MySQL ou o PostgreSQL), você pode definir esses serviços no arquivo docker-compose.yml. Em seguida, você pode usar o docker-compose para iniciar e parar todos esses contêineres juntos, simplificando bastante o processo de desenvolvimento e implantação de aplicativos baseados em Docker.
+
+
+- mínimo de Docker comandos... https://www.youtube.com/watch?v=ntbpIfS44Gw
+- useful container e imanges comando, remote, delete... [how-to-remove-docker-images-con](https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes)
+- Uma dica rápida: Não precisa copiar o ID todo do container na hora de manipular ele, já cheguei fazer com apenas os dois primeiros carácteres do ID. Nesse caso eu não tinha IDs com iniciais parecidas.
+ 
+</details>
+
+
 
 
 # docker-compose.yaml
@@ -83,12 +171,16 @@ services:
 - `docker compose up`
 - `docker compose up -d` - run in background
 - `docker compose down` kill container but volumes is not deleted
-- ` docker compose ps` list all docker compose running in background
+- `docker compose ps` list all docker compose running in background
 
 ![image](https://github.com/geraldotech/CheatSheets/assets/92253544/fabe5e20-4041-45c9-b131-e2fa0700d382)
 
 
 
+
+
+## Extensions:
+ - https://marketplace.visualstudio.com/items?itemName=cweijan.vscode-database-client2
 
 
 ## install https://ohmyz.sh/#install
@@ -98,7 +190,6 @@ sudo apt update
 sudo apt install git zsh -y
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
+Themes powerlevel10k https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#manual
 
-# Themes
-  -  powerlevel10k https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#manual
 
