@@ -4,6 +4,8 @@
 - WSL usando o tutorial de instalação: https://github.com/codeedu/wsl2-docker-quickstart.  
 - https://github.com/codeedu/wsl2-docker-quickstart?tab=readme-ov-file#erro-ao-iniciar-o-docker-no-ubuntu-2204
 - Docker e Docker Compose - Instalação no Windows [Sem Docker Desktop] e no Ubuntu https://www.youtube.com/watch?v=NMsQ6V97YaQ
+- mínimo de Docker comandos... https://www.youtube.com/watch?v=ntbpIfS44Gw
+- useful container e imanges comando, remote, delete... [how-to-remove-docker-images-con](https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes)
  
 <details>
 <summary>é similar ao virtualbox?</summary>
@@ -210,9 +212,6 @@ Dentro do arquivo docker-compose.yml, você pode especificar os serviços que co
 
 Por exemplo, se você estiver desenvolvendo um aplicativo da web que requer um contêiner para o servidor da web (como o Apache ou o Nginx) e outro para o banco de dados (como o MySQL ou o PostgreSQL), você pode definir esses serviços no arquivo docker-compose.yml. Em seguida, você pode usar o docker-compose para iniciar e parar todos esses contêineres juntos, simplificando bastante o processo de desenvolvimento e implantação de aplicativos baseados em Docker.
 
-
-- mínimo de Docker comandos... https://www.youtube.com/watch?v=ntbpIfS44Gw
-- useful container e imanges comando, remote, delete... [how-to-remove-docker-images-con](https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes)
 - Uma dica rápida: Não precisa copiar o ID todo do container na hora de manipular ele, já cheguei fazer com apenas os dois primeiros carácteres do ID. Nesse caso eu não tinha IDs com iniciais parecidas.
  
 </details>
@@ -220,7 +219,7 @@ Por exemplo, se você estiver desenvolvendo um aplicativo da web que requer um c
 
 # docker-compose.yaml
 
-ferramente que ajuda a orquestar os containers que estão dentro de um manifesto
+ferramenta que ajuda a orquestar os containers que estão dentro de um manifesto
 
 ```yaml
 version: '3'
