@@ -60,7 +60,8 @@ Now teste mysql connection:
 - `docker run -p 8080:80 nginx` p = published,  to run in **http://localhost:8080** from Computer, rodar portas baixas precisa ser admin. now run `docker ps` to see this redirect
 - `netstat -tln` to checkout portas em LISTEN
 - `docker exec friendly_noether ls` - executar comando em container em execução, open a in a new tab | friendly_noether is a random name, but works with docker id too  
-- `docker run -it nginx bash`  - run nginx go to bash, -i interative mode, now you can change `root@19966f3508c8:/# cat /usr/share/nginx/html/index.html`  
+- `docker run -it nginx bash`  - run nginx go to bash, -i interative mode, now you can change `root@19966f3508c8:/# cat /usr/share/nginx/html/index.html`
+- `docker exec -it <CONTAINER_ID> bash` - when container is running
 - `docker container rm <id>` - delete container
 
 Container sempre vem de uma imagem, então todo processo será foi perdido, então vamos especificar um volume para este container
@@ -166,15 +167,15 @@ CMD ["npm", "run", "dev"]
   - start in container `docker start MyReact` or `docker start <containerID>`
   -  ls a container `docker exec reactapp ls`
   -  bash a container `docker exec -it reactapp sh`
-  -  volume container`docker run --name 'reactDirAdd3' -d -p 4000:4000 -v $(pwd)/volume:/app ggreact2`
-  - since alpine by default not have a bin/bash teste navigate with ls,cat in  `docker exec -it devtest2 sh`
+  -  volume container using -v `docker run  -d --name 'aula03' -p 4000:4000 -v myvol3:/app ggreact2`
+  - since alpine by default not have a bin/bash teste navigate with ls, cat in  `docker exec -it devtest2 sh`
  
 How open current container in vscode ?
 Create interative and bash version?
   
 **Tem que passar -d no run, n pode adicionar no docker start**
 
-### Volume
+- ## **Volume**
 
 Fazendo as dados persistentes
 
@@ -217,8 +218,6 @@ Por exemplo, se você estiver desenvolvendo um aplicativo da web que requer um c
 </details>
 
 
-
-
 # docker-compose.yaml
 
 ferramente que ajuda a orquestar os containers que estão dentro de um manifesto
@@ -244,8 +243,6 @@ services:
 - `docker compose ps` list all docker compose running in background
 
 ![image](https://github.com/geraldotech/CheatSheets/assets/92253544/fabe5e20-4041-45c9-b131-e2fa0700d382)
-
-
 
 
 
