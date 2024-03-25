@@ -120,7 +120,7 @@ CMD [ "npm", "run", "dev" ]
   - create a container from a image -d in background `docker run --name 'reactapp' -d -p 4000:4000 ggreact`
   - start in container `docker start MyReact` or `docker start <containerID>`
   -  ls a container `docker exec reactapp ls`
-  -  `bash a container` docker exec -it reactapp sh
+  -  bash a container `docker exec -it reactapp sh`
  
 How open current container in vscode ?
 Create interative and bash version?
