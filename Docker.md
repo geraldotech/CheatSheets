@@ -87,7 +87,11 @@ Container sempre vem de uma imagem, então todo processo será foi perdido, ent�
   - Build:  `docker build -t geraldoreact/node .`
 
 
-Dockerfile 1 same WORKDIR
+
+
+<details>
+ 
+<summary>Dockerfile 1 same WORKDIR</summary>
 
 ```
 FROM node:18-alpine
@@ -115,12 +119,56 @@ EXPOSE 4000
 CMD [ "npm", "run", "dev" ]
 ```
  
+</details>
+
+
+
+<details>
+
+<summary>Dockerfile diff WORKDIR</summary>
+
+![image](https://github.com/geraldotech/CheatSheets/assets/92253544/42e04023-9e04-41eb-932a-743f29de5382)
+
+```
+FROM node:18-alpine
+
+# Set working directory to /app
+WORKDIR /app
+
+# Create node_modules directory and set permissions
+RUN mkdir -p node_modules && chown -R node:node /app
+
+# Switch to non-root user
+USER node
+
+# Copy all files from host machine to /app directory in the Docker image
+COPY . .
+
+# Install dependencies
+RUN npm install
+
+# Copy project files
+COPY --chown=node:node . .
+
+# Expose port
+EXPOSE 4000
+
+# Run Vite development server
+CMD ["npm", "run", "dev"]
+
+```
+
+ 
+</details>
+
+ 
 - **Create a container** from your custom image: 
   - RUN is like create a container from a image: `docker run --name MyReact -p 4000:4000 ggreact`
   - create a container from a image -d in background `docker run --name 'reactapp' -d -p 4000:4000 ggreact`
   - start in container `docker start MyReact` or `docker start <containerID>`
   -  ls a container `docker exec reactapp ls`
   -  bash a container `docker exec -it reactapp sh`
+  -  volume container`docker run --name 'reactDirAdd3' -d -p 4000:4000 -v $(pwd)/volume:/app ggreact2`
  
 How open current container in vscode ?
 Create interative and bash version?
