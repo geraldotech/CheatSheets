@@ -69,4 +69,15 @@ Abrir open with WSL no VSCODE digite: `CTRL + shift + P` => `>reopen folder in W
 set a config create a  `gmapdev@gmapnitro:~$ vim /mnt/c/Users/gmap/.wslconfig` file: [REF](https://youtu.be/vkJr0mK_u6s?t=5263)
 
 
+# Install Node on WSL:
+
+- https://learn.microsoft.com/pt-br/windows/dev-environment/javascript/nodejs-on-wsl
+
+1 - curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash  
+2 - restart terminal  
+3 - nvm install --lts  
+
+
+
+
 
