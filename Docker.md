@@ -59,8 +59,8 @@ Now teste mysql connection:
 - `docker run nginx` works but running only on docker port 80
 - `docker run -p 8080:80 nginx` p = published,  to run in **http://localhost:8080** from Computer, rodar portas baixas precisa ser admin. now run `docker ps` to see this redirect
 - `netstat -tln` to checkout portas em LISTEN
-- `docker exec friendly_noether ls` - executar comando em container em execução, open a in a new tab | friendly_noether is a random name, but works with docker id too
-- `docker run -it nginx bash`  - run nginx go to bash, -i interative mode, now you can change `root@19966f3508c8:/# cat /usr/share/nginx/html/index.html`
+- `docker exec friendly_noether ls` - executar comando em container em execução, open a in a new tab | friendly_noether is a random name, but works with docker id too  
+- `docker run -it nginx bash`  - run nginx go to bash, -i interative mode, now you can change `root@19966f3508c8:/# cat /usr/share/nginx/html/index.html`  
 - `docker container rm <id>` - delete container
 
 Container sempre vem de uma imagem, então todo processo será foi perdido, então vamos especificar um volume para este container
@@ -88,6 +88,7 @@ Container sempre vem de uma imagem, então todo processo será foi perdido, ent�
 
 
 Dockerfile 1 same WORKDIR
+
 ```
 FROM node:18-alpine
 
