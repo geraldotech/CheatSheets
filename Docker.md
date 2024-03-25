@@ -87,8 +87,6 @@ Container sempre vem de uma imagem, então todo processo será foi perdido, ent�
   - Build:  `docker build -t geraldoreact/node .`
 
 
-
-
 <details>
  
 <summary>Dockerfile 1 same WORKDIR</summary>
@@ -101,7 +99,7 @@ FROM node:18-alpine
 
 RUN mkdir -p /home/gmapdev/gpx/react-docker/node_modules  && chown -R node:node /home/gmapdev/gpx/react-docker
 
-## create this dir andset permission
+## create this dir and set permission
 WORKDIR /home/gmapdev/gpx/react-docker
 
 # copy all packge and .json
@@ -125,7 +123,7 @@ CMD [ "npm", "run", "dev" ]
 
 <details>
 
-<summary>Dockerfile diff WORKDIR</summary>
+<summary>Dockerfile WORKDIR /app </summary>
 
 ![image](https://github.com/geraldotech/CheatSheets/assets/92253544/42e04023-9e04-41eb-932a-743f29de5382)
 
@@ -169,11 +167,34 @@ CMD ["npm", "run", "dev"]
   -  ls a container `docker exec reactapp ls`
   -  bash a container `docker exec -it reactapp sh`
   -  volume container`docker run --name 'reactDirAdd3' -d -p 4000:4000 -v $(pwd)/volume:/app ggreact2`
+  - since alpine by default not have a bin/bash teste navigate with ls,cat in  `docker exec -it devtest2 sh`
  
 How open current container in vscode ?
 Create interative and bash version?
   
-**Tem que passar -d no run, n pode adicionar no docker start ??**
+**Tem que passar -d no run, n pode adicionar no docker start**
+
+### Volume
+
+Fazendo as dados persistentes
+
+[https://docs.docker.com/storage/volumes/](https://docs.docker.com/storage/volumes/#start-a-container-with-a-volume)
+
+- create a container and mount a folder voldata to  `docker run -d --name devtest -p 4000:4000 --mount source=voldata,target=/app ggreact2` thos voldata is whatever direct that will be mounted in **"Mountpoint": "/var/lib/docker/volumes/voldata/_data"**
+- inspect volumesName: `sudo docker inspect voldata`
+
+
+### VSCode connect a container
+
+- install Dev Container extesntion => https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers
+
+![image](https://github.com/geraldotech/CheatSheets/assets/92253544/380a3ac3-7adf-487f-be9e-4770fbb662fb)
+
+![image](https://github.com/geraldotech/CheatSheets/assets/92253544/b9259b41-a96a-49a1-9f17-46527424d405)
+
+if dont open in `/app` or correct directo to go terminal `type: cd /app`
+
+
 
 <hr>
 
