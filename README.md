@@ -2,10 +2,10 @@
 
 
 ### Images for codes  
-[ray.so](https://ray.so/)
+- [ray.so](https://ray.so/)
 
 ### Typing test  
-[Typing test](https://10fastfingers.com/typing-test/portuguese)
+- [Typing test](https://10fastfingers.com/typing-test/portuguese)
 
 ### Check IP JSON  
 [https://api.ipify.org](https://api.ipify.org/?format=json)
@@ -70,11 +70,11 @@
 
 ### Featured Fonts
 
-Inter  - readers
-Lato  
-Roboto - readers
-Poppins
-Anta - good for titles
+- Inter  - readers
+- Lato  
+- Roboto - readers
+- Poppins
+- Anta - good for titles
 
 
 
