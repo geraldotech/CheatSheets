@@ -58,6 +58,7 @@
 - https://storyset.com/
 - https://www.pngegg.com/
 - https://worldvectorlogo.com/
+- https://www.pngwing.com/
 
   
 ### Fonts and Icons:
