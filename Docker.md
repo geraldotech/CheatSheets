@@ -1,5 +1,8 @@
 # Docker
 
+![image](https://github.com/geraldotech/CheatSheets/assets/92253544/8f377a3c-0518-4c91-8e4e-0cd619df8cbd)
+
+
 
 - WSL usando o tutorial de instalação: https://github.com/codeedu/wsl2-docker-quickstart.  
 - https://github.com/codeedu/wsl2-docker-quickstart?tab=readme-ov-file#erro-ao-iniciar-o-docker-no-ubuntu-2204
