@@ -10,14 +10,11 @@ Executar o comando dentro da pasta que contém `youtube-dl.exe`
 
 > menos bugs
 
-### list formats
 
-yt-dlp -F
-yt-dlp --list-formats
+- direct download in 720p `yt-dlp url`
+- list formats: `yt-dlp -F` or `yt-dlp --list-formats`
+- download the format: `yt-dlp --format "135"`
 
-### download the format
-
-yt-dlp --format "135"
 
 manual:
 https://www.mankier.com/1/yt-dlp
