@@ -102,6 +102,7 @@ Export Full profile
 - shortcuts
 - extensions
 - settings.json
+- keybindinds
 
         
 ### in new VSCode
