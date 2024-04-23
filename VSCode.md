@@ -179,6 +179,7 @@ create this: `div*5.className${$}`
 - Andromeda
 - [Omni Owl](https://marketplace.visualstudio.com/items?itemName=guilhermerodz.omni-owl) + Dank Mono
 - [Night-owl](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl)  + Dank Mono
+- [Vesper](https://marketplace.visualstudio.com/items?itemName=Obstinate.vesper-pp)
 
 ## Fonts:
 
