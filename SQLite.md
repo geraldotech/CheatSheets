@@ -1,0 +1,1 @@
+- add table `ALTER TABLE my_table ADD COLUMN time;`
