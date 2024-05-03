@@ -1,1 +1,3 @@
-- add table `ALTER TABLE my_table ADD COLUMN time;`
+- add column to database: `ALTER TABLE Posts ADD COLUMN lastUpdate`  
+- UPDATE for all: `UPDATE Posts SET lastUpdate = CURRENT_TIMESTAMP;`  
+- UPDATE WHERE `UPDATE Posts SET lastUpdate = '03/05/2024' WHERE id = 1`
