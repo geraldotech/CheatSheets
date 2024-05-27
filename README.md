@@ -107,26 +107,6 @@
 ### emmet Cheat Sheet
 - https://docs.emmet.io/cheat-sheet/
 
-### shields
-
-[List](https://dev.to/envoy_/150-badges-for-github-pnk#workspace-specs)
-```html
-<p align="center">
-      <a href="https://travis-ci.org/lusaxweb/vuesax">
-        <img
-          src="https://img.shields.io/badge/any_text-you_like-blue"
-          alt="travis ci badge"
-        />
-      </a>
-      <a href="https://travis-ci.org/lusaxweb/vuesax">
-        <img
-          src="https://img.shields.io/badge/just%20the%20message-8A2BE2"
-          alt="travis ci badge"
-        />
-      </a>
-</p>
-```
-
 ### Terminais:
 <img src="https://github.com/geraldotech/CheatSheets/assets/92253544/8f6b30af-c63b-4654-a361-1b42af92e836" style="width:50%" />
 <img src="https://github.com/geraldotech/CheatSheets/assets/92253544/f53a98d6-ace9-41fe-9691-05108b706ac4" style="width:50%" />
