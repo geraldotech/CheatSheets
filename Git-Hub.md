@@ -271,6 +271,28 @@ To resolve this issue, you can add the --allow-unrelated-histories flag to the g
 - [ ] [https://github.com/ikatyang/emoji-cheat-sheet](https://github.com/ikatyang/emoji-cheat-sheet)
 - [ ] [https://gist.github.com/parmentf/035de27d6ed1dce0b36a](https://gist.github.com/parmentf/035de27d6ed1dce0b36a)
 
+### shields
+
+- [List](https://dev.to/envoy_/150-badges-for-github-pnk#workspace-specs)
+```html
+<p align="center">
+      <a href="https://travis-ci.org/lusaxweb/vuesax">
+        <img
+          src="https://img.shields.io/badge/any_text-you_like-blue"
+          alt="travis ci badge"
+        />
+      </a>
+      <a href="https://travis-ci.org/lusaxweb/vuesax">
+        <img
+          src="https://img.shields.io/badge/just%20the%20message-8A2BE2"
+          alt="travis ci badge"
+        />
+      </a>
+</p>
+```
+     
+- [ ] [badages](https://github.com/alexandresanlim/Badges4-README.md-Profile)
+
 
 <hr>
 >>  By:  **geraldoX** 2022
