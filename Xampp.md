@@ -32,3 +32,14 @@ edit `C:\Windows\System32\drivers\etc\drivers`
 ```
 
 change home page edit `C:\xampp\htdocs\index.php to index2.php`
+
+
+## PHP Server
+
+- ir na variaveis de ambiente do Windows> Usuarios > path > edit > adicionar o caminho do php
+- no diretório do projeto abrir o cmd: `php -S localhost:8888`
+
+
+![image](https://github.com/geraldotech/CheatSheets/assets/92253544/12482260-934b-40ba-962c-a00c29c0bac0)
+
+
