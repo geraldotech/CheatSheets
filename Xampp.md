@@ -34,7 +34,8 @@ edit `C:\Windows\System32\drivers\etc\drivers`
 change home page edit `C:\xampp\htdocs\index.php to index2.php`
 
 
-## PHP Server
+## PHP Server 
+setup built-in server embutido
 
 - ir na variaveis de ambiente do Windows> Usuarios > path > edit > adicionar o caminho do php
 - no diretório do projeto abrir o cmd: `php -S localhost:8888`
