@@ -12,7 +12,7 @@
 - [:sparkles: Best Extensions](#best-extensions)
 - [:art: Best Themes](#best-themes)
 - [:pencil: Fonts](#fonts)
-- [:wrench: Setttings.json](#settingsjson)
+- [:wrench: Settings.json](#settingsjson)
 
 &nbsp;
 
