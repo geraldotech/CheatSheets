@@ -8,7 +8,7 @@
 - https://github.com/codeedu/wsl2-docker-quickstart?tab=readme-ov-file#erro-ao-iniciar-o-docker-no-ubuntu-2204
 - Docker e Docker Compose - Instalação no Windows [Sem Docker Desktop] e no Ubuntu https://www.youtube.com/watch?v=NMsQ6V97YaQ
 - mínimo de Docker comandos... https://www.youtube.com/watch?v=ntbpIfS44Gw
-- useful container e imanges comando, remote, delete... [how-to-remove-docker-images-con](https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes)
+- useful container e images comando, remote, delete... [how-to-remove-docker-images-con](https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes)
  
 <details>
 <summary>é similar ao virtualbox?</summary>
