@@ -44,7 +44,11 @@ Fazer o bind das portas do container para conexão da porta do container e não 
 Remover o container e lets create a new one:
 
 - `docker run --name MysqlContainer2 -e MYSQL_ROOT_PASSWORD=root -p 3306:3306 -d mysql`
-- `-e`: variavelAmbiente  `--name`: nomeContainer `-p`: portaMaquina:portaContainer  `-d`: runBackground `-q` flag is short for --quiet. When used, it instructs Docker to only print the container IDs, without any additional information
+- `-e`: variavelAmbiente
+- `--name`: nomeContainer
+- `-p`: portaMaquina:portaContainer
+- `-d`: runBackground
+- `-q` flag is short for --quiet. When used, it instructs Docker to only print the container IDs, without any additional information
 
 Now teste mysql connection:
 
