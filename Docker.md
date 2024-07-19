@@ -190,7 +190,7 @@ Fazendo as dados persistentes
 
 [https://docs.docker.com/storage/volumes/](https://docs.docker.com/storage/volumes/#start-a-container-with-a-volume)
 
-- create a container and mount a folder voldata to  `docker run -d --name devtest -p 4000:4000 --mount source=voldata,target=/app ggreact2` thos voldata is whatever direct that will be mounted in **"Mountpoint": "/var/lib/docker/volumes/voldata/_data"**
+- create a container and mount a folder voldata to  `docker run -d --name devtest -p 4000:4000 --mount source=voldata,target=/app ggreact2` where `voldata` is whatever directory that will be mounted in **"Mountpoint": "/var/lib/docker/volumes/voldata/_data"**
 - inspect volumesName: `sudo docker inspect voldata`
 
 
