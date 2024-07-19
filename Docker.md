@@ -252,7 +252,8 @@ services:
  - https://marketplace.visualstudio.com/items?itemName=cweijan.vscode-database-client2
 
 
-## install https://ohmyz.sh/#install
+## ohmyzsh - Terminal Customizado 
+install https://ohmyz.sh/#install
 
 ```shell
 sudo apt update
