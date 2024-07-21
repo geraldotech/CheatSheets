@@ -46,11 +46,13 @@ Fazer o bind das portas do container para conexão da porta do container e não 
 Remover o container e lets create a new one:
 
 - `docker run --name MysqlContainer2 -e MYSQL_ROOT_PASSWORD=root -p 3306:3306 -d mysql`
-- `-e`: variavelAmbiente
-- `--name`: nomeContainer
-- `-p`: portaMaquina:portaContainer
-- `-d`: runBackground
-- `-q` flag is short for --quiet. When used, it instructs Docker to only print the container IDs, without any additional information
+- `-e` - variavelAmbiente
+- `--name` - nomeContainer
+- `-d` - Runs the container in detached mode (in the background).
+- `-q` - flag is short for --quiet. When used, it instructs Docker to only print the container IDs, without any additional information
+- `-p` - portaMaquina:portaContainer published expose, a port from the Docker container to the host machine.  to run in **http://localhost:8080** from Computer, rodar portas baixas precisa ser admin.
+`docker ps` - to see this redirect
+- `-d` -  Runs the container in detached mode (in the background).
 
 Now teste mysql connection:
 
@@ -69,9 +71,7 @@ Now teste mysql connection:
 
 - `docker run nginx` - works but running only on docker port 80
 - `docker run -p 8080:80 nginx`
-  - p = published expose, a port from the Docker container to the host machine.  to run in **http://localhost:8080** from Computer, rodar portas baixas precisa ser admin.
-  - now run `docker ps` to see this redirect
-  - -d: Runs the container in detached mode (in the background).
+  
 - `docker run -d -p 80:80 nginx`
 - `netstat -tln` - to checkout portas em LISTEN
 - `docker exec friendly_noether ls` - executar comando em container em execução, open a in a new tab | friendly_noether is a random name, but works with docker id too  
