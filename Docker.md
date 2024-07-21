@@ -73,7 +73,7 @@ Now teste mysql connection:
 
 - `docker run nginx` - works but running only on docker port 80
 - `docker run -p 8080:80 nginx`
-- `docker run -d -p 80:80 nginx`
+  - `docker run -d -p 80:80 nginx`
 - `netstat -tln` - to checkout portas em LISTEN
 - `docker exec friendly_noether ls` - executar comando em container em execução, open a in a new tab | friendly_noether is a random name, but works with docker id too  
 - `docker run -it nginx bash` - run nginx go to bash, -i interative mode, now you can change `root@19966f3508c8:/# cat /usr/share/nginx/html/index.html`
