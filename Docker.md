@@ -47,6 +47,8 @@ Remover o container e lets create a new one:
 - `docker run --name MysqlContainer2 -e MYSQL_ROOT_PASSWORD=root -p 3306:3306 -d mysql`
 
 Now teste mysql connection:
+
+
 ![image](https://github.com/geraldotech/CheatSheets/assets/92253544/84869adf-9d23-41be-a3b2-d416d005fb13)
 
 
