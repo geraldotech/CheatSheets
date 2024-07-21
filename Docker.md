@@ -29,8 +29,11 @@ Então, enquanto o VirtualBox cria máquinas virtuais completas, o Docker cria c
 ### Quick start Docker:
 
 - ## Utils
- - get images in docker hub and create containers from images
-
+ 
+- get images in docker hub and create containers from images e.g `sudo docker pull nginx`
+- `sudo docker images` - listar images
+- `sudo docker image inspect nginx` - inspect
+- `sudo docker rmi nginx` -  remove images
 - `docker run --name mysqlContainer -e MYSQL_ROOT_PASSWORD=root mysql` eg creating a mysql docker from image after https://hub.docker.com/_/mysql
 - **if docker run again will create multiple containers, if created just run it by id or custom name**
 - `docker ps` - show containers running
