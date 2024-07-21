@@ -5,8 +5,8 @@
 
 
 - WSL usando o tutorial de instalação: https://github.com/codeedu/wsl2-docker-quickstart.  
-- https://github.com/codeedu/wsl2-docker-quickstart?tab=readme-ov-file#erro-ao-iniciar-o-docker-no-ubuntu-2204
-- mínimo de Docker comandos... https://www.youtube.com/watch?v=ntbpIfS44Gw
+- [Instalar o Docker no Ubuntu](https://github.com/codeedu/wsl2-docker-quickstart?tab=readme-ov-file#1---instalar-o-docker-com-docker-engine-docker-nativo)
+- Mínimo de Docker comandos... https://www.youtube.com/watch?v=ntbpIfS44Gw
 - useful container e images comando, remote, delete... [how-to-remove-docker-images-con](https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes)
  
 <details>
@@ -46,6 +46,9 @@ Fazer o bind das portas do container para conexão da porta do container e não 
 Remover o container e lets create a new one:
 
 - `docker run --name MysqlContainer2 -e MYSQL_ROOT_PASSWORD=root -p 3306:3306 -d mysql`
+
+## Flags
+
 - `-e` - variavelAmbiente
 - `--name` - nomeContainer
 - `-d` - Runs the container in detached mode (in the background).
@@ -58,7 +61,8 @@ Now teste mysql connection:
 
 
 
-- ## Filter
+## Filter
+
 - remove by names: - `docker rm $(docker ps -a -q --filter "name=geraldoreact/node")`
 
 ![image](https://github.com/geraldotech/CheatSheets/assets/92253544/f7966b6f-3e62-4c6f-9331-da3f30de2edc)
@@ -69,7 +73,6 @@ Now teste mysql connection:
 
 - `docker run nginx` - works but running only on docker port 80
 - `docker run -p 8080:80 nginx`
-  
 - `docker run -d -p 80:80 nginx`
 - `netstat -tln` - to checkout portas em LISTEN
 - `docker exec friendly_noether ls` - executar comando em container em execução, open a in a new tab | friendly_noether is a random name, but works with docker id too  
@@ -92,8 +95,7 @@ Container sempre vem de uma imagem, então todo processo será foi perdido, ent�
 
 ![image](https://github.com/geraldotech/CheatSheets/assets/92253544/9a64a500-3d5d-4a87-999b-d31a02e5b58c)
 
-
-- ## **Create custom image** React
+## **Create custom image** React
 [REF](https://www.digitalocean.com/community/tutorials/how-to-build-a-node-js-application-with-docker#step-1-installing-your-application-dependencies) and [REF vite conf](https://thedkpatel.medium.com/dockerizing-react-application-built-with-vite-a-simple-guide-4c41eb09defa)
 
   - create your app in wsl directory
@@ -188,7 +190,7 @@ Create interative and bash version?
   
 **Tem que passar -d no run, n pode adicionar no docker start**
 
-- ## **Volume**
+## **Volume**
 
 Fazendo as dados persistentes
 
