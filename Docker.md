@@ -67,11 +67,15 @@ Now teste mysql connection:
 
 ### To run [nginx](https://hub.docker.com/_/nginx): 
 
-- `docker run nginx` works but running only on docker port 80
-- `docker run -p 8080:80 nginx` p = published,  to run in **http://localhost:8080** from Computer, rodar portas baixas precisa ser admin. now run `docker ps` to see this redirect
-- `netstat -tln` to checkout portas em LISTEN
+- `docker run nginx` - works but running only on docker port 80
+- `docker run -p 8080:80 nginx`
+  - p = published expose, a port from the Docker container to the host machine.  to run in **http://localhost:8080** from Computer, rodar portas baixas precisa ser admin.
+  - now run `docker ps` to see this redirect
+  - -d: Runs the container in detached mode (in the background).
+- `docker run -d -p 80:80 nginx`
+- `netstat -tln` - to checkout portas em LISTEN
 - `docker exec friendly_noether ls` - executar comando em container em execução, open a in a new tab | friendly_noether is a random name, but works with docker id too  
-- `docker run -it nginx bash`  - run nginx go to bash, -i interative mode, now you can change `root@19966f3508c8:/# cat /usr/share/nginx/html/index.html`
+- `docker run -it nginx bash` - run nginx go to bash, -i interative mode, now you can change `root@19966f3508c8:/# cat /usr/share/nginx/html/index.html`
 - `docker exec -it <CONTAINER_ID> bash` - when container is running
 - `docker container rm <id>` - delete container
 
