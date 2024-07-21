@@ -46,6 +46,10 @@ Remover o container e lets create a new one:
 
 - `docker run --name MysqlContainer2 -e MYSQL_ROOT_PASSWORD=root -p 3306:3306 -d mysql`
 
+Now teste mysql connection:
+![image](https://github.com/geraldotech/CheatSheets/assets/92253544/84869adf-9d23-41be-a3b2-d416d005fb13)
+
+
 ## Flags
 
 - `-e` - variavelAmbiente
@@ -54,11 +58,6 @@ Remover o container e lets create a new one:
 - `-q` - flag is short for --quiet. When used, it instructs Docker to only print the container IDs, without any additional information
 - `-p` - portaMaquina:portaContainer published expose, a port from the Docker container to the host machine.  to run in **http://localhost:8080** from Computer, rodar portas baixas precisa ser admin.
 `docker ps` - to see this redirect
-
-Now teste mysql connection:
-![image](https://github.com/geraldotech/CheatSheets/assets/92253544/84869adf-9d23-41be-a3b2-d416d005fb13)
-
-
 
 ## Filter
 
