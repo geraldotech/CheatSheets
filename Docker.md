@@ -37,10 +37,10 @@ Então, enquanto o VirtualBox cria máquinas virtuais completas, o Docker cria c
 - `docker run --name mysqlContainer -e MYSQL_ROOT_PASSWORD=root mysql` eg creating a mysql docker from image after https://hub.docker.com/_/mysql
 - **if docker run again will create multiple containers, if created just run it by id or custom name**
 - `docker ps` - show containers running
-- `docker ps -a` list all
-- `docker ps -q -a` list all only ids
-- `docker start <id>` start again
-- `docker stop <id> or <name>` stop
+- `docker ps -a` - list all
+- `docker ps -q -a` - list all only ids
+- `docker start <id>` - start again
+- `docker stop <id> or <name>` - stop
 
 Fazer o bind das portas do container para conexão da porta do container e não da máquina
 Remover o container e lets create a new one:
