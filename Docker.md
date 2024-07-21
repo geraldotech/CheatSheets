@@ -3,7 +3,6 @@
 ![image](https://github.com/geraldotech/CheatSheets/assets/92253544/8f377a3c-0518-4c91-8e4e-0cd619df8cbd)
 
 
-
 - WSL usando o tutorial de instalação: https://github.com/codeedu/wsl2-docker-quickstart.  
 - [Instalar o Docker no Ubuntu](https://github.com/codeedu/wsl2-docker-quickstart?tab=readme-ov-file#1---instalar-o-docker-com-docker-engine-docker-nativo)
 - Mínimo de Docker comandos... https://www.youtube.com/watch?v=ntbpIfS44Gw
