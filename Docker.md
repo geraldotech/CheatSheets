@@ -30,7 +30,7 @@ Então, enquanto o VirtualBox cria máquinas virtuais completas, o Docker cria c
 
 - ## Utils
  
-- get images in docker hub and create containers from images e.g `sudo docker pull nginx`
+- `sudo docker pull nginx` - get images in docker hub after this create containers from images.
 - `sudo docker images` - listar images
 - `sudo docker image inspect nginx` - inspect
 - `sudo docker rmi nginx` -  remove images
