@@ -256,7 +256,11 @@ services:
 
 ![image](https://github.com/geraldotech/CheatSheets/assets/92253544/fabe5e20-4041-45c9-b131-e2fa0700d382)
 
-
+## Xampp
+- `docker pull tomsik68/xampp`
+- acessar a pasta mounted dentro do Docker:
+  - `docker exec -it myXampp /bin/bash`
+  - `cd /opt/lampp/htdocs`
 
 ## Extensions:
  - https://marketplace.visualstudio.com/items?itemName=cweijan.vscode-database-client2
