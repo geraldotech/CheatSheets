@@ -261,6 +261,19 @@ services:
 - acessar a pasta mounted dentro do Docker:
   - `docker exec -it myXampp /bin/bash`
   - `cd /opt/lampp/htdocs`
+ 
+- Montar o docker with volume
+  - `docker run --name myXampp -p 41061:22 -p 41062:80 -d -v ~/my_web_pages:/mnt/storage/lampp/htdocs tomsik68/xampp`
+
+## Transferir arquivos do Windows para o WSL2:
+- `cp /mnt/c/Users/gmap/Downloads/idusuarios.csv /mnt/storage/`
+
+## Transferir arquivos do WSL2 para o container:
+- <b>onde `myXampp` é o nome do container running</b>
+- `root@gmapnitro:/mnt/storage# docker cp /mnt/storage/id.txt myXampp:/mnt/storage`
+- `root@gmapnitro:/mnt/storage# docker cp /mnt/storage/id.txt myXampp:/opt/lampp/htdocs`
+
+
 
 ## Extensions:
  - https://marketplace.visualstudio.com/items?itemName=cweijan.vscode-database-client2
