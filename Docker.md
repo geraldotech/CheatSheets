@@ -266,7 +266,7 @@ services:
   - `docker run --name myXampp -p 41061:22 -p 41062:80 -d -v ~/my_web_pages:/mnt/storage/lampp/htdocs tomsik68/xampp`
 
 ## Transferir arquivos do Windows para o WSL2:
-- `cp /mnt/c/Users/gmap/Downloads/idusuarios.csv /mnt/storage/`
+- `cp /mnt/c/Users/gmap/Downloads/idusuarios.csv /mnt/storage/` ou crie uma pasta em `/` => permissão `sudo chmod 777 /mnt/storage` e mover os arquivos usando o fileExplorer
 
 ## Transferir arquivos do WSL2 para o container:
 - <b>onde `myXampp` é o nome do container running</b>
