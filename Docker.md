@@ -249,8 +249,10 @@ services:
       - 3306:3306
 ```
 
-- `docker compose up`
-- `docker compose up -d` - run in background
+- `docker-compose up` - start
+- `docker-compose up -d` - run in background
+- `docker-compose restart`
+- `docker-compose up -d`
 - `docker compose down` kill container but volumes is not deleted
 - `docker compose ps` list all docker compose running in background
 
