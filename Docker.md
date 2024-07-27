@@ -257,7 +257,7 @@ services:
 ![image](https://github.com/geraldotech/CheatSheets/assets/92253544/fabe5e20-4041-45c9-b131-e2fa0700d382)
 
 ## Xampp
-- `docker pull tomsik68/xampp`
+- `docker pull tomsik68/xampp` - link https://hub.docker.com/r/tomsik68/xampp/
 - acessar a pasta mounted dentro do Docker:
   - `docker exec -it myXampp /bin/bash`
   - `cd /opt/lampp/htdocs`
@@ -273,6 +273,10 @@ services:
 - `root@gmapnitro:/mnt/storage# docker cp /mnt/storage/id.txt myXampp:/mnt/storage`
 - `root@gmapnitro:/mnt/storage# docker cp /mnt/storage/id.txt myXampp:/opt/lampp/htdocs`
 
+## Fix Host '172.18.0.1' is not allowed https://github.com/docker-library/mysql/issues/275
+
+- `mysql -u your_user -p`
+- `GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'root' WITH GRANT OPTION;`
 
 
 ## Extensions:
