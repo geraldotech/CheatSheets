@@ -273,11 +273,29 @@ services:
 - <b>onde `myXampp` é o nome do container running</b>
 - `root@gmapnitro:/mnt/storage# docker cp /mnt/storage/id.txt myXampp:/mnt/storage`
 - `root@gmapnitro:/mnt/storage# docker cp /mnt/storage/id.txt myXampp:/opt/lampp/htdocs`
+- `root@gmapnitro:/mnt/storage# docker cp SGA-Padrao-V2.7z 2af3795bff86:/mnt/storage`
 
 ## Fix Host '172.18.0.1' is not allowed https://github.com/docker-library/mysql/issues/275
 
 - `mysql -u your_user -p`
 - `GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'root' WITH GRANT OPTION;`
+
+ ## Unknown collation: ''
+converter utf do banco de dados
+- https://king.host/wiki/artigo/1273-unknown-collation/
+
+permissao de pastas e arquivos
+adicoinar exit() alguns headers()
+
+## Docker Apache, PHP + MySQL
+
+
+## zip no docker
+- `apt-get install -y p7zip-full`
+   - `7z x myfile.7z`
+
+
+
 
 
 ## Extensions:
