@@ -289,10 +289,10 @@ adicoinar exit() alguns headers()
 
 ## Docker Apache, PHP + MySQL
 
-- create a folder:  mkdir sga2
-- access this folder and create a: `src`
-- crie o arquivo: docker-compose.yaml
-- e o arquivo: Dockerfile (contem as confs padrão)
+- create a folder:  mkdir `sga2`
+   - create a `sga2/src`
+- create a file `docker-compose.yaml`
+- create a `Dockerfile` (contem as confs padrão)
 
 Use os comandos:
 - `docker-compose build`
