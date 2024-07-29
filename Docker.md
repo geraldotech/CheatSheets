@@ -289,12 +289,25 @@ adicoinar exit() alguns headers()
 
 ## Docker Apache, PHP + MySQL
 
+- create a folder:  mkdir sga2
+- access this folder and create a: `src`
+- crie o arquivo: docker-compose.yaml
+- e o arquivo: Dockerfile (contem as confs padrão)
+
+Use os comandos:
+- `docker-compose build`
+- `docker-compose up -d`
+- `docker-compose stop`
+
+- crie um index no ./src/index.php e acesse `http://127.0.0.1:8080`
+- Permissao: `chown -R www-data:www-data /var/www/html`
+    
+
 
 ## zip no docker
-- `apt-get install -y p7zip-full`
+- `apt install -y p7zip-full`
    - `7z x myfile.7z`
-
-
+- `cp -r SGA-Padrao-V2 /var/www/html/SGA-Padrao-V2`
 
 
 
