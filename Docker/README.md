@@ -31,7 +31,7 @@ Então, enquanto o VirtualBox cria máquinas virtuais completas, o Docker cria c
  
 - `sudo docker pull nginx` - get images in docker hub after this create containers from images.
 - `sudo docker images` - listar images
-- `sudo docker image inspect nginx` - inspect
+- `sudo docker image inspect nginx` - inspectx
 - `sudo docker rmi nginx` -  remove images
 - `docker run --name mysqlContainer -e MYSQL_ROOT_PASSWORD=root mysql` eg creating a mysql docker from image after https://hub.docker.com/_/mysql
 - **if docker run again will create multiple containers, if created just run it by id or custom name**
@@ -266,10 +266,10 @@ services:
 - Montar o docker with volume
   - `docker run --name myXampp -p 41061:22 -p 41062:80 -d -v ~/my_web_pages:/mnt/storage/lampp/htdocs tomsik68/xampp`
 
-## Transferir arquivos do Windows para o WSL2:
+## Arquivos do Windows para o WSL2:
 - `cp /mnt/c/Users/gmap/Downloads/idusuarios.csv /mnt/storage/` ou crie uma pasta em `/mnt/storage` => permissão `sudo chmod 777 /mnt/storage` e mover os arquivos usando o Windows Explorer
 
-## Transferir arquivos do WSL2 para o container:
+## Arquivos do WSL2 para o container:
 - <b>onde `myXampp` é o nome do container running</b>
 - `root@gmapnitro:/mnt/storage# docker cp /mnt/storage/id.txt myXampp:/mnt/storage`
 - `root@gmapnitro:/mnt/storage# docker cp /mnt/storage/id.txt myXampp:/opt/lampp/htdocs`
@@ -287,17 +287,19 @@ converter utf do banco de dados
 permissao de pastas e arquivos
 adicoinar exit() alguns headers()
 
-## Docker Apache, PHP + MySQL
+## Docker LAMPP: Apache, PHP and MySQL
 
 - create a folder:  mkdir `sga2`
    - create a `sga2/src`
 - create a file `docker-compose.yaml`
 - create a `Dockerfile` (contem as confs padrão)
+- ou baixe os arquivos prontos neste repositório.
 
 Use os comandos:
-- `docker-compose build`
-- `docker-compose up -d`
-- `docker-compose stop`
+
+- `docker-compose build` - fazer o build
+- `docker-compose up -d` - up no container
+- `docker-compose stop` - parar o container
 
 - crie um index no ./src/index.php e acesse `http://127.0.0.1:8080`
 - Permissao: `chown -R www-data:www-data /var/www/html`
