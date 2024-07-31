@@ -121,20 +121,6 @@ para finalizar definir o Git Bash Default Profile
 
 
 
-### Comandos úteis para produtividade:
-
-```shell
-mkdir | create folders
-touch | create files
-rm -rd | delete folders
-rm | delete files
-echo "# oi" >> style.css | create file and write
-cat | read file content
-```
-
-
-
-
 
 &nbsp;
 &nbsp;
