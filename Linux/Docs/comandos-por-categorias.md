@@ -40,24 +40,30 @@
 
 - which google-chrome - mostrar localização de um software instalado
 - cd - navega entre os diretórios do sistema
-- media Diretório onde estão localizados os CD/DVD/Pen-drivers
-- top: Visualiza processos correntes
-- ps -aux : Similtar ao TOP e até melhor.
+- media - Diretório onde estão localizados os CD/DVD/Pen-drivers
+- top - Visualiza processos correntes
+- ps -aux - Similtar ao TOP e até melhor.
 - kill: mata “fecha” um processo
-- uptime: Mostra o tempo em que o sistema está em execução.
-- update-rc.d -f bind9 remove: Remove o bind da inicialização no boot
+- uptime - Mostra o tempo em que o sistema está em execução.
+- update-rc.d -f bind9 remove - Remove o bind da inicialização no boot
 - #Substitua bind pelo programa que quiser remover da inicialização.
-- update-rc.d bind9 defaults: O bind volta a iniciar no boot
+- update-rc.d bind9 defaults - O bind volta a iniciar no boot
 - free: mostra a quantidade de memória RAM disponível
 - `locate <arquivo>` – procura por arquivos especificado no sistema.
 - lsmod - Lista drivers em execução.
 - halt: desliga o sistema imediatamente
-- shutdown -h now: desliga o sistema
-- shutdown -h +5 : desligará o sistema em 5 minutos!
-- reboot: reinicia o sistema imediatamente
-- mkdir: cria um diretório
-- rm -rf: remove um diretório
+- shutdown -h now - desliga o sistema
+- shutdown -h +5 - desligará o sistema em 5 minutos!
+- reboot - reinicia o sistema imediatamente
+- mkdir - cria um diretório
 - rm – remove arquivos
+- rm -rf -remove um diretório
+- rm -rd - remove um diretório
+- rm -rf D/* - remove todos os arquivos e pasta de um directory
+- touch: - create files
+- echo "# oi" >> directory/style.css - create file and write
+- cat - read file content
+
 - mv- mover arquivos
 - uname - nome do sistemas
   - unamed -a - nome do sistemas com detalhes
@@ -65,7 +71,9 @@
 - `ls -la` ou apenas `ls -l` – mostra as permissões dos arquivos.
 - `cp`: copia ficheiros
   - `cp -a one/. /home/gmap/Downloads/two/` using a dot at the end of our source directory to indicate that everything within the directory should be copied
-  - `cp -a /folder/ /newfolderpath` - copiar pasta recursive 
+  -  `cp -r A/* B/` - copiar todos files pasta A para B, funciona como o comando acima.
+  - `cp -a /folder/ /newfolderpath` - copiar pasta recursive
+  
 - ls: mostra o conteúdo do diretório
 - pwd: exibe o caminho do diretório atual
 - ssh usuario@IP : Se logar remotamente com o protocolo ssh
@@ -77,7 +85,6 @@
 - du -hs - mostra o tamanho geral
 - [neofetch](https://github.com/dylanaraps/neofetch/wiki/Installation#debian) - displays information about your operating system, software and hardware
   
-
 
 ### HD e mídias virtuais:
 
