@@ -1,7 +1,7 @@
 <h1 align="center">Linux Ubuntu - Comandos</h1>
 
-- Inicial version: 18/5/2012
-- Last update: 21/03/2024
+- Inicial version: 18/05/2012
+- Last update: 02/08/2024
 - By: Geraldo Filho
 
 <hr>
