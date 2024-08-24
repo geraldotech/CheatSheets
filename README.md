@@ -72,6 +72,10 @@
 - [https://devicon.dev/](https://devicon.dev)
 - [https://boxicons.com/](https://boxicons.com/) - `<link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">`
 
+### Badages
+- [badges](https://github.com/digitalinnovationone/dio-lab-open-source/blob/main/utils/badges/badges.md)
+- [150-badges-for-github-pnk](https://dev.to/envoy_/150-badges-for-github-pnk)
+
 ### Featured Fonts
 
 - Inter  - readers
