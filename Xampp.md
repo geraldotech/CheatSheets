@@ -4,17 +4,18 @@ C:\xampp\apache\conf\extra\httpd-vhosts.conf add:
 
 ```js
 ## Added to serve as primary recipient of web requests:
+## necessário para servir a porta 80 no `localhost`
 <VirtualHost *:80>
 ServerName localhost
-
     DocumentRoot "C:/xampp/htdocs"    
 </VirtualHost>
 
-
+## custom virtual host
+## aqui você define seu virtual host para servir a porta 80 no `php.localhost`
 <VirtualHost *:80>
     ServerName php.localhost
-    DocumentRoot "C:/xampp/htdocs/PHP"    
-    <Directory "C:/xampp/htdocs/PHP">
+    DocumentRoot "C:\Users\geral\OneDrive\Developer\A2\SGAdevdocs"    
+    <Directory "C:\Users\geral\OneDrive\Developer\A2\SGAdevdocs">
         Options Indexes FollowSymLinks Includes ExecCGI
         AllowOverride All
         Require all granted
