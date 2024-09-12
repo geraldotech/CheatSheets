@@ -10,16 +10,18 @@ CSR - client side rendering
 # Comandos
 
 - new project
-    -  ng new Project
+    -  `ng new Project`
 
 - version (cdm)
-    - ng version
+    - `ng version`
+ 
+- `npm run start`
 
 - start server
-    - ng server
+    - `ng server`
 
 - criar components
-    - ng g c components/container
+    - `ng g c components/container`
 
 - powershell problem:
 > porque a execução de scripts foi desabilitada neste sistema. Abrir o powershell:
