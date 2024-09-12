@@ -3,6 +3,10 @@
 - https://angular.dev/installation
 
 
+- https://marketplace.visualstudio.com/items?itemName=Angular.ng-template
+- https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2
+
+
 SSR - Server Side Rendering 
 CSR - client side rendering
 
