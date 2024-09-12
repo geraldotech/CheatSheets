@@ -18,7 +18,7 @@ CSR - client side rendering
 - `npm run start`
 
 - start server
-    - `ng server`
+    - `ng serve`
 
 - criar components
     - `ng g c components/container`
