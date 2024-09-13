@@ -13,7 +13,12 @@ SSR - Server Side Rendering
 CSR - client side rendering
 
 
-# Comandos
+### Create Components:
+
+- `ng generate component`
+- `ng g c components/container`
+
+### Comandos
 
 - new project
     -  `ng new Project`
@@ -25,9 +30,6 @@ CSR - client side rendering
 
 - start server
     - `ng serve`
-
-- criar components
-    - `ng g c components/container`
 
 - powershell problem:
 > porque a execução de scripts foi desabilitada neste sistema. Abrir o powershell:
