@@ -114,6 +114,10 @@ Export Full profile
 
 Download my profiles in: https://1drv.ms/f/s!Aol5qLKOISMz4hMS39bBOqHNcLrR?e=V3tfln
 
+### Import extensions from imported profile to default profile
+
+- copy `%AppData% \Roaming\Code\User\profiles\extensions.json` to `%USERPROFILE%\.vscode\extensions`
+
 
 
 ## 🌐Links:
