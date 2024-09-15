@@ -47,10 +47,7 @@
   `CTRL + B`
 
 - comment multiple lines type 👉 `\* */`:
-  `shitf + alt + A`
-
-- comment multiple
-  `CTRL + /` 
+  `shitf + alt + A` or   `CTRL + /` 
 
 - single comment 👉 `// or <!-- -->`:
   `CTRL + K, + C`
@@ -59,7 +56,7 @@
 
 - multiple cursos: `click + alt`
 
-- delete lines:
+- delete current lines:
   `CTRL + shit + k`
 
 - search:
@@ -68,8 +65,11 @@
 - Language Mode settings or click on bar:
   `CTRL + K, M`
 
-- change multiple same word:
-  `CTRL + D`
+-  multiple same word:
+  `CTRL + D` or `CTRL + FN + F2`
+
+- multiple select
+  `holt alt + mouse select`
 
 - sugestions:
   `CTRL + space`
@@ -82,7 +82,7 @@
 - Themes:
   `CTRL + K + T`
 
-- identar code [About](https://medium.com/code-write/atalho-para-identar-c%C3%B3digo-no-vs-code-dicarapida-1b85c9607b1b)
+- Formatter identar code [About](https://medium.com/code-write/atalho-para-identar-c%C3%B3digo-no-vs-code-dicarapida-1b85c9607b1b)
   `Alt + shift + F`
 
 - zen mode:
