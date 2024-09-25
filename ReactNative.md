@@ -37,6 +37,21 @@ e no balbel adicionar: `plugins: ["nativewind/babel"]`
 
 - `npx expo install expo-font @expo-google-fonts/inter`
 
+## start server:
+
+- `npx expo start`
+- `npx expo start --clear`
+
+## aplicar classe de forma condicional:
+
+- `npm i clsx`
+
+## Generate APK
+
+- expo login
+- `eas build --platform android --profile preview`
+- `eas build --platform android --profile preview
+
 
 
 
