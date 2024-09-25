@@ -49,8 +49,8 @@ e no balbel adicionar: `plugins: ["nativewind/babel"]`
 ## Generate APK
 
 - expo login
+- npm install -g eas-cli
 - `eas build --platform android --profile preview`
-- `eas build --platform android --profile preview
 
 
 
