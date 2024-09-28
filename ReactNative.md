@@ -52,6 +52,12 @@ e no balbel adicionar: `plugins: ["nativewind/babel"]`
 - npm install -g eas-cli
 - `eas build --platform android --profile preview`
 
+## Zustand - Estados globais
+
+- https://zustand.docs.pmnd.rs/getting-started/introduction
+
+- `npm install zustand`
+
 
 
 
