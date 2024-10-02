@@ -59,6 +59,10 @@ e no balbel adicionar: `plugins: ["nativewind/babel"]`
 - `npm install zustand`
 
 
+## Lib better scroll
+
+- https://github.com/APSL/react-native-keyboard-aware-scroll-view
+
 
 
 ## links
