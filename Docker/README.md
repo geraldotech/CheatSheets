@@ -1,7 +1,6 @@
 # Docker
 
-![image](https://github.com/geraldotech/CheatSheets/assets/92253544/8f377a3c-0518-4c91-8e4e-0cd619df8cbd)
-
+![image](https://github.com/user-attachments/assets/2e831987-aeea-4df8-8a9a-a58f736acc84)
 
 - [WSL usando o tutorial de instalação: Instalar o Docker no Ubuntu Nativo](https://github.com/codeedu/wsl2-docker-quickstart?tab=readme-ov-file#1---instalar-o-docker-com-docker-engine-docker-nativo)
    - WSLg e rodar aplicações gráficas do Linux no Windows - https://learn.microsoft.com/pt-br/windows/wsl/tutorials/gui-apps
