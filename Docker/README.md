@@ -28,11 +28,13 @@ Então, enquanto o VirtualBox cria máquinas virtuais completas, o Docker cria c
 ### Quick start Docker:
 
 - ## Utils
+
+- syntax: `docker run <imageName?>`
  
-- `sudo docker pull nginx` - get images in docker hub after this create containers from images.
-- `sudo docker images` - listar images
-- `sudo docker image inspect nginx` - inspectx
-- `sudo docker rmi nginx` -  remove images
+- `docker pull nginx` - get images in docker hub after this create containers from images.
+- `docker images` - listar images
+- `docker image inspect nginx` - inspectx
+- `docker rmi nginx` -  remove images
 - `docker run --name mysqlContainer -e MYSQL_ROOT_PASSWORD=root mysql` eg creating a mysql docker from image after https://hub.docker.com/_/mysql
 - **if docker run again will create multiple containers, if created just run it by id or custom name**
 - `docker ps` - show containers running
@@ -43,7 +45,6 @@ Então, enquanto o VirtualBox cria máquinas virtuais completas, o Docker cria c
 
 Fazer o bind das portas do container para conexão da porta do container e não da máquina
 Remover o container e lets create a new one:
-
 - `docker run --name MysqlContainer2 -e MYSQL_ROOT_PASSWORD=root -p 3306:3306 -d mysql`
 
 Now teste mysql connection:
@@ -207,8 +208,6 @@ Fazendo as dados persistentes
 ![image](https://github.com/geraldotech/CheatSheets/assets/92253544/b9259b41-a96a-49a1-9f17-46527424d405)
 
 if dont open in `/app` or correct directo to go terminal `type: cd /app`
-
-
 
 <hr>
 
