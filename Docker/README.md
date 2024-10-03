@@ -147,10 +147,7 @@ CMD [ "npm", "run", "dev" ]
  
 </details>
 
-
-
 <details>
-
 <summary>Dockerfile WORKDIR /app </summary>
 
 ![image](https://github.com/geraldotech/CheatSheets/assets/92253544/42e04023-9e04-41eb-932a-743f29de5382)
@@ -183,7 +180,6 @@ EXPOSE 4000
 CMD ["npm", "run", "dev"]
 
 ```
-
  
 </details>
 
@@ -204,15 +200,24 @@ Create interative and bash version?
 
 ## **Volume**
 
-Fazendo as dados persistentes
+Fazendo as dados persistentes.
+
+
+Criar uma pasta no computador(Linux) que será compartilhada no container e a mesma no container.
+
+- crie a pasta: html
+- rode o comando passando o nome da pasta html e o fullpath dentro do container, desse fazendo o compartilhamento entre as pastas: `docker run -p 8080:80 -v $(pwd)/html:/usr/share/nginx/html nginx`
+- http://localhost:8080 deve dar Forbidden, sua pasta html no Linux deve estar vazia crie arquivo: touch index.html
+
 
 [https://docs.docker.com/storage/volumes/](https://docs.docker.com/storage/volumes/#start-a-container-with-a-volume)
 
-- create a container and mount a folder voldata to  `docker run -d --name devtest -p 4000:4000 --mount source=voldata,target=/app ggreact2` where `voldata` is whatever directory that will be mounted in **"Mountpoint": "/var/lib/docker/volumes/voldata/_data"**
+- create a container and mount a folder voldata to:
+-   `docker run -d --name devtest -p 4000:4000 --mount source=voldata,target=/app ggreact2` where `voldata` is whatever directory that will be mounted in **"Mountpoint": "/var/lib/docker/volumes/voldata/_data"**
 - inspect volumesName: `sudo docker inspect voldata`
 
 
-### VSCode connect a container
+### VSCode connect a containerC:\Apps\ReactNative\nlw\src\app\cart.tsx
 
 - install Dev Container extesntion => https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers
 
