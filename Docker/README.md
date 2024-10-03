@@ -28,19 +28,27 @@ Então, enquanto o VirtualBox cria máquinas virtuais completas, o Docker cria c
 
 - ## Utils
 
-- syntax: `docker run <imageName?>`
- 
-- `docker pull nginx` - get images in docker hub after this create containers from images.
-- `docker images` - listar images
-- `docker image inspect nginx` - inspectx
-- `docker rmi nginx` -  remove images
-- `docker run --name mysqlContainer -e MYSQL_ROOT_PASSWORD=root mysql` eg creating a mysql docker from image after https://hub.docker.com/_/mysql
-- **if docker run again will create multiple containers, if created just run it by id or custom name**
+- syntax: `docker run <imageName?>` - cria um container from a image
+
+- Docker Hello World message: `docker run hello-world` 
+
+
 - `docker ps` - show containers running
 - `docker ps -a` - list all
 - `docker ps -q -a` - list all only ids
+ 
 - `docker start <id>` - start again
 - `docker stop <id> or <name>` - stop
+ 
+- `docker pull nginx` - get images in docker hub after this create containers from images.
+ 
+- `docker images` - listar images
+- `docker image inspect nginx` - inspectx
+
+- `docker rmi nginx` -  remove images
+- `docker run --name mysqlContainer -e MYSQL_ROOT_PASSWORD=root mysql` eg creating a mysql docker from image after https://hub.docker.com/_/mysql
+- **if docker run again will create multiple containers, if created just run it by id or custom name**
+
 
 Fazer o bind das portas do container para conexão da porta do container e não da máquina
 Remover o container e lets create a new one:
@@ -66,17 +74,23 @@ Now teste mysql connection:
 ![image](https://github.com/geraldotech/CheatSheets/assets/92253544/f7966b6f-3e62-4c6f-9331-da3f30de2edc)
 
 
+### To run nginx [nginx](https://hub.docker.com/_/nginx): 
 
-### To run [nginx](https://hub.docker.com/_/nginx): 
+- `docker run nginx` - works but running only on docker port 80 curl localhost will not work yet!!
+- `docker run -p 8080:80 nginx` -p published - rodar portas baixas como 80 é necessário executar como administrador (sudo)
+- `docker run -d -p 80:80 nginx`
+- `docker run -it nginx bash` - run nginx go to bash,  now you can change `root@19966f3508c8:/# cat /usr/share/nginx/html/index.html`
+   - -i (interative mode): Mantém o STDIN aberto, permitindo que você interaja com o contêiner. Isso é útil para poder digitar comandos diretamente no terminal do contêiner.
+   - -t (tty): Aloca um terminal pseudo-TTY. Isso faz com que o Docker emule um terminal para o contêiner, permitindo que ele se comporte como se estivesse em um terminal real, facilitando a interação.
+- `docker run -it ubuntu bash` - CTRL + D para exit
 
-- `docker run nginx` - works but running only on docker port 80
-- `docker run -p 8080:80 nginx`
-  - `docker run -d -p 80:80 nginx`
-- `netstat -tln` - to checkout portas em LISTEN
-- `docker exec friendly_noether ls` - executar comando em container em execução, open a in a new tab | friendly_noether is a random name, but works with docker id too  
-- `docker run -it nginx bash` - run nginx go to bash, -i interative mode, now you can change `root@19966f3508c8:/# cat /usr/share/nginx/html/index.html`
-- `docker exec -it <CONTAINER_ID> bash` - when container is running
+## executar comando em container em execução:
+
+- `docker exec <CONTAINER_ID or NAME> ls` - open a in a new tab | friendly_noether is a random name, but works with docker id too  
+- `docker exec -it <CONTAINER_ID or NAME> bash` - acessar o bash do container
+
 - `docker container rm <id>` - delete container
+- `netstat -tln` - to checkout portas em LISTEN
 
 Container sempre vem de uma imagem, então todo processo será foi perdido, então vamos especificar um volume para este container
 
