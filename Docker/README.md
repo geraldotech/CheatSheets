@@ -3,8 +3,8 @@
 ![image](https://github.com/geraldotech/CheatSheets/assets/92253544/8f377a3c-0518-4c91-8e4e-0cd619df8cbd)
 
 
-- WSL usando o tutorial de instalação: https://github.com/codeedu/wsl2-docker-quickstart.  
-- [Instalar o Docker no Ubuntu](https://github.com/codeedu/wsl2-docker-quickstart?tab=readme-ov-file#1---instalar-o-docker-com-docker-engine-docker-nativo)
+- [WSL usando o tutorial de instalação: Instalar o Docker no Ubuntu Nativo](https://github.com/codeedu/wsl2-docker-quickstart?tab=readme-ov-file#1---instalar-o-docker-com-docker-engine-docker-nativo)
+   - WSLg e rodar aplicações gráficas do Linux no Windows - https://learn.microsoft.com/pt-br/windows/wsl/tutorials/gui-apps
 - Mínimo de Docker comandos... https://www.youtube.com/watch?v=ntbpIfS44Gw
 - useful container e images comando, remote, delete... [how-to-remove-docker-images-con](https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes)
  
@@ -47,8 +47,6 @@ Remover o container e lets create a new one:
 - `docker run --name MysqlContainer2 -e MYSQL_ROOT_PASSWORD=root -p 3306:3306 -d mysql`
 
 Now teste mysql connection:
-
-
 ![image](https://github.com/geraldotech/CheatSheets/assets/92253544/84869adf-9d23-41be-a3b2-d416d005fb13)
 
 
