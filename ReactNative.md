@@ -62,6 +62,15 @@ e no balbel adicionar: `plugins: ["nativewind/babel"]`
 ## Lib better scroll
 
 - https://github.com/APSL/react-native-keyboard-aware-scroll-view
+ 
+## AsyncStorage
+
+- https://docs.expo.dev/versions/latest/sdk/async-storage/
+  
+- salvar dados de forma persistente no dispositivo
+
+
+
 
 
 
