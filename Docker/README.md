@@ -304,8 +304,9 @@ adicoinar exit() alguns headers()
 
 ## Docker LAMPP: Apache, PHP and MySQL
 
-- create a folder:  mkdir `sga2`
-   - create a `sga2/src`
+- `apt  install docker-compose`
+- create a folder:  mkdir `sga`
+   - create a `sga/src`
 - create a file `docker-compose.yaml`
 - create a `Dockerfile` (contem as confs padrão)
 - ou baixe os arquivos prontos neste repositório.
