@@ -4,6 +4,8 @@
 </div>
 
 
+- [https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
+
 
 :books:
 
@@ -66,7 +68,7 @@
   `CTRL + K, M`
 
 -  multiple same word:
-  `CTRL + D` or `CTRL + FN + F2`
+  `CTRL + D` or `CTRL + F2`
 
 - multiple select
   `holt alt + mouse select`
