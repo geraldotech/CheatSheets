@@ -61,6 +61,8 @@
 - delete current lines:
   `CTRL + shit + k`
 
+- `shift + alt + i` - Após selecionar ir para as últimas linhas
+
 - search:
   `F1 or CTRL + shift + P` to search files by name delete `>` in input
 
