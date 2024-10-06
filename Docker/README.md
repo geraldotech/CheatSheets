@@ -270,8 +270,8 @@ services:
 - `docker-compose up` - start
 - `docker-compose up -d` - run in background
 - `docker-compose restart`
-- `docker compose down` kill container but volumes is not deleted
-- `docker compose ps` list all docker compose running in background
+- `docker-compose down` kill container but volumes is not deleted
+- `docker-compose ps` list all docker compose running in background
 
 ![image](https://github.com/geraldotech/CheatSheets/assets/92253544/fabe5e20-4041-45c9-b131-e2fa0700d382)
 
