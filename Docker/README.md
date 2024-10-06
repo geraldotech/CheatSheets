@@ -54,6 +54,7 @@ Fazer o bind das portas do container para conexão da porta do container e não 
 Remover o container e lets create a new one:
 - `docker run --name MysqlContainer2 -e MYSQL_ROOT_PASSWORD=root -p 3306:3306 -d mysql`
 - `docker stop $(docker ps -q)` - parar todos os containers em execução
+- `docker rm $(docker ps -aq)` - Para remover todos os containers (incluindo os que estão parados):
 
 
 Now teste mysql connection:
