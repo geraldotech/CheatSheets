@@ -247,6 +247,9 @@ Por exemplo, se você estiver desenvolvendo um aplicativo da web que requer um c
  
 </details>
 
+## instalação:
+
+- ` sudo apt install docker-compose`
 
 # docker-compose.yaml
 
