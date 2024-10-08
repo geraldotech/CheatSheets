@@ -18,7 +18,7 @@ Por exemplo, se você estiver desenvolvendo um aplicativo da web que requer um c
 
 - ` sudo apt install docker-compose`
 
-# docker-compose.yaml
+### docker-compose.yaml
 
 ferramenta que ajuda a orquestar os containers que estão dentro de um manifesto
 
@@ -37,15 +37,21 @@ services:
       - 3306:3306
 ```
 
-- `docker-compose up` - start
+- `docker-compose up` - start in foreground
 - `docker-compose up -d` - run in background
 - `docker-compose restart`
+- `docker-compose start` 
+- `docker-compose stop` 
 - `docker-compose down` kill container but volumes is not deleted
 - `docker-compose ps` list all docker compose running in background
+- `docker-compose logs`
+- `docker-compose kill` 
 
 ![image](https://github.com/geraldotech/CheatSheets/assets/92253544/fabe5e20-4041-45c9-b131-e2fa0700d382)
 
-## Xampp
+## Xampp - 
+> Não recomendado, baixe o zip nesse repo e inicie o docker-composer com Apache+MySQL+PHP
+
 - `docker pull tomsik68/xampp` - link https://hub.docker.com/r/tomsik68/xampp/
 - acessar a pasta mounted dentro do Docker:
   - `docker exec -it myXampp /bin/bash`
@@ -68,10 +74,6 @@ services:
 - `mysql -u your_user -p`
 - `GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'root' WITH GRANT OPTION;`
 
- ## Unknown collation: ''
-converter utf do banco de dados
-- https://king.host/wiki/artigo/1273-unknown-collation/
-
 permissao de pastas e arquivos
 adicoinar exit() alguns headers()
 
@@ -91,8 +93,7 @@ Use os comandos:
 - `docker-compose stop` - parar o container
 
 - crie um index no ./src/index.php e acesse `http://127.0.0.1:8080`
-- Permissao: `chown -R www-data:www-data /var/www/html`
-    
+- Permissao: `chown -R www-data:www-data /var/www/html`    
 
 
 ## zip no docker
