@@ -19,7 +19,7 @@ list of valid distributions:
 
 ![image](https://github.com/geraldotech/CheatSheets/assets/92253544/905662f8-2fe8-4006-b394-0c3e235c5940)
 
-Add distro:
+Add distro: (run as adm)
 
 ![image](https://github.com/geraldotech/CheatSheets/assets/92253544/87212799-5417-42ae-8bd5-aa05b4752be9)
 
