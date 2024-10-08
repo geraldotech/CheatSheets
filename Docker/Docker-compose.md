@@ -16,7 +16,7 @@ Por exemplo, se você estiver desenvolvendo um aplicativo da web que requer um c
 
 ## instalação:
 
-- ` sudo apt install docker-compose`
+- `sudo apt install docker-compose`
 
 ### docker-compose.yaml
 
@@ -45,7 +45,9 @@ services:
 - `docker-compose down` kill container but volumes is not deleted
 - `docker-compose ps` list all docker compose running in background
 - `docker-compose logs`
-- `docker-compose kill` 
+- `docker-compose kill`
+- `docker-compose build` - fazer o build
+
 
 ![image](https://github.com/geraldotech/CheatSheets/assets/92253544/fabe5e20-4041-45c9-b131-e2fa0700d382)
 
@@ -79,18 +81,13 @@ adicoinar exit() alguns headers()
 
 ## Docker LAMPP: Apache, PHP and MySQL
 
-- `apt  install docker-compose`
+- `apt install docker-compose`
 - create a folder:  mkdir `sga`
    - create a `sga/src`
 - create a file `docker-compose.yaml`
 - create a `Dockerfile` (contem as confs padrão)
 - ou baixe os arquivos prontos neste repositório.
 
-Use os comandos:
-
-- `docker-compose build` - fazer o build
-- `docker-compose up -d` - up no container
-- `docker-compose stop` - parar o container
 
 - crie um index no ./src/index.php e acesse `http://127.0.0.1:8080`
 - Permissao: `chown -R www-data:www-data /var/www/html`    
