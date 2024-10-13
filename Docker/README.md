@@ -75,6 +75,7 @@ Remover o container e lets create a new one:
 
 
 Now teste mysql connection:
+
 ![image](https://github.com/geraldotech/CheatSheets/assets/92253544/84869adf-9d23-41be-a3b2-d416d005fb13)
 
 
