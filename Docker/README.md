@@ -50,6 +50,23 @@ Então, enquanto o VirtualBox cria máquinas virtuais completas, o Docker cria c
 - **if docker run again will create multiple containers, if created just run it by id or custom name**
 
 
+### Parar o Docker manualmente ao iniciar o WSL2
+- sudo nano /etc/wsl.conf
+- adicionar
+[boot]
+command="sudo service docker stop"
+
+
+
+### Políticas de Reinício no Docker
+
+- `docker inspect --format='{{.HostConfig.RestartPolicy.Name}}' nome_do_container`
+
+### Alterando a Política de Reinício para no
+
+- `docker update --restart=no nome_do_container`
+
+
 Fazer o bind das portas do container para conexão da porta do container e não da máquina
 Remover o container e lets create a new one:
 - `docker run --name MysqlContainer2 -e MYSQL_ROOT_PASSWORD=root -p 3306:3306 -d mysql`
