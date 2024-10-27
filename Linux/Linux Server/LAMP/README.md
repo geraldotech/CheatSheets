@@ -1,4 +1,4 @@
-## LAMP Stack Apache - MySQL - PHP
+<h1 align=center>LAMP Stack Apache - MySQL - PHP</h1>
 
 <hr>
 
