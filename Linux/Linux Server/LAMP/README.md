@@ -1,4 +1,4 @@
-## LAMP Stack Apache - PHP Part 1/2  
+## LAMP Stack Apache - MySQL - PHP
 
 <hr>
 
