@@ -162,5 +162,6 @@ Criar um usuário no mysql e testar a conexão com o banco de dados:
 Refs: 
 - https://phoenixnap.com/kb/how-to-install-lamp-in-ubuntu
 - https://www.digitalocean.com/community/tutorials/how-to-allow-remote-access-to-mysql
+- Oracle? Liberar a porta 80 https://dev.to/armiedema/opening-up-port-80-and-443-for-oracle-cloud-servers-j35
 
 
