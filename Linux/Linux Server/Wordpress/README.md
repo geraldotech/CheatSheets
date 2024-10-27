@@ -95,6 +95,7 @@ Ref: How To Install WordPress with LAMP on Ubuntu 18.04 | DigitalOcean
 
 EXTRA: INSTALL PHPMYADMIN
 
+```shell
 cd /var/www
 
 wget https://files.phpmyadmin.net/phpMyAdmin/5.1.0/phpMyAdmin-5.1.0-all-languages.zip
@@ -110,7 +111,10 @@ renamed '/var/www/phpMyAdmin-5.1.0-all-languages' -> '/opt/phpMyAdmin'
 chown -Rfv www-data:www-data /opt/phpMyAdmin
 
 nano /etc/apache2/sites-available/phpmyadmin.conf
+```
 
+
+```shell
 <VirtualHost *:9000>
 ServerAdmin webmaster@localhost
 DocumentRoot /opt/phpMyAdmin
@@ -123,6 +127,7 @@ Require all granted
 ErrorLog ${APACHE_LOG_DIR}/error_phpmyadmin.log
 CustomLog ${APACHE_LOG_DIR}/access_phpmyadmin.log combined
 </VirtualHost>
+```
 
 <salvar>
 
@@ -131,8 +136,12 @@ CustomLog ${APACHE_LOG_DIR}/access_phpmyadmin.log combined
 
 Adicionar a porta 9000
 
+![image](https://github.com/user-attachments/assets/a699d352-e607-49d5-aa19-4e1fedfbab7b)
+
 
 Ativar o virtualhost  do phpmyadmin and restart Apache2
+
+![image](https://github.com/user-attachments/assets/23e0d264-ef58-4653-b8e9-c5bb7b0601ba)
 
 
 
