@@ -88,7 +88,7 @@ DB_USER
 DB_PASSWORD
 
 
-Ref: How To Install WordPress with LAMP on Ubuntu 18.04 | DigitalOcean
+Ref: How To Install WordPress with LAMP on Ubuntu 18.04 | [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-install-wordpress-with-lamp-on-ubuntu-18-04)
 
 EXTRA: INSTALL PHPMYADMIN
 
