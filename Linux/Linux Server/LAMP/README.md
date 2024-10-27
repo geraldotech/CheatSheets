@@ -63,6 +63,12 @@ sudo ufw allow in "Apache"
  
 » Verificar os status
 sudo ufw app info “Apache Full”
+
+» Opcional ativar o firewall:
+ufw enable
+
+» Readcionar o ssh
+ufw allow ssh
 ```
 
 Testar no brower: YOUR_IPADDRESS
