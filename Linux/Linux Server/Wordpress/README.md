@@ -3,9 +3,10 @@
 
 Create DATABASE:
 
-CREATE DATABASE wordpress;
+`CREATE DATABASE wordpress;`
 
 Create a new user:
+
 `CREATE USER 'worduser'@'%' IDENTIFIED BY 'rootpass@123gDd';`
 
 Now give this user permission over the wordpress database:
@@ -16,8 +17,6 @@ Now give this user permission over the wordpress database:
 Enabling the Rewrite Module
 Next, we can enable mod_rewrite so that we can utilize the WordPress permalink feature:
 `a2enmod rewrite`
-
-
 
 Enabling the Changes
 Before we implement the changes we’ve made, check to make sure we haven’t made any syntax errors:
@@ -45,7 +44,7 @@ Create the file by typing:
 `touch /tmp/wordpress/.htaccess`
 
 We’ll also copy over the sample configuration file to the filename that WordPress actually reads:
-cp /tmp/wordpress/wp-config-sample.php /tmp/wordpress/wp-config.php
+`cp /tmp/wordpress/wp-config-sample.php /tmp/wordpress/wp-config.php`
 
 We can also create the upgrade directory, so that WordPress won’t run into permissions issues when trying to do this on its own following an update to its software:
 
@@ -68,6 +67,7 @@ find /var/www/wordpress/ -type f -exec chmod 640 {} \;
 
 
 Configuração do WordPress
+
 Gerar as chaves e copiar para o bloco de notas
 
 curl -s https://api.wordpress.org/secret-key/1.1/salt/
@@ -83,15 +83,12 @@ substitua as keys pelas que foram geradas:
 
 Edite também:
 
-
 DB_NAME
 DB_USER
 DB_PASSWORD
 
 
-
 Ref: How To Install WordPress with LAMP on Ubuntu 18.04 | DigitalOcean
-
 
 EXTRA: INSTALL PHPMYADMIN
 
