@@ -92,6 +92,29 @@ apt install default-mysql-server
 systemctl status mysql
 ```
 
+## Permitir conexão remota:
+
+```shell
+
+sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf
+
+bind-address            = 127.0.0.1
+para bind-address            = 0.0.0.0
+
+
+
+-- Update the root user's host to allow connections from any IP (%):
+UPDATE mysql.user SET host = '%' WHERE user = 'root';
+
+-- Apply the changes:
+FLUSH PRIVILEGES;
+
+
+sudo ufw allow 3306
+
+sudo systemctl restart mysql
+```
+
 sobre o mysql_secure_installation na  [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-install-lamp-stack-on-ubuntu#step-2-installing-mysql)
 
 - Connect to mysql
@@ -135,6 +158,8 @@ Criar um usuário no mysql e testar a conexão com o banco de dados:
 
 
 
-Refs: https://phoenixnap.com/kb/how-to-install-lamp-in-ubuntu
+Refs: 
+- https://phoenixnap.com/kb/how-to-install-lamp-in-ubuntu
+- https://www.digitalocean.com/community/tutorials/how-to-allow-remote-access-to-mysql
 
 
