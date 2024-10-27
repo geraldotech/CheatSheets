@@ -25,6 +25,7 @@ sudo apt install apache2
 sudo service apache2 status
 ```
 
+```shell
 » reload:
 $ sudo systemctl reload apache2
 
@@ -45,22 +46,21 @@ $ sudo service apache2 stop
 $ netstat -anp | grep :80
 
 
-Apache Change Document Root
+»Apache Change Document Root
 
  $ vim /etc/apache2/sites-available/000-default.conf
-
+ 
+```
 
 Configurar o firewall: Uncomplicated Firewall
 
-In the Apache Full profile, make sure it allows the traffic on ports 80 and 443. Check this by typing the command on:
-
-
+```shell
+» In the Apache Full profile, make sure it allows the traffic on ports 80 and 443. Check this by typing the command on:
 sudo ufw allow in "Apache"
-
-
-Verificar os status
-
+ 
+» Verificar os status
 sudo ufw app info “Apache Full”
+```
 
 Testar no brower: http://66.228.52.49/
 
