@@ -5,7 +5,7 @@
 By: @gmapdev  Date: 20, May, 2021 | Last Update: 27/10/2024  |  Ubuntu Server 24.10
 
 
-### INSTALL APACHE:
+### Install Apache:
 
 `apache2.conf:` arquivo de configuração principal do Apache 2 contém propriedades que são globais ao Apache 2.  
 Diretório `conf.d:` contém arquivos de configuração adicionais, que permitem, por exemplo, adicionar diversos sites ao mesmo domínio.
