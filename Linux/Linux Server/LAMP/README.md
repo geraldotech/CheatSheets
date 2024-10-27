@@ -34,22 +34,23 @@ $ sudo systemctl reload apache2
 $ sudo /etc/init.d/apache2 start
 $ sudo systemctl start apache2
 
-»  restart
+» Restart
 $ sudo service apache2 restart
 
-»  Stop
+» Stop
 $ sudo service apache2 stop
 
 /etc/init.d/apache2 start/stop/status/restart always works!
 
-
 »  Visualizar IP de usuários acessando o servidor (site)
 $ netstat -anp | grep :80
 
+» Apache Change Document Root
 
-»Apache Change Document Root
+$ vim /etc/apache2/sites-available/000-default.conf
 
- $ vim /etc/apache2/sites-available/000-default.conf
+» Test config
+apache2ctl configtest
 ```
 
 - Criar virtualhost: [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-install-lamp-stack-on-ubuntu#step-4-creating-a-virtual-host-for-your-website)
