@@ -100,4 +100,5 @@ com.samsung.android.mapsagent - application recommendations
 com.google.android.projection.gearhead - Android Auto
 com.samsung.android.app.updatecenter - App update
 adb shell pm disable-user --user 0 com.facebook.services && adb shell pm disable-user --user 0 com.facebook.system - multiple packages - Facebook Services
+com.facebook.services - MetaServices - S22+ Android 14
 ```
