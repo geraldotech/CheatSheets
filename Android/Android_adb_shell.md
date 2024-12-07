@@ -44,6 +44,9 @@ Print Only enabled:
 Print all Disables:
 `adb shell pm list packages -d`
 
+Print all system disabled packages:
+`adb shell pm list packages -d -s > disabled.txt`
+
 Disable package:
 `adb shell pm disable-user --user 0 com.samsung.voiceserviceplatform`
 
@@ -52,6 +55,10 @@ Enable package:
 
 Habilitar um package:
 `adb shell pm enable com.samsung.voiceserviceplatform`
+
+Desinstalar app de usuário (aqueles que apenas podem ser desativados):
+`adb shell pm uninstall --user 0 com.google.android.youtube`
+
 
 Filters:
 
