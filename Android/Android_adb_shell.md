@@ -107,12 +107,12 @@ adb shell pm disable-user --user 0 com.samsung.android.app.aodservice - Always O
 adb shell pm disable-user --user 0 com.samsung.android.mapsagent - application recommendations
 adb shell pm disable-user --user 0 com.google.android.projection.gearhead - Android Auto
 adb shell pm disable-user --user 0 com.samsung.android.app.updatecenter - App update
-adb shell pm disable-user --user 0 com.facebook.services && 
+adb shell pm disable-user --user 0 com.facebook.services
 adb shell pm disable-user --user 0 com.facebook.system - multiple packages - Facebook Services
 ```
 
-S22+
+S22+ (Android 14)
 
 ```css
-adb shell pm disable-user --user 0 com.facebook.services - MetaServices - S22+ Android 14
+adb shell pm disable-user --user 0 com.facebook.services - MetaServices
 ```
