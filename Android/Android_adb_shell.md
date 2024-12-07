@@ -92,20 +92,27 @@ samsung espaço infantil:`com.samsung.android.kidsinstaller`
 ### Desabilitados testados no Galaxy S20 FE 5G (Android 12)
 
 ```css
-com.samsung.android.bixby.wakeup
-com.samsung.android.bixby.service
-com.samsung.android.bixbyvision.framework
-com.samsung.android.app.settings.bixby
-com.android.printspooler
-com.samsung.android.visionintelligence
-com.sec.spp.push - samsung push
-com.samsung.android.bixby.agent
-com.samsung.android.app.spage - samsung free
-com.sec.android.soagent && com.wssyncmldm - Software update
-com.samsung.android.app.aodservice - Always On Display
-com.samsung.android.mapsagent - application recommendations
-com.google.android.projection.gearhead - Android Auto
-com.samsung.android.app.updatecenter - App update
-adb shell pm disable-user --user 0 com.facebook.services && adb shell pm disable-user --user 0 com.facebook.system - multiple packages - Facebook Services
-com.facebook.services - MetaServices - S22+ Android 14
+adb shell pm disable-user --user 0 com.samsung.android.bixby.wakeup
+adb shell pm disable-user --user 0 com.samsung.android.bixby.service
+adb shell pm disable-user --user 0 com.samsung.android.bixbyvision.framework
+adb shell pm disable-user --user 0 com.samsung.android.app.settings.bixby
+adb shell pm disable-user --user 0 com.android.printspooler
+adb shell pm disable-user --user 0 com.samsung.android.visionintelligence
+adb shell pm disable-user --user 0 com.sec.spp.push - samsung push
+adb shell pm disable-user --user 0 com.samsung.android.bixby.agent
+adb shell pm disable-user --user 0 com.samsung.android.app.spage - samsung free
+adb shell pm disable-user --user 0 com.sec.android.soagent Software update
+adb shell pm disable-user --user 0 com.wssyncmldm - Software update
+adb shell pm disable-user --user 0 com.samsung.android.app.aodservice - Always On Display
+adb shell pm disable-user --user 0 com.samsung.android.mapsagent - application recommendations
+adb shell pm disable-user --user 0 com.google.android.projection.gearhead - Android Auto
+adb shell pm disable-user --user 0 com.samsung.android.app.updatecenter - App update
+adb shell pm disable-user --user 0 com.facebook.services && 
+adb shell pm disable-user --user 0 com.facebook.system - multiple packages - Facebook Services
+```
+
+S22+
+
+```css
+adb shell pm disable-user --user 0 com.facebook.services - MetaServices - S22+ Android 14
 ```
