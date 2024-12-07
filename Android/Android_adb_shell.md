@@ -97,6 +97,7 @@ adb shell pm disable-user --user 0 com.samsung.android.bixby.service
 adb shell pm disable-user --user 0 com.samsung.android.bixbyvision.framework
 adb shell pm disable-user --user 0 com.samsung.android.bixby.agent
 adb shell pm disable-user --user 0 com.samsung.android.app.settings.bixby
+
 adb shell pm disable-user --user 0 com.android.printspooler
 adb shell pm disable-user --user 0 com.samsung.android.visionintelligence
 adb shell pm disable-user --user 0 com.sec.spp.push - samsung push
@@ -109,6 +110,21 @@ adb shell pm disable-user --user 0 com.google.android.projection.gearhead - Andr
 adb shell pm disable-user --user 0 com.samsung.android.app.updatecenter - App update
 adb shell pm disable-user --user 0 com.facebook.services
 adb shell pm disable-user --user 0 com.facebook.system - multiple packages - Facebook Services
+com.samsung.android.app.tips - samsung Tips
+
+adb shell pm disable-user --user 0 com.sec.android.easyMover.Agent - Smart Switch
+adb shell pm disable-user --user 0 com.microsoft.appmanager - Your phone for Windows, if you haven't linked your phone to your PC
+adb shell pm disable-user --user 0 com.sec.android.widgetapp.webmanual - user manu
+pm disable-user --user 0 com.sec.android.app.samsungapps - Galaxy Store
+com.samsung.android.themestore - Samsung themes app
+com.samsung.android.themecenter - Samsung themes app
+com.google.android.gms.location.history	 - Google Location history
+adb shell pm disable-user --user 0 com.android.egg
+com.android.printspooler - printer
+
+adb shell pm uninstall --user 0 com.google.android.googlequicksearchbox
+adb shell pm uninstall --user 0 com.android.hotwordenrollment.xgoogle
+adb shell pm uninstall --user 0 com.android.hotwordenrollment.okgoogle
 ```
 
 
