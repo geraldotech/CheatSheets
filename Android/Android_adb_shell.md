@@ -95,11 +95,11 @@ samsung espaço infantil:`com.samsung.android.kidsinstaller`
 adb shell pm disable-user --user 0 com.samsung.android.bixby.wakeup
 adb shell pm disable-user --user 0 com.samsung.android.bixby.service
 adb shell pm disable-user --user 0 com.samsung.android.bixbyvision.framework
+adb shell pm disable-user --user 0 com.samsung.android.bixby.agent
 adb shell pm disable-user --user 0 com.samsung.android.app.settings.bixby
 adb shell pm disable-user --user 0 com.android.printspooler
 adb shell pm disable-user --user 0 com.samsung.android.visionintelligence
 adb shell pm disable-user --user 0 com.sec.spp.push - samsung push
-adb shell pm disable-user --user 0 com.samsung.android.bixby.agent
 adb shell pm disable-user --user 0 com.samsung.android.app.spage - samsung free
 adb shell pm disable-user --user 0 com.sec.android.soagent Software update
 adb shell pm disable-user --user 0 com.wssyncmldm - Software update
@@ -111,8 +111,6 @@ adb shell pm disable-user --user 0 com.facebook.services
 adb shell pm disable-user --user 0 com.facebook.system - multiple packages - Facebook Services
 ```
 
-S22+ (Android 14)
 
-```css
-adb shell pm disable-user --user 0 com.facebook.services - MetaServices
-```
+Achei uma lista completa em: https://docs.google.com/spreadsheets/u/0/d/12jEGQftFUL3vAI03X0Ku1LgoWFQKdwPA_WHuLh_2ics/htmlview
+ thanks https://xdaforums.com/t/help-galaxy-s21-ultra-bloatware-debloat.4237379/
