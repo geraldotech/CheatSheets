@@ -99,7 +99,7 @@ Agora nosso INSERT padrão:
 
 - Backup and Restore [https://docs.bitnami.com/aws/infrastructure/mariadb/administration/backup-restore-mysql-mariadb/](https://docs.bitnami.com/aws/infrastructure/mariadb/administration/backup-restore-mysql-mariadb)
 - data_base - nome do scheme
-- -dump: `>mysqldump  -h localhost -u root -proot --port=3306  --default-character-set=utf8 --comments data_base > "C:\\Users\\gmapnitro\\Documents\\dumps\\SGA\\testes.sql"`
+- -dump: `C:\Program Files\MySQL\MySQL Server 8.0\bin> -h localhost -u root -proot --port=3306  --default-character-set=utf8 --comments sga_dev2 > "C:\\Users\\gmapnitro\\Documents\\dumps\\SGA\\testes.sql"` 
 
 - [PHP FUNCTION onclick](https://stackoverflow.com/questions/19323010/execute-php-function-with-onclick)
 
