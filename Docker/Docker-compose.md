@@ -47,7 +47,7 @@ services:
 - `docker-compose logs`
 - `docker-compose kill`
 - `docker-compose build` - fazer o build
-   - `docker-compose build --no-cache` no chage
+   - `docker-compose build --no-cache` no cache
 
 
 ![image](https://github.com/geraldotech/CheatSheets/assets/92253544/fabe5e20-4041-45c9-b131-e2fa0700d382)
