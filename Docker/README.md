@@ -237,6 +237,11 @@ Criar uma pasta no computador(Linux) que será compartilhada no container e a me
 -   `docker run -d --name devtest -p 4000:4000 --mount source=voldata,target=/app ggreact2` where `voldata` is whatever directory that will be mounted in **"Mountpoint": "/var/lib/docker/volumes/voldata/_data"**
 - inspect volumesName: `sudo docker inspect voldata`
 
+### reconstrua o container apos modificacoes no DockerFile
+- docker-compose down
+- docker-compose build --no-cache
+- docker-compose up -d
+
 
 ### VSCode connect a containerC:\Apps\ReactNative\nlw\src\app\cart.tsx
 
