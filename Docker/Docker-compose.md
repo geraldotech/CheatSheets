@@ -41,8 +41,8 @@ services:
 - `docker-compose up -d` - run in background
 - `docker-compose restart`
 - `docker-compose start` 
-- `docker-compose stop` 
-- `docker-compose down` kill container but volumes is not deleted
+- `docker-compose stop` - Containers são parados, mas continuam existindo.
+- `docker-compose down` Containers são removidos, kill container but volumes is not deleted
 - `docker-compose ps` list all docker compose running in background
 - `docker-compose logs`
 - `docker-compose kill`
