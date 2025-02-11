@@ -137,6 +137,8 @@ $ git branch -a
 - Switch to Branch in Your Local Repo
 ```
  $ git checkout version2
+ $ git switch nome-da-branch - mudar de branch
+
 ```
 - Deploy this branch:
 
