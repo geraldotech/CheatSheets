@@ -92,6 +92,8 @@ echo "# thisatest" >> README.md
 
     $ git rm -r upload/1.txt
     $ git restore --staged upload/1.txt
+### restore all files
+     $ git restore .
 
 # Branch
 
@@ -126,18 +128,18 @@ $ git push origin version2
 ```
 $ git branch
 ```
-- Display all Branch Remote
+- Display all remote branch 
 ```
 $ git branch -r
 ```
-- Display all Branch
+- Display all branch
 ```
 $ git branch -a
 ```
-- Switch to Branch in Your Local Repo
+- switch to branch in Your Local Repo
 ```
  $ git checkout version2
- $ git switch nome-da-branch - mudar de branch
+ $ git switch nome-da-branch
 
 ```
 - Deploy this branch:
