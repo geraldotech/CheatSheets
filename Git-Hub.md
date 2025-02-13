@@ -241,6 +241,11 @@ $ git commit -m "renamed" && git push origin main
 #### Semantic Commits + emoji
 
 
+###  sempre gravar a senha (docker)
+     git config --global credential.helper store
+     
+
+
 #### Undo all changes (including all changes that have not been committed!) with:
      git checkout .
 ####  specify a specific file using:
