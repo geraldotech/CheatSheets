@@ -22,6 +22,17 @@ Open Settings or `CTRL + ,` then type `extensions path` and add Path to a folder
 
 <hr>
 
+- Linux (Docker) - caso não encontre o Emmet: Extensions Path
+
+Adicionar manualmente in settings.json a linha abaixo e fazer reload do janela do VsCODE:
+```js
+  "emmet.triggerExpansionOnTab": true,
+```
+
+Procurar novamente a opção e apontar o path onde está o emmet no Linux:
+![image](https://github.com/user-attachments/assets/c13b3187-f0aa-4343-a37e-a17c5d37ad34)
+
+
 # User Snippets:
 
 You can create a WorkSpace or Global snippets `best`
