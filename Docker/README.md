@@ -256,6 +256,15 @@ if dont open in `/app` or correct directo to go terminal `type: cd /app`
 <hr>
 
 
+## Apache listar arquivos:
+
+-  não lista arquivos no Docker, verificar os logs do container:  docker logs 287776c06596 `forbidden by Options directive`
+- dentro do container: # nano /etc/apache2/apache2.conf e deixar assim:
+- ![image](https://github.com/user-attachments/assets/dccec02d-076d-4e0a-9417-34169556caa5)
+- service apache2 restart
+
+
+
 ## Extensions:
  - https://marketplace.visualstudio.com/items?itemName=cweijan.vscode-database-client2
 
