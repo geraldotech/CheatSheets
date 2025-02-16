@@ -35,6 +35,7 @@
 - `whois mydomain.com` - permite-nos saber informações sobre determinados domínios na - Internet, quando um domínio foi registado, quando expira, etc
 - Permite-nos fazer o download completo de páginas web, com todos os ficheiros, de forma fácil e não interativa: `wget`
 - Logar with Oracle Cloud: `$ ssh -i ssh-key ubuntu@<IP-ADDRESS>`
+- Show public up address: `curl http://icanhazip.com`
 
 ### Sistema:
 
