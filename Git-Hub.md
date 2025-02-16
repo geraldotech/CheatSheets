@@ -92,7 +92,7 @@ echo "# thisatest" >> README.md
 
     $ git rm -r upload/1.txt
     $ git restore --staged upload/1.txt
-### restore all files
+### restore all files - resturar mudanças
      $ git restore .
 
 # Branch
