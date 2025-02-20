@@ -50,11 +50,24 @@ Então, enquanto o VirtualBox cria máquinas virtuais completas, o Docker cria c
 - **if docker run again will create multiple containers, if created just run it by id or custom name**
 
 
-### Parar o Docker manualmente ao iniciar o WSL2
+### Parar o Docker manualmente ao iniciar WSL2
 - sudo nano /etc/wsl.conf
 - adicionar
+```shell
 [boot]
 command="sudo service docker stop"
+```
+
+
+### Subir docker novamente ao iniciar WSL2
+-  sudo systemctl enable docker
+- sudo nano /etc/wsl.conf
+   - deixar:
+   - 
+```shell
+  [boot]
+systemd=true
+```
 
 
 
