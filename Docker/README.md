@@ -277,6 +277,22 @@ if dont open in `/app` or correct directo to go terminal `type: cd /app`
 - service apache2 restart
 
 
+## acessando container mysql
+
+
+```sql
+-- check mysql is ok
+gmapdev@DESKTOP-4GOEVQ2:~/docker/a2/src/sga$ sudo docker exec -it 50b3a213aa90 sh
+sh-4.4# mysqladmin ping -uroot -p
+Enter password:
+mysqld is alive
+
+-- acessar o mysql:
+sh-4.4# mysql -uroot -p
+
+mysql> show databases;
+
+```
 
 ## Extensions:
  - https://marketplace.visualstudio.com/items?itemName=cweijan.vscode-database-client2
