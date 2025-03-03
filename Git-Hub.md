@@ -243,7 +243,21 @@ $ git commit -m "renamed" && git push origin main
 
 ###  sempre gravar a senha (docker)
      git config --global credential.helper store
-     
+
+### git stash
+
+```shell
+git stash           # Guarda todas as mudanças não commitadas
+git stash pop       # Recupera as mudanças mais recentes
+git stash list      # Lista os stashes salvos
+git stash apply 2   # Aplica um stash específico (índice 2 da lista)
+git stash specificafile.php
+
+# 2️⃣ Fazer stash de tudo, exceto um arquivo
+git add arquivo.php  # Coloca este arquivo no stage
+git stash            # Faz stash de tudo que não está no stage
+
+```
 
 
 #### Undo all changes (including all changes that have not been committed!) with:
