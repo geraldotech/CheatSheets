@@ -294,6 +294,16 @@ mysql> show databases;
 
 ```
 
+# Thoubleshoot
+
+## Reativar serviço Docker when linux starts
+Se o Docker não estiver iniciando corretamente no boot, os containers não serão iniciados. Execute:
+
+- `sudo systemctl status docker`
+
+Se não estiver ativo, habilite e inicie o Docker:
+- `sudo systemctl enable --now docker`
+
 ## Extensions:
  - https://marketplace.visualstudio.com/items?itemName=cweijan.vscode-database-client2
 
