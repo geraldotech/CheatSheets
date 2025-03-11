@@ -47,7 +47,9 @@ git status
     
 #### Commit:
 
+    git add .  (add all files or use git add filename.html)
     git commit -m "msg here"
+    git push -u origin main
 
 ### Setup login
 
@@ -67,15 +69,15 @@ git status
 
     clear
 
-### Delete a file from loca repository and commit it.
+### Delete a file from local repository and commit it.
 
-    $ git rm sabado.html
-    $ git commit -m "arquivo apagado"
-    $ git push
+    git rm sabado.html
+    git commit -m "arquivo apagado"
+    git push
 
 ### restore a file before delete
 
-    $ git restore upload/1.txt
+    git restore upload/1.txt
 
 ### restore 2 when uses:
 
@@ -111,7 +113,7 @@ git branch -a
 
 1 - Create new Branch **_Clone original main subsidiária_**
 
-```s
+```shell
 git checkout -b <name>
 git branch -m <name>
 git branch <name> !important create but do not change location
@@ -120,13 +122,11 @@ git branch <name> !important create but do not change location
 
 2 - Fazer as edições  
 3 - Commit new Branch:
-
 ```
 git commit -m "novo btn"
 ```
 
 4 - Push Branch:
-
 ```
 git push origin version2
 ```
@@ -135,21 +135,20 @@ git push origin version2
   ```
   git switch --orphan <new branch>
   ```
-- switch to branch in Your Local Repo
   
+- switch to branch in Your Local Repo  
 ```
  git checkout version2
  git switch nome-da-branch
 
 ```
-- Deploy this branch:
 
+- Deploy this branch:
 ```js
 git push -u origin version2
 ```
 
-  #### Delete Branchs:
-
+## Delete Branchs:
   ###### Remotely:
 
        git push origin --delete my-branch-name
@@ -159,7 +158,7 @@ git push -u origin version2
        git branch -d main3
        git branch --delete sabado
 
-### Merge
+## Merge Branchs
 
 > > e.gbtn com main:
 
@@ -167,7 +166,8 @@ git push -u origin version2
 2 - git merge btn  
 3 - git push origin main
 
-#### Clonando repo
+
+# Clonando repo
 
 ###### Make a folder and:
 
@@ -179,7 +179,7 @@ git push -u origin version2
 
 ---
 
-### Others commands:
+# Others commands:
 
 ###### Remove remote:
 
