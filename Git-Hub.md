@@ -31,17 +31,6 @@ echo "# thisatest" >> README.md
     $ git add .
 ```
 
-###  list all the branches in your repository and see which one you're currently on:
-     $ git branch
-
-###  create and switch to a new branch in a single command:
-     $ git switch -c feature/new-feature
-
-### Change branch master para main:
-
-    $ git branch -M main
-    $ git checkout main
-
 ### Add remote:
 
     git remote add origin https://github.com/geraldotech/projeto.git
@@ -97,6 +86,27 @@ echo "# thisatest" >> README.md
 
 # Branch
 
+list all the branches in your repository and see which one you're currently on:
+     $ git branch
+
+```
+- Display all remote branch 
+```
+$ git branch -r
+```
+- Display all branch
+```
+$ git branch -a
+```
+
+###  create and switch to a new branch in a single command:
+     $ git switch -c feature/new-feature
+
+### Change branch master para main:
+
+    $ git branch -M main
+    $ git checkout main
+
 1 - Create new Branch **_Clone original main subsidiária_**
 
 ```s
@@ -123,20 +133,8 @@ $ git push origin version2
   ```
   git switch --orphan <new branch>
   ```
-
-- Display all Branch Local
-```
-$ git branch
-```
-- Display all remote branch 
-```
-$ git branch -r
-```
-- Display all branch
-```
-$ git branch -a
-```
 - switch to branch in Your Local Repo
+  
 ```
  $ git checkout version2
  $ git switch nome-da-branch
