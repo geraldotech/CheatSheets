@@ -162,10 +162,16 @@ git push -u origin version2
 
 > > e.gbtn com main:
 
-1 - checkout main  
-2 - git merge btn  
-3 - git push origin main
+```shell
+git checkout main  
+git merge btn  
+git push origin main
+```
 
+- if branch is missing on local use:
+```
+git fetch
+```
 
 # Clonando repo
 
@@ -208,9 +214,7 @@ only: git pull
     git mv Answers_ref_a_CSS.pdf Answers_CSS.pdf
     git commit -m "renamed" && git push origin main
 
-#### branch missing on local
 
-     git fetch
 
 #### Rename a repository
 
