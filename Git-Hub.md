@@ -22,13 +22,13 @@ echo "# thisatest" >> README.md
 - single
 
 ```
-     $ git add filename.html
+     git add filename.html
 ```
 
 - all files
 
 ```
-    $ git add .
+    git add .
 ```
 
 ### Add remote:
@@ -41,13 +41,13 @@ echo "# thisatest" >> README.md
 
 ### Display changes to be committed:
 
-    git status
-
-  <img src="https://raw.githubusercontent.com/geraldotech/Git-How-TO/main/img/changes-to-be-committed.jpg" alt="alt-text" style="zoom:50%;" />
+```
+git status
+```
     
 #### Commit:
 
-    $ git commit -m "msg here"
+    git commit -m "msg here"
 
 ### Setup login
 
@@ -61,7 +61,7 @@ echo "# thisatest" >> README.md
 
 ### Commint && push inline:
 
-    $ git commit -m "update" && git push -u origin main
+    git commit -m "update" && git push -u origin main
 
 ### clear screen:
 
@@ -79,30 +79,32 @@ echo "# thisatest" >> README.md
 
 ### restore 2 when uses:
 
-    $ git rm -r upload/1.txt
-    $ git restore --staged upload/1.txt
+    git rm -r upload/1.txt
+    git restore --staged upload/1.txt
 ### restore all files - resturar mudanças
-     $ git restore .
+     git restore .
 
 # Branch
 
-list all the branches in your repository and see which one you're currently on:
-     $ git branch
-
+- list all the branches in your repository and see which one you're currently on:
 ```
-- Display all remote branch 
-```
-$ git branch -r
-```
-- Display all branch
-```
-$ git branch -a
+git branch
 ```
 
-###  create and switch to a new branch in a single command:
+- Display all remote branch
+```
+git branch -r
+```
+
+- Display all branch  
+```
+git branch -a
+```
+
+- create and switch to a new branch in a single command:
      $ git switch -c feature/new-feature
 
-### Change branch master para main:
+- Change branch master para main:
 
     $ git branch -M main
     $ git checkout main
@@ -110,23 +112,23 @@ $ git branch -a
 1 - Create new Branch **_Clone original main subsidiária_**
 
 ```s
-$ git checkout -b <name>
-$ git branch -m <name>
-$ git branch <name> !important create but do not change location
+git checkout -b <name>
+git branch -m <name>
+git branch <name> !important create but do not change location
 
 ```
 
 2 - Fazer as edições  
 3 - Commit new Branch:
 
-```s
-$ git commit -m "novo btn"
+```
+git commit -m "novo btn"
 ```
 
 4 - Push Branch:
 
 ```
-$ git push origin version2
+git push origin version2
 ```
 
 - create empty Branch:
@@ -136,26 +138,26 @@ $ git push origin version2
 - switch to branch in Your Local Repo
   
 ```
- $ git checkout version2
- $ git switch nome-da-branch
+ git checkout version2
+ git switch nome-da-branch
 
 ```
 - Deploy this branch:
 
-  ```
-     $ git push -u origin version2
-  ```
+```js
+git push -u origin version2
+```
 
   #### Delete Branchs:
 
   ###### Remotely:
 
-       $ git push origin --delete my-branch-name
+       git push origin --delete my-branch-name
 
   ###### Locally:
 
-       $ git branch -d main3
-       $ git branch --delete sabado
+       git branch -d main3
+       git branch --delete sabado
 
 ### Merge
 
@@ -169,7 +171,7 @@ $ git push origin version2
 
 ###### Make a folder and:
 
-     $ git clone https://github.com/geraldotech/Login-Form-HTML-CSS
+     git clone https://github.com/geraldotech/Login-Form-HTML-CSS
 
 ###### Update clone:
 
@@ -203,12 +205,12 @@ only: git pull
 
 #### Rename a file
 
-    $ git mv Answers_ref_a_CSS.pdf Answers_CSS.pdf
-    $ git commit -m "renamed" && git push origin main
+    git mv Answers_ref_a_CSS.pdf Answers_CSS.pdf
+    git commit -m "renamed" && git push origin main
 
 #### branch missing on local
 
-    $ git fetch
+     git fetch
 
 #### Rename a repository
 
@@ -218,14 +220,14 @@ only: git pull
 4. Add new origin
 
 ```
-$ git remote add origin https://github.com/geraldotech/server-guide.git
+git remote add origin https://github.com/geraldotech/server-guide.git
 ```
 
 5. Modify ou create a simple file to commit next step:
 6. Commit and push the changes!
 
 ```
-$ git commit -m "renamed" && git push origin main
+git commit -m "renamed" && git push origin main
 ```
 
 #### Bugs, maybe delete _.git_ from local
