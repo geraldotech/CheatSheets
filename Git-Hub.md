@@ -93,90 +93,72 @@ git status
 
 # Branch
 
-- list all the branches in your repository and see which one you're currently on:
-```
+```js
+# list all the branches in your repository and see which one you're currently on:
 git branch
-```
 
-- Display all remote branch
-```
+# Display all remote branch
 git branch -r
-```
 
-- Display all branch  
-```
+# Display all branch  
 git branch -a
-```
 
-- create and switch to a new branch in a single command:
-     $ git switch -c feature/new-feature
+# create and switch to a new branch in a single command:
+git switch -c feature/new-feature
 
-- Change branch master para main:
+# Change branch master para main:
+git branch -M main
+git checkout main
 
-    $ git branch -M main
-    $ git checkout main
+# 1 - Create new Branch **_Clone original main subsidiária_**
 
-1 - Create new Branch **_Clone original main subsidiária_**
-
-```shell
 git checkout -b <name>
 git branch -m <name>
 git branch <name> !important create but do not change location
 
-```
-
-2 - Fazer as edições  
-3 - Commit new Branch:
-```
+# 2 - Fazer as edições e Commit new Branch:
 git commit -m "novo btn"
-```
 
-4 - Push Branch:
-```
+# 3 - Push Branch:
 git push origin version2
-```
 
-- create empty Branch:
-  ```
-  git switch --orphan <new branch>
-  ```
-  
-- switch to branch in Your Local Repo  
-```
+# create empty Branch:
+git switch --orphan <new branch>
+    
+# switch to branch in Your Local Repo  
+
  git checkout version2
  git switch nome-da-branch
 
-```
+# Deploy this branch:
 
-- Deploy this branch:
-```js
 git push -u origin version2
-```
 
-## Delete Branchs:
-  ###### Remotely:
+# Delete Branchs:
+  ## Remotely:
 
        git push origin --delete my-branch-name
 
-  ###### Locally:
+  ## Locally:
 
        git branch -d main3
        git branch --delete sabado
 
-## Merge Branchs
+# Merge Branchs
 
-> > e.gbtn com main:
-
-```shell
+## > e.g btn com main:
 git checkout main  
 git merge btn  
 git push origin main
+
+
+# if branch is missing on local use:
+git fetch
+
+
 ```
 
-- if branch is missing on local use:
-```
-git fetch
-```
+
 
 # Clonando repo
 
