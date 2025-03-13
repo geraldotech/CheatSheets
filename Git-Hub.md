@@ -17,7 +17,7 @@ echo "# thisatest" >> README.md
 
      git init
 
-### Add single Files:
+# Files
 
 - single
 
@@ -25,21 +25,53 @@ echo "# thisatest" >> README.md
      git add filename.html
 ```
 
-- all files
+- add all files
 
 ```
     git add .
 ```
 
-### Add remote:
+- remove file from add:
 
-    git remote add origin https://github.com/geraldotech/projeto.git
+  git reset  | git reset <filename>
 
-### remove file from add:
+- Delete a file from local repository and commit it.
 
-    git reset  | git reset <filename>
+```
+ git rm sabado.html
+ git commit -m "arquivo apagado"
+ git push
+```
 
-### Display changes to be committed:
+- restore a file before delete
+
+```
+     git restore upload/1.txt
+```
+
+- restore 2 when uses:
+```
+    git rm -r upload/1.txt
+    git restore --staged upload/1.txt
+```
+- restore all files - resturar mudanças
+     git restore .
+
+- Add remote:
+```
+  git remote add origin https://github.com/geraldotech/projeto.git
+```
+
+```
+#Undo all changes (including all changes that have not been committed!) with:
+     git checkout .
+
+#specify a specific file using:
+     git checkout filename.js
+```
+ 
+
+#### Display changes to be committed:
 
 ```
 git status
@@ -69,22 +101,6 @@ git status
 
     clear
 
-### Delete a file from local repository and commit it.
-
-    git rm sabado.html
-    git commit -m "arquivo apagado"
-    git push
-
-### restore a file before delete
-
-    git restore upload/1.txt
-
-### restore 2 when uses:
-
-    git rm -r upload/1.txt
-    git restore --staged upload/1.txt
-### restore all files - resturar mudanças
-     git restore .
 
 # Branch
 
@@ -264,18 +280,32 @@ git stash            # Faz stash de tudo que não está no stage
 ```
 
 
-#### Undo all changes (including all changes that have not been committed!) with:
-     git checkout .
-####  specify a specific file using:
-     git checkout filename.js
+
 
 ####  you will not loose your local changes after a  git reset --hard HEAD^
 ![image](https://github.com/geraldotech/CheatSheets/assets/92253544/84ef2a98-ce49-4629-88b2-eadae0bb8d6d)
 
 
-
 ## Erros:
 
+- apos um git add > git commit e na hora git git push acusar que o repo local está desatualizado:
+```shell
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+```
+
+Opção: 1
+
+- git pull --rebase origin Param_Globais
+- e normalmente siga com: git push
+
+Opção 2: Forçar o push (Cuidado!)
+Se você tiver certeza de que quer sobrescrever as mudanças remotas com sua versão local (pode causar perda de dados!):
+
+- git push --force
+
+- 
 
 After Try merge files into main `User fatal: refusing to merge unrelated histories`
 The error message "fatal: refusing to merge unrelated histories" occurs when Git encounters two divergent branches with no common ancestry. This typically happens when you're trying to merge branches that have no common history.
