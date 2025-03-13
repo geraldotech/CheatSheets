@@ -19,88 +19,77 @@ echo "# thisatest" >> README.md
 
 # Files
 
-- single
 
-```
+
+
+```js
+
+# add single file
      git add filename.html
-```
 
-- add all files
+# add all files
+     git add .
 
-```
-    git add .
-```
+# remove file from add:
+      git reset  | git reset <filename>
 
-- remove file from add:
+# Delete a file from local repository and commit it.
 
-  git reset  | git reset <filename>
-
-- Delete a file from local repository and commit it.
-
-```
  git rm sabado.html
  git commit -m "arquivo apagado"
  git push
-```
 
-- restore a file before delete
-
-```
+# restore a file before delete
      git restore upload/1.txt
-```
 
-- restore 2 when uses:
-```
+# restore 2 when uses:
     git rm -r upload/1.txt
     git restore --staged upload/1.txt
-```
-- restore all files - resturar mudanças
+
+# restore all files - resturar mudanças
      git restore .
 
-- Add remote:
-```
-  git remote add origin https://github.com/geraldotech/projeto.git
-```
-
-```
-#Undo all changes (including all changes that have not been committed!) with:
+# Undo all changes (including all changes that have not been committed!) with:
      git checkout .
 
-#specify a specific file using:
+# specify a specific file using:
      git checkout filename.js
-```
- 
 
-#### Display changes to be committed:
+# Rename a file
+    git mv Answers_ref_a_CSS.pdf Answers_CSS.pdf
+    git commit -m "renamed" && git push origin main
 
+# Add remote:
+git remote add origin https://github.com/geraldotech/projeto.git
 ```
-git status
-```
-    
-#### Commit:
 
+
+# commit:
+
+```js
+
+# do commitL
     git add .  (add all files or use git add filename.html)
     git commit -m "msg here"
     git push -u origin main
 
-### Setup login
+# Display changes to be committed:
+git status
 
+# Setup login
     git config --global user.email "email@geraldo.com"
     git config --global user.name "Your name" // same to change UserName GitLens
     git commit -m "first commit"
 
-### Push **upload/deploy/sent to git**:
-
+# Push **upload/deploy/sent to git**:
     git push -u origin main | git push
 
-### Commint && push inline:
-
+# Commint && push inline:
     git commit -m "update" && git push -u origin main
 
-### clear screen:
-
+# clear screen:
     clear
-
+```
 
 # Branch
 
@@ -225,10 +214,6 @@ fetch diff origin/main
 only: git pull
 ```
 
-#### Rename a file
-
-    git mv Answers_ref_a_CSS.pdf Answers_CSS.pdf
-    git commit -m "renamed" && git push origin main
 
 
 
