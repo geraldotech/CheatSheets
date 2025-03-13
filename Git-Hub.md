@@ -87,8 +87,8 @@ git status
 # Commint && push inline:
     git commit -m "update" && git push -u origin main
 
-# clear screen:
-    clear
+# Rewriting the most recent commit message
+   git commit --amend
 ```
 
 # Branch
@@ -174,30 +174,28 @@ git fetch
 
 # Others commands:
 
-###### Remove remote:
 
+```js
+
+# clear screen:
+    clear
+
+# Remove remote:
     git remote rm origin
 
-###### Check out git version:
+# Check out git version:
+git --version
 
-    git --version
+# Update repo local:
+  git pull --rebase origin <branch>
+  git push
 
-###### Update repo local:
-
-    git pull --rebase origin <branch>
-    git push
-
-###### Update repo local:
-
-```bash
-
+# Update repo local:
 git fecth origin
 fetch diff origin/main
 only: git pull
 ```
-
-
-
+    
 
 #### Rename a repository
 
@@ -221,9 +219,7 @@ git commit -m "renamed" && git push origin main
 
     git rm -r .git
 
-#### Rewriting the most recent commit message
 
-    git commit --amend
 
 #### Semantic Commits + emoji
 
@@ -246,9 +242,6 @@ git stash            # Faz stash de tudo que não está no stage
 
 ```
 
-
-
-
 ####  you will not loose your local changes after a  git reset --hard HEAD^
 ![image](https://github.com/geraldotech/CheatSheets/assets/92253544/84ef2a98-ce49-4629-88b2-eadae0bb8d6d)
 
@@ -262,17 +255,24 @@ hint: its remote counterpart. If you want to integrate the remote changes,
 hint: use 'git pull' before pushing again.
 ```
 
-Opção: 1
+Opção: 1: 
 
-- git pull --rebase origin Param_Globais
+- Faz o download das mudanças do repositório remoto.
+- Aplica suas mudanças locais por cima das mudanças remotas (rebase).
+- Mantém um histórico mais limpo e evita commits de merge desnecessários.
+- Se houver conflitos, será necessário resolvê-los antes de continuar.
+
+- git pull --rebase origin Param_Globais  
 - e normalmente siga com: git push
 
-Opção 2: Forçar o push (Cuidado!)
+Opção 2: Apaga todas as suas mudanças locais e sincroniza sua branch exatamente como está no remoto. Útil se você deseja descartar qualquer alteração local e forçar a branch local a ficar idêntica à remota.
+$ sudo git reset --hard origin/Param_Globais
+
+Opção 3: Forçar o push (Cuidado!)
 Se você tiver certeza de que quer sobrescrever as mudanças remotas com sua versão local (pode causar perda de dados!):
 
 - git push --force
 
-- 
 
 After Try merge files into main `User fatal: refusing to merge unrelated histories`
 The error message "fatal: refusing to merge unrelated histories" occurs when Git encounters two divergent branches with no common ancestry. This typically happens when you're trying to merge branches that have no common history.
