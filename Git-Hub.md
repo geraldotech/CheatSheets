@@ -134,15 +134,9 @@ git switch --orphan <new branch>
 
 git push -u origin version2
 
-# Delete Branchs:
-  ## Remotely:
+# Delete Branch:
 
-       git push origin --delete my-branch-name
-
-  ## Locally:
-
-       git branch -d main3
-       git branch --delete sabado
+git push origin --delete nameBranch
 
 # Merge Branchs
 
@@ -157,8 +151,6 @@ git fetch
 
 
 ```
-
-
 
 # Clonando repo
 
