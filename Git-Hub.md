@@ -269,9 +269,10 @@ Erro: hint: You have divergent branches and need to specify how to reconcile the
 hint: You can do so by running one of the following commands sometime before
 
 Opção 1: Descarta todas as mudanças locais e reinicia a branch main:
-git reset --hard origin/main
-Baixe as últimas alterações da branch remota main:
-git fetch origin
+- `git reset --hard origin/main`
+  
+- Baixe as últimas alterações da branch remota main:
+- `git fetch origin`
 
 
 After Try merge files into main `User fatal: refusing to merge unrelated histories`
