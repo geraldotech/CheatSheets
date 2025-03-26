@@ -265,12 +265,35 @@ Se você tiver certeza de que quer sobrescrever as mudanças remotas com sua ver
 
 - git push --force
 
+Erro: hint: You have divergent branches and need to specify how to reconcile them.
+hint: You can do so by running one of the following commands sometime before
+
+Opção 1: Descarta todas as mudanças locais e reinicia a branch main:
+git reset --hard origin/main
+Baixe as últimas alterações da branch remota main:
+git fetch origin
+
 
 After Try merge files into main `User fatal: refusing to merge unrelated histories`
 The error message "fatal: refusing to merge unrelated histories" occurs when Git encounters two divergent branches with no common ancestry. This typically happens when you're trying to merge branches that have no common history.
 To resolve this issue, you can add the --allow-unrelated-histories flag to the git merge command:
 
 - `git merge --allow-unrelated-histories files`
+
+
+ - 🌍 Diferença entre git fetch origin e git pull
+ Quando usar cada um?
+✅ git fetch origin → "Ver o que mudou antes de atualizar"
+Útil para verificar mudanças remotas antes de aplicar no seu código.
+
+Pode ser seguido de git log origin/main para ver os commits mais recentes sem alterar nada.
+
+Requer git merge manual se quiser aplicar as mudanças.
+
+✅ git pull → "Quero atualizar minha branch local agora"
+Baixa e mescla as alterações automaticamente.
+
+Pode causar conflitos se houver mudanças locais divergentes.
 
 #### Commits Pattern
 
