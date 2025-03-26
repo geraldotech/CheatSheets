@@ -254,7 +254,7 @@ Opção: 1:
 - Mantém um histórico mais limpo e evita commits de merge desnecessários.
 - Se houver conflitos, será necessário resolvê-los antes de continuar.
 
-- git pull --rebase origin Param_Globais  
+- `git pull --rebase origin Param_Globais`  
 - e normalmente siga com: git push
 
 Opção 2: Apaga todas as suas mudanças locais e sincroniza sua branch exatamente como está no remoto. Útil se você deseja descartar qualquer alteração local e forçar a branch local a ficar idêntica à remota.
