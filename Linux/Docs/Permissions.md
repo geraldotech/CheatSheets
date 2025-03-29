@@ -41,7 +41,7 @@ Outro exemplo: (Imagem abaixo extraida do devopscube.com):
 ## Mudar as permissões
 
 #### o que faz um simples: 
--  `sudo chmod 665 file.txt` ?
+-  `sudo chmod 665 file.txt`
 
 Cada dígito representa as permissões de uma categoria de usuários:
 		
@@ -77,7 +77,16 @@ A soma desses valores define as permissões que um usuário tem.
 | 6       | 110    | rw- (leitura e escrita)     |
 | 7       | 111    | rwx (leitura, escrita e execução) |
 
+Possibilidades:
 
+```txt
+sudo chmod 444 file.txt
+sudo chmod 555 file.txt
+sudo chmod 666 file.txt
+sudo chmod 777 file.txt
 
+- Altera apenas permissoes do grupo
+sudo chmod g+rwx file.txt
+```
 
 
