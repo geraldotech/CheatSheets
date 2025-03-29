@@ -1,7 +1,7 @@
 ### Contetualizando permissões no linux:
 
 
-Fazendo um `ld -ls` obtemos:
+Fazendo um `ld -l` obtemos:
 
 - `drwxrwxr-x 10 gmapdev  www-data  4096 Mar 29 08:09`
 
