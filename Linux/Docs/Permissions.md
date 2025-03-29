@@ -54,7 +54,10 @@ Cada dígito representa as permissões de uma categoria de usuários:
 
 Notação simbólica: `sudo chmod u+rw,g+rw,o+r file.txt`
 
-Os números 4, 5, 6 e 7 usados em permissões do Linux são representações de bits no sistema binário. Vamos analisar cada um deles e como se convertem para binário.
+
+### Os números 4, 5, 6 e 7
+
+usados em permissões do Linux são representações de bits no sistema binário. Vamos analisar cada um deles e como se convertem para binário.
 
 Conversão para Binário e Significado
 Cada permissão em Linux é representada por três bits:
