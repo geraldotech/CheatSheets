@@ -250,5 +250,10 @@ Arquivo para configurações gerais:
 - `"editor.mouseWheelZoom": false,` - desativar zoom do mouse:
 - `"window.zoomLevel": 1,` - Default zoom
 - `"editor.wordWrap": "on" ` - Wrap Text
+- 
+
+# regex usado no vscode para renomear textos:
+
+- `\bz_sga_vm_usuarios_refresh\b`
 
 [REF](https://www.youtube.com/watch?v=TBplwrsUj4s&t=1083s)
