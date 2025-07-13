@@ -150,6 +150,9 @@ git push origin main
 git fetch
 
 
+# deletar a local branch:
+git branch -d Geraldo
+
 ```
 
 # Clonando repo
