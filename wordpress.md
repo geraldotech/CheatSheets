@@ -20,10 +20,10 @@
     - criar um `single-custom.php` com o conteudo abaixo:
 
 
-    <details>
-    <summary>abrir</summary>
-
-    ```php
+<details>
+<summary>abrir</summary>
+	
+```php
 <?php
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -79,9 +79,10 @@ get_header(); ?>
 	get_footer();
 ```
 
-    </details>
+</details>
 
 
 o wordpress salva as informações de cada post x o tipo de template na table `wp_postmeta`
+
 
 ![alt text](image.png)
