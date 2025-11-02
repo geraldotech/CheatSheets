@@ -9,16 +9,14 @@
 - no php.ini habilitar `extension=gd` => restart apache server
 
 
-
 - `Installation failed: Download failed. No working transports found`
-- no php.init habilitar: curl, openssl e 
+- no php.init habilitar: curl, openssl
 
 
 ### custom templates
 
-- instalar o tema GeneratePress
+- Instale o tema GeneratePress e ative
     - criar um `single-custom.php` com o conteudo abaixo:
-
 
 <details>
 <summary>abrir</summary>
@@ -86,3 +84,4 @@ o wordpress salva as informações de cada post x o tipo de template na table `w
 
 
 ![alt text](image.png)
+
