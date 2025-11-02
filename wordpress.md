@@ -1,16 +1,14 @@
 ## Start in wordpress 2025
 
-
 - Setup a Apache, PHP and MySQL server
 - Download latest in https://wordpress.org/download/
 
 
 - `The web server cannot generate responsive image sizes for this image. Convert it to JPEG or PNG before uploading.`
-- no php.ini habilitar `extension=gd` => restart apache server
-
+	- no php.ini habilitar `extension=gd` => restart apache server
 
 - `Installation failed: Download failed. No working transports found`
-- no php.init habilitar: curl, openssl
+	- no php.init habilitar: curl, openssl
 
 
 ### custom templates
@@ -84,4 +82,5 @@ o wordpress salva as informações de cada post x o tipo de template na table `w
 
 
 ![alt text](image.png)
+
 
