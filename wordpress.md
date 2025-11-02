@@ -42,7 +42,8 @@ get_header(); ?>
 			do_action( 'generate_before_main_content' );
 
 			if ( generate_has_default_loop() ) {
-                echo '<h1>title</h1>';
+				echo '<h1>hello from my custom template for single posts</h1>';
+
 				while ( have_posts() ) :
 
 					the_post();
@@ -82,5 +83,6 @@ o wordpress salva as informações de cada post x o tipo de template na table `w
 
 
 ![alt text](image.png)
+
 
 
