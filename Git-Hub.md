@@ -19,9 +19,6 @@ echo "# thisatest" >> README.md
 
 # Files
 
-
-
-
 ```js
 
 # add single file
@@ -144,6 +141,14 @@ git push origin --delete nameBranch
 git checkout main  
 git merge btn  
 git push origin main
+
+
+## fazer merge com a branch 2026:
+git merge origin/bugfix-sync-ajustes
+
+# rebase Atualizar sua branch com outra base, Manter histórico linear e Evitar commit de merge
+git pull --rebase origin bugfix-sync-ajustes
+git pull --rebase origin main
 
 
 # if branch is missing on local use:
