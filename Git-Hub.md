@@ -116,8 +116,9 @@ git branch <name> !important create but do not change location
 # 2 - Fazer as edições e Commit new Branch:
 git commit -m "novo btn"
 
-# 3 - Push Branch:
+# 3 - Push Branch para remoto:
 git push origin version2
+git push -u origin waitress
 
 # create empty Branch:
 git switch --orphan <new branch>
