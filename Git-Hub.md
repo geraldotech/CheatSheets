@@ -131,9 +131,11 @@ git switch --orphan <new branch>
 
 git push -u origin version2
 
-# Delete Branch:
-
+# Delete remove Branch:
 git push origin --delete nameBranch
+
+delete local branch:
+git branch --delete uniqueservice
 
 # Merge Branchs
 
